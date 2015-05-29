@@ -2,7 +2,7 @@
 layout: post
 title:  "Simple Signups"
 date:   2015-05-28 11:45:30
-categories: update altlab
+categories: altlab
 ---
 
 [Simple Signups](https://github.com/vcualtlab/simple-signups) is an agnostic single purpose WordPress theme designed and built to handle signups.
