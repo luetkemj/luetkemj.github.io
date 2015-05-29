@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World"
 date:   2015-05-28 05:25:30
-categories: update altlab
+categories: update
 ---
 
 <del>So I’ve not done much of this blogging thing before.</del>
