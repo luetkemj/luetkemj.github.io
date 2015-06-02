@@ -2,11 +2,6 @@
  * Site header
  */
 .site-header {
-    // border-top: 5px solid $grey-color-dark;
-    // border-bottom: 1px solid $grey-color-light;
-    // min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
     position: relative;
 }
 
@@ -244,6 +239,11 @@
 .post{
 	width: 80%;
 	margin-left: 15%;
+
+	.illustration{
+		border: none;
+		margin-bottom: -46px;
+	}
 }
 
 .post-header {
