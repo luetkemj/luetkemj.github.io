@@ -3,10 +3,39 @@
 ---
 @charset "utf-8";
 
+$susy: (
+  columns: 12,
+  gutters: (2/3),
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  grid-padding: 2em,
+  debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: overlay,
+  ),
+);
 
+$wrapper-width: 1600px;
+
+
+@font-face {
+    font-family: 'governorregular';
+    src: url('/assets/fonts/governor/governor-webfont.eot');
+    src: url('/assets/fonts/governor/governor-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/governor/governor-webfont.woff2') format('woff2'),
+         url('/assets/fonts/governor/governor-webfont.woff') format('woff'),
+         url('/assets/fonts/governor/governor-webfont.ttf') format('truetype'),
+         url('/assets/fonts/governor/governor-webfont.svg#governorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$display-font-family: 'governorregular';
+$base-font-family: Karla, Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -15,7 +44,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #50E3C2;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

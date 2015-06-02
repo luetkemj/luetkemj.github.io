@@ -26,7 +26,7 @@ The default view lists all sessions
 5. Availablity details
 
 *fig. 1*
-![](/assets/simple-signups/fig1.png)
+![](/assets/posts/simple-signups/fig1.png)
 
 
 
@@ -40,7 +40,7 @@ Here we are searching for "Brandt" which results in all sessions in the Brandt b
 2. Live results
 
 *fig. 2*
-![](/assets/simple-signups/fig2.png)
+![](/assets/posts/simple-signups/fig2.png)
 
 
 
@@ -52,7 +52,7 @@ After selecting a session the user will find a form allowing them to signup.
 
 1. Name and Email required
 
-![](/assets/simple-signups/fig3.png)
+![](/assets/posts/simple-signups/fig3.png)
 
 
 
@@ -65,7 +65,7 @@ After successful completion of the form the user's name will appear in the list.
 1. User's name appears under session
 2. Availability details are updated
 
-![](/assets/simple-signups/fig4.png)
+![](/assets/posts/simple-signups/fig4.png)
 
 
 ## Feedback
@@ -74,7 +74,7 @@ When a session fills up it becomes struckthrough
 
 1. Unavailable session
 
-![](/assets/simple-signups/fig5.png)
+![](/assets/posts/simple-signups/fig5.png)
 
 
 ## Error!
@@ -83,7 +83,7 @@ What happens if a user signs up twice?
 
 1. Custom error message for duplicate signups
 
-![](/assets/simple-signups/fig6.png)
+![](/assets/posts/simple-signups/fig6.png)
 
 ## Wait List
 
@@ -92,7 +92,7 @@ If a user signs up after a session has become unavailable they will be wait list
 1. Wait List added when appropriate
 2. User on wait list
 
-![](/assets/simple-signups/fig7.png)
+![](/assets/posts/simple-signups/fig7.png)
 
 
 ### Issues / Features to Add

@@ -41,7 +41,7 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
+    max-width: 98%;
     vertical-align: middle;
     padding: 1%;
     border: 1px solid $grey-color-light;
@@ -94,13 +94,8 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
         color: $text-color;
-        text-decoration: underline;
     }
 }
 
@@ -148,12 +143,6 @@ pre {
         padding-right: 0;
         padding-left: 0;
     }
-}
-
-
-.meta{
-	border: 1px solid $grey-color-light;
-	padding: 1%;
 }
 
 

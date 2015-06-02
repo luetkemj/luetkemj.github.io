@@ -2,24 +2,42 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    // border-top: 5px solid $grey-color-dark;
+    // border-bottom: 1px solid $grey-color-light;
+    // min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
-.site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
+.masthead{
+	position: relative;
+	margin-top: 40px;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+	img{
+		border: none;
+	}
+
+	.site-title {
+		display: block;
+		position: relative;
+		left: -4px;
+	}
+
+	.sub-title {
+		display: block;
+		font-family: $display-font-family;
+		font-size: 16px;
+		color: $brand-color;
+	}
+
+	.logo{
+		position: absolute;
+		right: -20px;
+		top: -5px;
+		width: 84px;
+	}
+
 }
 
 .site-nav {
@@ -132,6 +150,7 @@
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+    text-align: right;
 }
 
 @include media-query($on-laptop) {
@@ -144,6 +163,7 @@
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
+        text-align: left;
     }
 }
 
@@ -160,6 +180,7 @@
 /**
  * Page content
  */
+
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -169,22 +190,49 @@
 }
 
 .post-list {
-    margin-left: 0;
+	width: 60%;
+	margin-top: 40px;
+	margin-bottom: 60px;
+    margin-left: 15%;
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+    	&:first-child{
+    		border-top: 1px solid $grey-color;
+    	}
+    	border-bottom: 1px solid $grey-color;
     }
+
+    li:hover{
+		background-color: $brand-color;
+
+		.post-meta, .post-link{
+			color: white;
+		}
+	}
+}
+
+@include media-query($on-palm) {
+	.post-list {
+		width: 96%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: 18px;
     color: $grey-color;
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: $brand-color;
+
+    &:visited {
+    	color: darken($grey-color, 15%);
+    }
 }
 
 
@@ -192,44 +240,75 @@
 /**
  * Posts
  */
+
+.post{
+	width: 80%;
+	margin-left: 15%;
+}
+
 .post-header {
+	margin-top: 40px;
     margin-bottom: $spacing-unit;
+	color: white;
+	background-color: $brand-color;
+	padding-top: 2 * $spacing-unit;
+
+	.post-meta{
+		color: white;
+		font-size: 14px;
+	}
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+	font-size: 18px;
+    text-transform: uppercase;
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 16px;
+   		// color: white;
+   		// background-color: $brand-color;
 
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
+		border: 1px solid $brand-color;
+		color: $brand-color;
+
+
+   		padding-top: $spacing-unit;
+   		margin-top: 2 * $spacing-unit;
+   		margin-bottom: $spacing-unit;
+
+   		text-transform: uppercase;
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 16px;
+		border: 1px solid $brand-color;
+		color: $brand-color;
+		margin-top: 2 * $spacing-unit;
+   		margin-bottom: $spacing-unit;
+   		text-transform: uppercase;
+   		border-left: none;
+   		border-right: none;
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
     }
 
     h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
+        font-size: 16px;
+		color: $brand-color;
+		margin-top: 2 * $spacing-unit;
+   		margin-bottom: $spacing-unit;
+   		text-transform: uppercase;
     }
+
+    .meta{
+		border: 1px solid $brand-color;
+		padding: 1%;
+		margin-top: 2 * $spacing-unit;
+   		margin-bottom: $spacing-unit;
+	}
 }
+
+
