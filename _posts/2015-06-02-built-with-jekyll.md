@@ -16,13 +16,13 @@ Jekyll on the other hand has no database, is completely static, and has no admin
 
 So why in the world am I using Jekyll?
 
-I would argue that Jekyll is to the modern web development work flow as WordPress is to web publishing. WordPress lowers the barrier to publishing on the web. I work with people everyday who have no experience with wordpress or any web publishing platform for that matter and yet, with WordPress, can setup a website or blog and have full ownership of their past, current, and future content with minimal friction.
+I would argue that Jekyll is to modern web development as WordPress is to web publishing. WordPress lowers the barrier to publishing on the web. I work with people everyday who have no experience with wordpress or any web publishing platform for that matter and yet, with WordPress, can setup a website or blog and have full ownership of their past, current, and future content with minimal friction.
 
-I believe that a motivated individual could get a site up and running with Jekyll without a background in web development with minimal friction. The primary barrier to web development is fear. Fear that you will somehow break your computer - or worse - **the internet**!
+I believe that a motivated individual could also get a site up and running with Jekyll without a background in web development with minimal friction. The primary barrier to web development is fear. Fear that you will somehow break your computer - or worse - **the internet**!
 
 I can assure you, the Google will be just fine :)
 
-
+Let's dive head first into some serious workflows and see how not that hard it really is.
 
 <div class="meta" markdown="1">
 
