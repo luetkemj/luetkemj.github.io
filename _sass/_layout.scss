@@ -239,10 +239,12 @@
 .post{
 	width: 80%;
 	margin-left: 15%;
+}
 
-	.illustration{
-		border: none;
-		margin-bottom: -46px;
+@include media-query($on-palm) {
+	.post{
+		width: 100%;
+		margin-left: 0;
 	}
 }
 
@@ -252,10 +254,24 @@
 	color: white;
 	background-color: $brand-color;
 	padding-top: 2 * $spacing-unit;
+	position: relative;
 
 	.post-meta{
 		color: white;
 		font-size: 14px;
+	}
+
+	&.with-illustration .post-header-text-wrap{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	.illustration{
+		border: none;
+		padding: 0;
+		max-width: 100%;
+		mix-blend-mode: multiply;
 	}
 }
 

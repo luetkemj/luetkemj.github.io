@@ -3,12 +3,18 @@ layout: default
 ---
 <div class="post">
 
-{% if page.illustration %}
-	<img class="illustration" src="{{ page.illustration }}" />
-{% endif %}
-  <header class="post-header">
-  	<span class="post-meta">{{ page.date | date: "%y%m%d" }}</span>
-    <h1 class="post-title">{{ page.title }}</h1>
+	{% if page.illustration %}
+	<header class="post-header with-illustration">
+	{% else %}
+	<header class="post-header">
+	{% endif %}
+	<div class="post-header-text-wrap">
+		<span class="post-meta">{{ page.date | date: "%y%m%d" }}</span>
+    	<h1 class="post-title">{{ page.title }}</h1>
+	</div>
+    {% if page.illustration %}
+		<img class="illustration" src="{{ page.illustration }}" />
+	{% endif %}
   </header>
 
   <article class="post-content">
