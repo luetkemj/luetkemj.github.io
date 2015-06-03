@@ -21,6 +21,27 @@ layout: default
     {{ content }}
   </article>
 
+
+
+
+
+
+<div class="post-nav clearfix">
+  <div class="next-post-link">
+  	{% if page.next %}
+  		<a href="{{ page.next.url | prepend: site.url }}">{{ page.next.title }}</a> &#9758;<br/>
+  	{% endif %}
+  </div>
+  <div class="previous-post-link">
+  	{% if page.previous %}
+  		&#9756; <a href="{{ page.previous.url | prepend: site.url }}">{{ page.previous.title }}</a>
+  	{% endif %}
+  </div>
+</div>
+
+
+
+
   <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
