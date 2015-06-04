@@ -275,16 +275,22 @@
 	background-color: $brand-color;
 	padding-top: 2 * $spacing-unit;
 	position: relative;
+	text-align: right;
 
 	.post-meta{
 		color: white;
 		font-size: 14px;
 	}
 
-	&.with-illustration .post-header-text-wrap{
-		position: absolute;
-		bottom: 0;
-		left: 0;
+	&.with-illustration{
+		padding-top: $spacing-unit / 2;
+		.post-header-text-wrap{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			text-align: left;
+			z-index: 1;
+		}
 	}
 
 	.illustration{
@@ -293,6 +299,10 @@
 		max-width: 100%;
 		mix-blend-mode: multiply;
 	}
+}
+
+.hidden{
+	display: none;
 }
 
 .post-title {

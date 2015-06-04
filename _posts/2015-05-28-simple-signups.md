@@ -3,7 +3,10 @@ layout: post
 title:  "Simple Signups"
 date:   2015-05-28 11:45:30
 categories: altlab
+illustration: "/assets/posts/simple-signups/taking-names.png"
 ---
+
+<img class="hidden" src="{{ page.illustration }}" />
 
 [Simple Signups](https://github.com/vcualtlab/simple-signups) is an agnostic single purpose WordPress theme designed and built to handle signups.
 
