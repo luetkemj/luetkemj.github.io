@@ -275,7 +275,7 @@
 	background-color: $brand-color;
 	padding-top: 2 * $spacing-unit;
 	position: relative;
-	text-align: right;
+	text-align: left;
 
 	.post-meta{
 		color: white;
@@ -284,6 +284,7 @@
 
 	&.with-illustration{
 		padding-top: $spacing-unit / 2;
+        text-align: right;
 		.post-header-text-wrap{
 			position: absolute;
 			bottom: 0;

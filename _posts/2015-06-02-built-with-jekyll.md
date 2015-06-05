@@ -2,7 +2,7 @@
 layout: post
 title:  "Built with Jekyll"
 date:   2015-06-02 12:07:30
-categories: altlab
+categories: webdev
 illustration: "/assets/posts/built-with-jekyll/octocat.png"
 ---
 
