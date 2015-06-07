@@ -1,41 +1,61 @@
 ---
 layout: post
 title:  "WP DB Import with Vagrant"
-date:   2015-06-02 12:07:30
+date:   2015-06-06 12:07:30
 categories: webdev
 illustration: "/assets/posts/webdev-toolkit/toolkit.png"
 ---
+<img class="hidden" src="{{ page.illustration }}" />
 
-Having depended on MAMP and PHPmyadmin for as long as I've been doing this stuff, moving to Vagrant presented me with a very real fear that I wouldn't be able to easily setup local installs of live sites. That involved duplicating the live site and importing the DB after running it through the old find and replace app Replacr.
+Having depended on MAMP and PHPmyadmin for as long as I've been doing this stuff, moving to Vagrant presented me with a very real fear that I wouldn't be able to easily setup local installs of live sites. With MAMP I had always done a find and replace through the old find and replace app Replacr and then uploaded the DB through PHPmyadmin.
 
-It wasn't perfect but served my needs for any DB under 50MB. Sadly as I have been tasked with older installs and larger DBs that restriction has become problematic. Fortunately Vagrant once again steps in to save my butt.
+It wasn't perfect but served my needs for any db under 50MB. Sadly as I have been tasked with older installs and larger DBs that restriction has become problematic. Fortunately Vagrant once again steps in to save my butt.
 
 This is mostly a command line process but I promise it's pretty basic, much faster than my previous mostly manual solution, and isn't restricted to the PHPmyadmin file size limits.
 
------
+## db import in vagrant
 
-db import in vagrant
 This assumes you installed vagrant at the default location of vagrant-local
 
-Get your db setup and in the right place.
+ 1. **Rename db**
+    Make sure that the db you will be importing is the same name as the db you will importing into. So if your local site has a database name of ```EXAMPLE.sql``` you need to make sure that the db you will be import also has a name of ```EXAMPLE.sql```
 
-Make sure that the db you will be importing is the same name as the db you will importing into. So if your local site has a database name of EXAMPLE.sql you need to make sure that the db you will be import also has a name of EXAMPLE.sql
+ 2. **Move db** 
+    
+    Make a copy of the db you will be importing and move it to the root directory of the site you will be importing into. 
 
-move db to import to root of site
-Move a copy of the db you will be importing to the root directory of the site you will be importing into. /vagrant-local/www/EXAMPLE/
+    ```/vagrant-local/www/EXAMPLE/```
 
-ssh into vagrant - no credentials required
-cd vagrant-local
-vagrant ssh
+ 3. **ssh into vagrant**
 
-cd to site
-cd /vagrant/www/EXAMPLE
+    ```cd vagrant-local```
+
+    ```vagrant ssh```
+
+ 4. **cd to site**
+
+	```cd /vagrant/www/EXAMPLE```
+
+ 5. **Import db**
+    
+    ```wp db import DATABASE.sql```
+
+ 6. **Search and Replace** (optional)
+
+    If you need to do a search and replace run the following command. It shoudld handle serialized appropriately so you don't bugger up your site.
+
+    ```wp search-replace 'http://example.com' 'http://example.dev'```
 
 
-import db
-wp db import DATABASE.sql
 
-search and replace if needed
-wp search-replace 'http://example.com' 'http://example.dev'
+<div class="meta" markdown="1">
+	
+#### Bits and Bobs
 
-Makes use of the wp-cli which comes setup with vagrant. See http://wp-cli.org for more info
+Commands that start with ```wp``` make use of the wp-cli which comes setup with vagrant. See http://wp-cli.org for more info and available commands.
+
+Vagrant does support PHPmyadmin at vvv.dev but the upload limit is actually lower than MAMP. This limit can be changed in your PHP.ini file for MAMP and I assume in Vagrant as well but I really don't think it's worth doing with how much easier the command line method is.
+
+MAMP can *probably* do an SSH import just like Vagrant but I never really had any reason to learn how.
+
+</div>

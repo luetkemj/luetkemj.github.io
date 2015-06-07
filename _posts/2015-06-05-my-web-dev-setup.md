@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "My Web Dev Tool Kit"
-date:   2015-06-02 12:07:30
+date:   2015-06-05 12:07:30
 categories: webdev
 illustration: "/assets/posts/webdev-toolkit/toolkit.png"
 ---
+<img class="hidden" src="{{ page.illustration }}" />
 
 With my new laptop at AltLab having just arrived I figured now was an ideal time to share my web development tool kit.
 

@@ -5,6 +5,7 @@ date:   2015-05-28 05:25:30
 categories: update
 illustration: "/assets/posts/hello-world/thoughts.png"
 ---
+<img class="hidden" src="{{ page.illustration }}" />
 
 <del>So I’ve not done much of this blogging thing before.</del>
 

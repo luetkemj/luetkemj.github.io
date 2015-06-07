@@ -5,6 +5,7 @@ date:   2015-06-02 12:07:30
 categories: webdev
 illustration: "/assets/posts/built-with-jekyll/octocat.png"
 ---
+<img class="hidden" src="{{ page.illustration }}" />
 
 This blog is built with [jekyll](http://jekyllrb.com/).
 
