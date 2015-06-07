@@ -6,8 +6,9 @@ description: > # this means to ignore newlines until "baseurl:"
   change is good
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://luetkemj.github.io" # the base hostname & protocol for your site
-twitter_username: 2816monument
-github_username:  luetkemj
 
 # Build settings
 markdown: kramdown
+
+# Permalink
+permalink: /:short_year:month:day/:title/
