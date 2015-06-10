@@ -271,14 +271,13 @@
 .post-header {
 	margin-top: 40px;
     margin-bottom: $spacing-unit;
-	color: white;
-	background-color: $brand-color;
+	color: black;
 	padding-top: 2 * $spacing-unit;
 	position: relative;
 	text-align: left;
 
 	.post-meta{
-		color: white;
+		color: black;
 		font-size: 14px;
 	}
 
@@ -309,6 +308,8 @@
 .post-title {
 	font-size: 18px;
     text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 700;
 }
 
 .post-content {
@@ -316,18 +317,10 @@
 
     h2 {
         font-size: 16px;
-   		// color: white;
-   		// background-color: $brand-color;
-
-		border: 1px solid $brand-color;
-		color: $brand-color;
-
-
    		padding-top: $spacing-unit;
-   		margin-top: 2 * $spacing-unit;
-   		margin-bottom: $spacing-unit;
-
+   		margin-bottom: $spacing-unit / 2;
    		text-transform: uppercase;
+        font-weight: 700;
     }
 
     h3 {
@@ -339,7 +332,6 @@
    		text-transform: uppercase;
    		border-left: none;
    		border-right: none;
-
     }
 
     h4 {
