@@ -50,9 +50,6 @@ This assumes you installed vagrant at the default location of vagrant-local
  7. **Celebrate** 🎉
 
 
-
-
-
 <div class="meta" markdown="1">
 	
 #### Bits and Bobs
