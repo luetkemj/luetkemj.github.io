@@ -13,6 +13,17 @@ It wasn't perfect but served my needs for any db under 50MB. Sadly as I have bee
 
 This is mostly a command line process but I promise it's pretty basic, much faster than my previous mostly manual solution, and isn't restricted to the PHPmyadmin file size limits. These steps while specific to Vagrant make use of the WP-CLI which is not specific to Vagrant. You could probably do this with MAMP and can definietly do this on your server if you set it up proper.
 
+
+<div class="meta" markdown="1">
+    
+#### WARNING
+
+If you are cloning a live site make sure you update your local wp-config.php file accordingly. Just copy the settings that Vagrant setup for you with the wp install.
+
+</div>
+
+
+
 ## db import in vagrant
 
 This assumes you installed vagrant at the default location of vagrant-local
