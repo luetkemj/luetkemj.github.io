@@ -4,13 +4,22 @@ layout: default
 
 <div class="home">
 
-  <ul class="post-list">
+  <ul class="post-list blog"><h2>BLOG</h2>
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%y%m%d" }}</span>&nbsp;&nbsp;&nbsp;&nbsp;
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
+  </ul>
+
+  <ul class="post-list comics"><h2>COMICS</h2>
+      <li>
+        <a class="post-link" href="http://www.webtoons.com/en/challenge/mallow-chalie/list?title_no=3458">Mallow Chalie</a>
+      </li>
+      <li>
+        <a class="post-link" href="{{ site.baseurl }}/comics/strongman">Strong Man</a>
+      </li>
   </ul>
 
 </div>

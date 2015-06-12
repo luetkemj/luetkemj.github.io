@@ -205,11 +205,27 @@
 }
 
 .post-list {
-	width: 60%;
+	width: 49%;
 	margin-top: 40px;
 	margin-bottom: 60px;
-    margin-left: 15%;
+    margin-left: 0;
     list-style: none;
+
+    &.blog{
+        float: left;
+    }
+
+    &.comics{
+        float: right;
+    }
+
+    h2{
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+        border-bottom: 1px solid black;
+    }
 
     > li {
     	&:first-child{
@@ -236,8 +252,9 @@
 }
 
 .post-meta {
-    font-size: 18px;
+    font-size: 14px;
     color: $grey-color;
+    font-family: Inconsolata;
 }
 
 .post-link {
@@ -266,6 +283,26 @@
 		width: 100%;
 		margin-left: 0;
 	}
+}
+
+.comic{
+    .hide-watermark{
+        position: relative;
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: 5px;
+          left: 0;
+          background-color: white;
+          height: 20px;
+          width: 100%;
+        }
+    }
+
+    img{
+        border: none;
+    }
 }
 
 .post-header {
