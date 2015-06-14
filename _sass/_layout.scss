@@ -232,6 +232,11 @@
     		border-top: 1px solid $grey-color;
     	}
     	border-bottom: 1px solid $grey-color;
+
+        // border-top: 1px solid red;
+        // &:not(::first-line){
+        //     font-weight: bold;
+        // }
     }
 
     li:hover{

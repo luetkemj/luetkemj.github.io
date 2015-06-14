@@ -1,7 +1,7 @@
 ---
 layout: comic
 title: Strong Man
-permalink: /comics/strongman/
+permalink: /comics/strong-man/
 show_title: false
 ---
 
