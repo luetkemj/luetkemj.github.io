@@ -100,7 +100,7 @@ If a user signs up after a session has become unavailable they will be wait list
 
 ### Issues / Features to Add
 
-As I wrote this I realized that I had overlooked basic unavailable session management. Would be nice if you could just hide unavailable sessions. If however you support waitlisting and want to keep them visible we shoudl provide a simple way for users to sort accordingly.
+As I wrote this I realized that I had overlooked basic unavailable session management. Would be nice if you could just hide unavailable sessions. If however you support waitlisting and want to keep them visible we should provide a simple way for users to sort accordingly.
 
 Did you notice that spelling error? Google says waitlist is two words... oops.
 

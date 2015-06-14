@@ -1,18 +1,18 @@
 ---
 layout: post
 title:  "switch_to_blog();"
-date:   2015-06-10 10:27:30
+date:   2015-06-14 10:27:30
 categories: webdev
 illustration: "/assets/posts/list-remote-comments/taking-notes.png"
 ---
 
 <img class="hidden" src="{{ page.illustration }}" />
 
-On Friday Tom and I had a long conversation on the mother blog setup we create for most of our online courses. The biggest difficulty in the workflow is that it is completely unintuitive. Faculty hoping to set this up inevitably need to schedule a sitdown with us to figure it out. 
+On Friday Tom and I had a long conversation on the mother blog setup we create for most of our online courses. Configuration is completely unintuitive and faculty hoping to set this up inevitably need to schedule a sitdown with us to figure it out. 
 
-Probably the biggest sticking point is subscribing students to the mother blog. Currently this is handled by creating a gravity form to collect among other things an RSS feed url from the students blog. Even if the students are successfull in finding and submitting the url to their feed the faculty has to parse the data from a gravity form and manually enter it through FeedWordPress.
+Probably the biggest sticking point is subscribing students to the mother blog. Currently this is handled by creating a gravity form to collect, among other things, an RSS feed from the students blog. Even if the students are successfull in finding and submitting the url to their feed the faculty has to parse the data from a gravity form and manually enter it into FeedWordPress.
 
-The goal then is to create a theme or plugin (or both) that will greatly improve this subscription workflow.
+Our goal then is to create a theme or plugin (or both) that will greatly improve this subscription workflow.
 
 From our discussion that workflow would look something like this:
 
@@ -46,11 +46,11 @@ From our discussion that workflow would look something like this:
 
 	}
 
-On Friday I knew or at least had a lead on how to do everything in that workflow except for creating a category on Student Blog 2. I spent a fair amount of time Friday afternoon and this weekend digging around for answers and posting on various forums looking for an answer. Nothing came up until Sunday morning.
+On Friday I knew or at least had a lead on how to do everything in that workflow except for creating a category on Student Blog 2. I spent a fair amount of time Friday afternoon and this weekend digging around for answers and posting on various forums looking for an answer. Never got a response. Apparently this is not a common problem.
 
-You see, creating a category on a blog is no big deal. The problem came in that I was trying to do it on another blog in the network. I had no way of passing a blog id in any of the functions I had found that could presumably accomplish this task. The only way to create a category on a blog was from the blog itself. 
+Creating a category on a blog is no big deal, the difficulty here came in that I was trying to do it on another blog in the network. I had no way of passing a blog id in any of the functions I had found that could presumably accomplish this task. The only way to create a category on a blog was from the blog itself. 
 
-Which is exactly where ```switch_to_blog();``` comes in. It will (as far as wordpress is concerned) switch you to anyother blog on the network allowing you to create the category. Then you just switch back when you are done and hey presto - job's done.
+Which is exactly where ```switch_to_blog();``` comes in. It will (as far as wordpress is concerned) switch you to anyother blog on the network allowing you to create a category on whatever blog you want. Then you just switch back and hey presto - job's done.
 
 Super excited to have this hurdle out of the way. 
 
