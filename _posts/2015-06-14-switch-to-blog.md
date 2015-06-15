@@ -3,16 +3,16 @@ layout: post
 title:  "switch_to_blog();"
 date:   2015-06-14 10:27:30
 categories: webdev
-illustration: "/assets/posts/list-remote-comments/taking-notes.png"
+illustration: "/assets/posts/switch-to-blog/full-switchboard.png"
 ---
 
 <img class="hidden" src="{{ page.illustration }}" />
 
 On Friday Tom and I had a long conversation on the mother blog setup we create for most of our online courses. Configuration is completely unintuitive and faculty hoping to set this up inevitably need to schedule a sitdown with us to figure it out. 
 
-Probably the biggest sticking point is subscribing students to the mother blog. Currently this is handled by creating a gravity form to collect, among other things, an RSS feed from the students blog. Even if the students are successfull in finding and submitting the url to their feed the faculty has to parse the data from a gravity form and manually enter it into FeedWordPress.
+Probably the biggest sticking point is subscribing students to the mother blog. Currently this is handled by creating a gravity form to collect, among other things, an RSS feed from the student's blog. Even if the students are successfull in finding and submitting the url to their feed the faculty has to parse the data from a gravity form and manually enter it into FeedWordPress.
 
-Our goal then is to create a theme or plugin (or both) that will greatly improve this subscription workflow.
+Our goal then, is to create a theme, plugin, or both that will greatly improve this subscription workflow.
 
 From our discussion that workflow would look something like this:
 
@@ -52,6 +52,10 @@ Creating a category on a blog is no big deal, the difficulty here came in that I
 
 Which is exactly where ```switch_to_blog();``` comes in. It will (as far as wordpress is concerned) switch you to anyother blog on the network allowing you to create a category on whatever blog you want. Then you just switch back and hey presto - job's done.
 
+<script src="https://gist.github.com/luetkemj/a8a0b317cb58ed5ec136.js"></script>
+
+
 Super excited to have this hurdle out of the way. 
 
 Now to build that workflow...
+
