@@ -31,4 +31,9 @@ Let's dive head first into some serious workflows and see how not that hard it r
 
 We'll create a new site with Jekyll and examine all the individual steps and rabbit holes along the way.
 
+### In this series
+
+<a href="{{ site.baseurl }}/150602/built-with-jekyll/">Built With Jekyll</a><br/>
+<a href="{{ site.baseurl }}/150616/built-with-jekyll-part2/">Built With Jekyll Part 2</a>
+
 </div>
