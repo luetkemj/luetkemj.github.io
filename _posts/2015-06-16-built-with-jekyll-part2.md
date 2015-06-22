@@ -109,7 +109,7 @@ All set? Fantastic! Next we'll create our blog.
 <div class="meta" markdown="1">
 #### EDITOR'S NOTE
 
-From here on out I will only include the commands you actually type and forgo adding the ~ $ bits as they can be confusing since you don't actually have to type them in.
+From here on out I will only include the commands you actually type and forgo adding the ```~ $``` bits as they can be confusing since you don't actually have to type them in.
 </div>
 
 
