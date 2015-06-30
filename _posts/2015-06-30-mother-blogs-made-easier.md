@@ -21,7 +21,7 @@ If user is logged in and has blogs on your network:
 * Create the specified category on the child blog chosen by the user
 * Add the user to the mother blog with the role subscriber
 * Determine the URL for that category's RSS feed
-* Add RSS feed to FeedWordPress.
+* Add RSS feed to FeedWordPress
 
 If user is not logged in and has blogs on your network:
 
@@ -34,6 +34,7 @@ If user does not have blogs on your network but would like one:
 If user does not have blogs on your network, does not want one but has their own RSS feed:
 
 * Provide field for submission of custom RSS feed
+* Add RSS feed to FeedWordPress
 
 If user does not have blogs on your network, does not want one, and does not have their own RSS feed:
 
