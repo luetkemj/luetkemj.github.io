@@ -7,7 +7,7 @@ categories: webdev
 
 Call for beta testers!
 
-I've been working a plugin to vastly improve the Mother Blog signup process. While I wouldn't suggest using it on a production just yet, it's definitely ready for a wider set of eyes than just my own.
+I've been working a plugin to vastly improve the Mother Blog signup process. While I wouldn't suggest using it on a production site just yet, it's definitely ready for a wider set of eyes than just my own.
 
 Download the plugin here: [github.com/vcualtlab/motherblog](https://github.com/vcualtlab/motherblog).
 
