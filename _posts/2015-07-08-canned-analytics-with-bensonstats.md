@@ -65,11 +65,9 @@ Lots more cans coming soon, so much data to sort!
 
 <div class="meta" markdown="1">
 
-#### Caveats:
+#### WARNING
 
-This is experimental tech. WP-API is under heavy development, Angular is upgrading to 2.0 sometime soon. Things may change and break... 
-
-Just some things to keep in mind if you plan on building something super important with this stuff. It's not exactly mature :)
+experimental tech
 
 </div>
 
