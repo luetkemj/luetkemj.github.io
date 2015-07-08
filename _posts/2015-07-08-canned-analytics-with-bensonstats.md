@@ -63,15 +63,6 @@ This was all created as way to understand the data on our Mother Blogs better bu
 Lots more cans coming soon, so much data to sort!
 
 
-<div class="meta" markdown="1">
-
-#### WARNING
-
-experimental tech
-
-</div>
-
-
 
 
 
