@@ -110,7 +110,8 @@ blockquote {
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
-    font-style: italic;
+    // font-style: italic;
+    // font-weight: 300;
 
     > :last-child {
         margin-bottom: 0;
