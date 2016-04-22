@@ -248,6 +248,25 @@
 	}
 }
 
+.post-list.blog {
+  li {
+    @include clearfix;
+  }
+  .post-meta {
+    display: block;
+    float: left;
+    width: 60px;
+    position: relative;
+    top: 4px;
+  }
+
+  .post-link{
+    display: block;
+    float: right;
+    width: calc(100% - 60px);
+  }
+}
+
 @include media-query($on-palm) {
 	.post-list {
 		width: 96%;
@@ -390,5 +409,3 @@
    		margin-bottom: $spacing-unit;
 	}
 }
-
-
