@@ -13,7 +13,7 @@ I've been getting a weird error that I can't figure out.
 warning.js:44Warning: Failed propType: Required prop `cardState` was not specified in `CardContainer`. Check the render method of `Connect(CardContainer)`.
 ```
 
-Basically, my state that I set up in the reducer isn't making to my container.
+Basically, my state that I set up in the reducer isn't making it to my container.
 
 I've added it to my root reducer.
 
