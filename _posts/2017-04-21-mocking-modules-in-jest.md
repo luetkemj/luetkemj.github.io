@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mocking a function inside a module with jest"
+title: "Mocking specific module functions with jest"
 date:   2017-04-21 11:33:30
 categories: [update]
 ---
