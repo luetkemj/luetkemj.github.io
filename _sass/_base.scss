@@ -146,6 +146,9 @@ pre {
     }
 }
 
+del {
+  color: $grey-color-light;
+}
 
 /**
  * Wrapper
@@ -186,7 +189,7 @@ pre {
       content: "";
       display: table;
       clear: both;
-  }  
+  }
 }
 
 
