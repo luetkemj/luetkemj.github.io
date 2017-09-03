@@ -7,7 +7,7 @@ categories: [update]
 
 Facebook's static type checker [Flow](https://flow.org/) had been on my radar for a while. Typescript left a bad taste in my mouth that was, in all honesty, more likely the fault of a bad combination of an early beta of angular2 and ionic. We don't do typing at work. Certain teammates may or may not experience debilitating java flashbacks at the thought of it.
 
-In order to give flow a proper go I decided to try it on a branch of Aglet Timekeeper. I am in the middle of implementing a new feature and there is, after all, no time like the present. Installation was surprisingly painless. The project already uses babel so I could skip most of the directions on the [installation docs](https://flow.org/en/docs/install/). A couple quick atom extensions for linting and the project was ready to go.
+In order to give flow a proper go I decided to try it on a branch of [Aglet Timekeeper](http://aglet.io/tools/timekeeper/). I am in the middle of implementing a new feature and there is, after all, no time like the present. Installation was surprisingly painless. The project already uses babel so I could skip most of the directions on the [installation docs](https://flow.org/en/docs/install/). A couple quick atom extensions for linting and the project was ready to go.
 
 One of the nice things about adding flow to an existing project is it is activated on a per file basis. Meaning you can type check individual files instead of your entire project. 👌
 
