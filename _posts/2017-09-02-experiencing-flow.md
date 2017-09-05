@@ -15,7 +15,7 @@ First up was a utils file. This bit of code has a few functions used to build th
 
 Time to add some static types to the first function:
 
-<img width="381" alt="screen shot 2017-09-02 at 10 53 37 pm" src="https://user-images.githubusercontent.com/925980/30000446-c611c9d6-9031-11e7-8407-1c723556863e.png">
+<img width="371" alt="screen shot 2017-09-05 at 6 33 00 pm" src="https://user-images.githubusercontent.com/29575193/30087876-c03f1ef8-9268-11e7-8b23-36303979830b.png">
 
 Like so:
 
