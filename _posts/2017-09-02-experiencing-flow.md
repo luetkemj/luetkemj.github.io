@@ -11,7 +11,7 @@ In order to give flow a proper go I decided to try it on a branch of [Aglet Time
 
 One of the nice things about adding flow to an existing project is it is activated on a per file basis. Meaning you can type check individual files instead of your entire project. 👌
 
-First up was a utils file. This bit of code has a few functions used to build the data needed to display the timekeeper. With a fair bit of logic and some chunky math it seemed like a good choice. On of the selling points for flow is it's ability to find errors in your code. This particular file is already heavily unit tested so the chance of showcasing flow's error snooping skills seemed low.
+First up was a utils file. This bit of code has a few functions used to build the data needed to display the timekeeper. With a fair bit of logic and some chunky math it seemed like a good choice. One of the selling points for flow is it's ability to find errors in your code. This particular file is already heavily unit tested so the chance of showcasing flow's error snooping skills seemed low.
 
 Time to add some static types to the first function:
 
@@ -61,7 +61,7 @@ Suddenly flow is happy again!
 
 ![](https://media.giphy.com/media/LxPsfUhFxwRRC/giphy.gif)
 
-After reading the docs a but further I was able to refactor the typing of the last function a bit to be more consistent with the others.
+After reading the docs a bit further I was able to refactor the typing of the last function a bit to be more consistent with the others.
 
 <img width="541" alt="screen shot 2017-09-02 at 11 16 33 pm" src="https://user-images.githubusercontent.com/925980/30000566-fa58d144-9036-11e7-964d-d7308cbd6b54.png">
 
