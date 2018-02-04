@@ -40,3 +40,58 @@ test('random should be 2', () => {
   expect(myModule.testRandomMock(2)).toBe(2);
 });
 ```
+
+### UPDATE 180204
+
+As Darth mentions below in the comments the above example does not actually address the [confusion](https://github.com/facebook/jest/issues/936) in the discussion on github.
+
+So how do we deal with mocking a function created and used internally by the same module you are testing?
+
+Suppose you have module.js and want to mock `baz` when testing `foo`.
+
+```javascript
+// module.js
+export function foo() {
+  return baz();
+}
+
+export function baz() {
+  return 'buzz';
+}
+```
+
+If anyone knows how to do this without modifying module.js I'd love to know!
+
+However, if you are willing to make a small change to module.js...
+
+```javascript
+// module.js
+export function foo() {
+  return lib.baz();
+}
+
+export function baz() {
+  return 'buzz';
+}
+
+export const lib = {
+  baz,
+};
+```
+
+`lib.baz` can now be now be mocked like so
+
+```javascript
+// module.test.js
+import * as module from './module';
+
+module.lib.baz = jest.fn(() => 'bar');
+
+describe('foo', () => {
+  it('should work', () => {
+    expect(module.foo()).toBe('bar');
+  });
+});
+```
+
+Try it out on [github](https://github.com/luetkemj/jest-mock-test)!
