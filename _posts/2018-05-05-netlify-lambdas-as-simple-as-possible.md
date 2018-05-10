@@ -22,13 +22,19 @@ This is not a complex tutorial. This is also not a tutorial aimed at beginners. 
 
 What follows is the most minimal approach to successfully deploy an AWS Lambda on Netlify I could come up with.
 
+### UPDATE 180509
+
+Project structure and build step has been updated in response to Phil Hawksworth's comment below. While everything worked as initially structured it is bad practice to put your production ready lambdas in your publish folder. Once you start making API calls to protected services that require secrets you are opening  up security holes by publishing your lambdas (and potentially secrets) client side.
+
+Thanks for the catch Phil!
+
 [Skip to the code on github.](https://github.com/luetkemj/test-netlify-lambdas/tree/simple)
 
 ### Setting up the project
 
 ```
 # create a directory structure for our project
-mkdir -p simple-lambdas/src/lambda
+mkdir -p simple-lambdas/src/functions
 
 # navigate to our new project
 cd simple-lambdas
@@ -43,30 +49,34 @@ Your project structure should look like this:
 simple-lambdas
   - package.json
   - src
-    - lambdas
+    - functions
 ```
 
 ### A simple function
 
 Netlify does a [good job of explaining](https://www.netlify.com/docs/functions/#javascript-lambda-functions) how a Lambda function should be structured.
 
-Create a file in `src/lamdas` named `hello.js` and paste Netlify's simple example function into it:
+Create a file in `src/functions` named `hello.js` and paste Netlify's simple example function into it:
 
 ```
 exports.handler = function(event, context, callback) {
-    callback(null, {
+  callback(null, {
     statusCode: 200,
     body: "Hello, World"
-    });
+  });
 }
 ```
 
-Netlify deploys your Lambda functions *AFTER* the build step. *You must have a build step*. Build steps get complicated real fast with things like webpack, babel, etc. Let's keep things as simple as possible and just copy `/src` to `/dist`.
+Netlify deploys your Lambda functions *AFTER* the build step.
+
+*You must have a build step*.
+
+Build steps can get complicated real fast with things like webpack, babel, etc. So we'll sort of fake it by copying our functions dir from `./src` to our project root at `./functions` and making an empty `./dist` dir we can point netlify at for our publish folder.
 
 Add this script to your package.json:
 
 ```
-"build": "rm -rf dist && cp -r src dist"
+"build": "rm -rf dist && rm -rf functions && cp -r src/functions functions && mkdir dist"
 ```
 
 Your package.json should now look like this:
@@ -78,14 +88,14 @@ Your package.json should now look like this:
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && cp -r src dist"
+    "build": "rm -rf dist && rm -rf functions && cp -r src/functions functions && mkdir dist"
   },
   "author": "",
   "license": "ISC"
 }
 ```
 
-`npm run build` will create a new `/dist` directory that is simply a direct copy of the `/src` directory.
+`npm run build` will delete `./dist` and `./functions` if they already exist, make a copy of `./src/functions` to `./functions` and make a new empty dir at `./dist`.
 
 Finally, we need to tell Netlify how our project is structured. This can be done from their web interface but in this tutorial we will create a special settings file that will override those settings.
 
@@ -95,10 +105,10 @@ Create a file called `netlify.toml` in the root of your project with the followi
 [build]
   command = "npm run build" # your build command
   publish = "./dist" # where your production ready code lives AFTER your build command has run
-  functions = "./dist/lambda" # where your production ready lambda functions live AFTER your build command has run
+  functions = "./functions" # where your production ready lambda functions live AFTER your build command has run
 ```
 
-Every function file in `./dist/lambda` will become an endpoint with the following structure:
+Every root file in `./functions` will become an endpoint with the following structure:
 
 `{your-site-root}/.netlify/functions/{filename}`
 
