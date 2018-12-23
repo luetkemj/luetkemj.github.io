@@ -1,0 +1,34 @@
+$text-color: #111;
+$link-color: #50e3c2;
+
+.header {
+  padding: 24px;
+
+  &__masthead {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      color: $link-color;
+      transition: color 150ms ease;
+    }
+
+    &__logo {
+      fill {
+        color: $link-color;
+      }
+    }
+
+    &__name {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    &__tagline {
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+}
