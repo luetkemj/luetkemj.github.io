@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import './footer.scss';
@@ -28,7 +28,7 @@ const Footer = ({ siteTitle }) => (
         <Link to="/contact">contact</Link>
       </li>
       <li className="footer__list-item">
-        <Link to="/feed.xml">rss</Link>
+        <a href="/feed.xml">rss</a>
       </li>
     </ul>
   </div>

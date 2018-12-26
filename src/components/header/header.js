@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-// import Sprinkles from '../sprinkles';
-
 import logoStamp from '../../assets/svg/logo-stamp.svg';
 import luetkemj from '../../assets/svg/luetkemj.svg';
 
@@ -10,10 +8,6 @@ import './header.scss';
 
 const Header = () => (
   <div className="header">
-    {/* <div className="header__sprinkles">
-      <Sprinkles />
-    </div> */}
-
     <div className="header__masthead">
       <Link to="/">
         <img 

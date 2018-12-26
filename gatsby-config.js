@@ -1,12 +1,26 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `luetkemj`,
+    description: `Change Is Good`,
+    siteUrl: 'https://luetkemj.github.io/',
+    author: `mark luetke`,
   },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+          component: require.resolve(`./src/components/layout.js`)
+      }
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        omitGoogleFont: true,
+        pathToConfigModule: `src/utils/typography.js`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -34,6 +48,73 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-19986266-1",
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        // exclude: ["/preview/**", "/do-not-track/me/too/"],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges
+                .filter(edge => edge.node.frontmatter.layout !== 'comic')
+                .map(edge => {
+                  return Object.assign({}, edge.node.frontmatter, {
+                    url: site.siteMetadata.siteUrl + edge.node.fields.path,
+                    guid: site.siteMetadata.siteUrl + edge.node.fields.path,
+                    custom_elements: [{ "content:encoded": edge.node.html }],
+                  });
+              });
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  limit: 1000,
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                ) {
+                  edges {
+                    node {
+                      html
+                      fields { path }
+                      frontmatter {
+                        title
+                        date
+                        layout
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/feed.xml",
+          },
+        ],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

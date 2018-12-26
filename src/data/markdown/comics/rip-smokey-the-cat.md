@@ -13,6 +13,4 @@ Smokey was one of those one in a million cats.  He was a dirty old man who enjoy
 
 Without fail, he would always make an annoyance of himself by jumping up on the table and curling up right in the middle of my workspace. Strange, the things you miss.
 
-<img src="/assets/comics/rip-smokey-the-cat/smokey.jpg" alt="Smokey The Cat"/>
-
 ![Smokey The Cat](https://i.imgur.com/Y4pB5Gc.jpg)

@@ -15,6 +15,10 @@ function SEO({ description, lang, meta, keywords, title }) {
             htmlAttributes={{
               lang,
             }}
+            link={[
+              { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i' },
+              { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Inconsolata' },
+            ]}
             title={title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
