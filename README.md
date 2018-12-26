@@ -7,11 +7,12 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 ### styles
 
 - [X] 100vh body content - blog nav and footer should be sticky footers
-- [ ] sticky header and sprinkles - only when the screen is wide enough to allow the content to flow between them - else they are no longer sticky or maybe just redesigned to work on mobile?
-- [ ] sprinkles should go away on mobile
-- [ ] sprinkles should go away on print
-- [ ] about and contact layout css
+- [X] sticky header and sprinkles - only when the screen is wide enough to allow the content to flow between them - else they are no longer sticky or maybe just redesigned to work on mobile?
+- [ ] ~~sprinkles should go away on mobile~~
+- [ ] ~~sprinkles should go away on print~~
+- [X] about and contact layout css
 - [ ] post formatting for code and other misc
+- [ ] make home page mobile friendly
 
 ### content
 
