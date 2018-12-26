@@ -19,7 +19,13 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          minHeight: '100vh',
+        }}
+      >
         <Sparkles />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
@@ -27,13 +33,13 @@ const Layout = ({ children }) => (
             margin: `0 auto`,
             maxWidth: 960,
             padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
+            flex: 1,
           }}
         >
           {children}
         </div>
         <Footer title={data.site.siteMetadata.title} />
-      </>
+      </div>
     )}
   />
 )
