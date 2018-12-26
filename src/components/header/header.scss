@@ -7,6 +7,7 @@ $link-color: #50e3c2;
   &__masthead {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 
     a {
       text-decoration: none;
@@ -17,6 +18,21 @@ $link-color: #50e3c2;
     &__logo {
       fill {
         color: $link-color;
+      }
+
+      width: 74px;
+      margin-left: 24px;
+
+      @media screen and (min-width: 360px) {
+        width: 84px;
+      }
+
+      @media screen and (min-width: 420px) {
+        width: 88px;
+      }
+
+      @media screen and (min-width: 460px) {
+        width: auto;
       }
     }
 

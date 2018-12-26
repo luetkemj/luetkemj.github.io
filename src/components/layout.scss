@@ -1,0 +1,33 @@
+.layout {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  &__sprinkles {
+    position: fixed;
+  }
+
+  &__header {
+    position: fixed;
+    width: 100vw;
+  }
+
+  &__content {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    // where do these calculations come from???
+    // mixing px and rem? pick a side dammit; we're at war!
+    padding: 0 1.0875rem 1.45rem;
+    margin-top: 183px;
+    flex: 1;
+    
+    > div {
+      background: rgba(255, 255, 255, 0.85);
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
