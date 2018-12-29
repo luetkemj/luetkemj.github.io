@@ -34,7 +34,7 @@ Again with the caveats - I needed to spit out a template tag on the loops that D
 
 The problem now was my template tag appended everywhere Display Posts was used. I really only needed it on specific pages. I tried adding extra arguments to Bill’s shortcode but WordPress ignores any arguments that aren't explicitly coded in. I thought about hi-jacking some of his existing arguments but that’s hacky and not terribly user friendly. Eventually I settled on providing my own shortcode that when placed above the display posts shortcode runs a quick function that adds the filter.
 
-{% highlight php startinline=true %}
+```php
 
 function append_to_be_posts( $output ) {
 	$output .= list_remote_comments();
@@ -47,7 +47,7 @@ function append_remote_comments_to_be_posts_shortcode(){
 	add_filter( 'display_posts_shortcode_output', 'append_to_be_posts', 9 );
 }
 
-{% endhighlight %}
+```
 
 **Now we’re up and running!**
 

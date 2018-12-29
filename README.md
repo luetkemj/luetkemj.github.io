@@ -11,7 +11,8 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 - [ ] ~~sprinkles should go away on mobile~~
 - [ ] ~~sprinkles should go away on print~~
 - [X] about and contact layout css
-- [ ] post formatting for code and other misc
+- [x] syntax highlighting
+- [ ] misc post formatting
 - [ ] make home page mobile friendly
 
 ### content
