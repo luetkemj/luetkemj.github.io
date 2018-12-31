@@ -1,8 +1,8 @@
 import React from "react";
 import './blogTemplate.scss';
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
 import { get, last } from 'lodash';
-import SEO from '../components/seo'
+import SEO from '../components/seo';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.

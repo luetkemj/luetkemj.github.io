@@ -31,7 +31,7 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 
 ### chores
 
-- [ ] remove cruft pages (from the bootstrapping)
+- [x] remove cruft pages (from the bootstrapping)
 - [ ] fix all console warnings
 
 ### bugs

@@ -2,7 +2,7 @@
 layout: post
 title: "Practicing Hardship"
 date:   2016-10-21 15:17:30
-categories: [update]
+categories: update
 ---
 
 Today I had an experience I really haven’t had the pleasure of enjoying since leaving Virginia. Lately all my runs runs have been out and backs on a one mile pea stone path a block from my house. The challenge here is turning around after each loop to go out again. Every lap offers a chance to bail.

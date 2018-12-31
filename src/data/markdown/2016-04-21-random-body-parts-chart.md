@@ -2,7 +2,7 @@
 layout: post
 title:  "Random Body Parts Chart"
 date:   2016-04-22 08:02:30
-categories: dnd
+categories: update
 ---
 
 ### Random Body Part - d4 + appropriate modifier chart

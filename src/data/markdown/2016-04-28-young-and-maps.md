@@ -2,7 +2,7 @@
 layout: post
 title: "Young and Maps"
 date:   2016-04-28 08:16:30
-categories: [update, webdev]
+categories: update
 ---
 
 ## Neil Young

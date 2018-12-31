@@ -2,7 +2,7 @@
 layout: post
 title: "What I think about when I think about writing about writing code"
 date:   2017-06-10 19:08:30
-categories: [update]
+categories: update
 ---
 Writing is hard. Writing about writing code is very hard.
 

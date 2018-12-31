@@ -2,7 +2,7 @@
 layout: post
 title:  "WP DB Import with Vagrant"
 date:   2015-06-06 12:07:30
-categories: webdev
+categories: update
 illustration: "/assets/posts/wp-db-imports-with-vagrant/files.png"
 ---
 

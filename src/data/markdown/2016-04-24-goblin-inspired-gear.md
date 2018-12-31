@@ -2,7 +2,7 @@
 layout: post
 title: "Goblin Inspired Gear"
 date:   2016-04-24 20:40:30
-categories: dnd
+categories: update
 ---
 
 ## Cloak of Goblin Stank

@@ -2,7 +2,7 @@
 layout: post
 title:  "ALT Lab Post Grid"
 date:   2015-06-22 14:50:30
-categories: webdev
+categories: update
 illustration: "/assets/posts/150622/masonry.png"
 ---
 

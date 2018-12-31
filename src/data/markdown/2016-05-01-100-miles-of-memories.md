@@ -2,7 +2,7 @@
 layout: post
 title: "100 Miles of Memories"
 date:   2016-05-01 20:17:30
-categories: [update]
+categories: update
 ---
 
 On Thursday of this past week, just before DnD started my brother asked if I wanted to run The Grindstone with him in 2017. The Grindstone is 101.85 Miles, 23,200 ft of gain and 23,200 ft of loss. It starts at 6pm in the evening in Swoope Virginia at Camp Shenandoah. Of course I said yes.

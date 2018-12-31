@@ -39,6 +39,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-emoji`,
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
@@ -83,13 +84,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `luetkemj`,
+        short_name: `luetkemj`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/luetkemj.png`, // This path is relative to the root of the site.
       },
     },
     {

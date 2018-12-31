@@ -2,7 +2,7 @@
 layout: post
 title: "Experiencing Flow"
 date:   2017-09-02 22:31:30
-categories: [update]
+categories: update
 ---
 
 Facebook's static type checker [Flow](https://flow.org/) had been on my radar for a while. Typescript left a bad taste in my mouth that was, in all honesty, more likely the fault of a bad combination of an early beta of angular2 and ionic. We don't do typing at work. Certain teammates may or may not experience debilitating java flashbacks at the thought of it.

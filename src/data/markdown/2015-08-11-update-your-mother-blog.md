@@ -2,7 +2,7 @@
 layout: post
 title:  "Update Your Mother Blog"
 date:   2015-08-11 09:49:30
-categories: webdev
+categories: update
 ---
 
 If anyone out there is actually using the Mother Blog plugin I wrote recently for VCU ALT Lab - you should update it with the [newest version](https://github.com/vcualtlab/motherblog).

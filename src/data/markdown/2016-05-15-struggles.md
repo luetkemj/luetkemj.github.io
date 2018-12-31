@@ -2,7 +2,7 @@
 layout: post
 title: "Struggles"
 date:   2016-05-15 21:12:30
-categories: [update]
+categories: update
 ---
 
 I've struggled this weekend trying to learn Redux. I've spent hours watching a very slow paced walk through that has brought lots of insight to the work I did last week. I've gotten pure components working with no problem but really that's just React and React is easy.

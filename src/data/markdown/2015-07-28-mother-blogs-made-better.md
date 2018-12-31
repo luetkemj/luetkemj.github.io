@@ -2,7 +2,7 @@
 layout: post
 title:  "Mother Blogs Made Better"
 date:   2015-07-28 15:57:30
-categories: webdev
+categories: update
 ---
 
 So much improvement!
