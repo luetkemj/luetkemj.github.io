@@ -5,10 +5,23 @@
   padding: 30px 24px 24px;
   margin-top: 90px;
   display: flex;
-  justify-content: space-between;
+  
+  // justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
+
+  @media screen and (min-width: 650px) {
+    justify-content: space-between;
+    flex-direction: row;
+  }
 
   &__heart {
+    order: 1;
     color: $pink;
+
+    @media screen and (min-width: 650px) {
+      order: 0;
+    }
   }
 
   &__list {

@@ -13,12 +13,13 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 - [X] about and contact layout css
 - [x] syntax highlighting
 - [x] misc post formatting
-- [ ] make home page mobile friendly
+- [x] make home page mobile friendly
 
 ### content
 
 - [x] images in posts are broken or missing
 - [ ] illustrations are missing from early posts
+- [ ] update about page
 
 ### features
 
