@@ -8,13 +8,13 @@ illustration: "/assets/posts/built-with-jekyll/octocat.png"
 
 Jekyll has fantastic documentation. And getting started with Jekyll couldn't be any easier! Direct from the below is the Quick-start guide to getting started with Jekyll. &#9759;
 
-{% highlight bash %}
+```sh
 ~ $ gem install jekyll
 ~ $ jekyll new my-awesome-site
 ~ $ cd my-awesome-site
 ~/my-awesome-site $ jekyll serve
 # => Now browse to http://localhost:4000
-{% endhighlight %}
+```
 
 ...if any of that looks familiar to you, you probably don't need to read any further. Just head over to the Jekyll docs and have at it. You'll be fine. For the rest of you that have that no idea what to do with any of those squigglies and dollar signs, stick around. We'll work through it.
 
@@ -83,9 +83,9 @@ Finished? Perfect. We ready.
 
 Ok, let's go line by line on the Quick-start so we fully understand what we're doing.
 
-{% highlight bash %}
+```sh
 ~ $ gem install jekyll
-{% endhighlight %}
+```
 
 That squiggly is called a tilde and is a shortcut for your home directory. You don't actually type it. If we were to move to another directory, say a folder on your desktop called "untitled" you would see something like ```~/Desktop/untitled```. Again, you wouldn't actually type any of that - it's just there in the terminal so you knwo where you are.
 
@@ -95,9 +95,9 @@ What about that dollar sign? You don't actually type that either. It just means 
 
 So, now that we know what we're actually doing, go ahead and install Jekyll.
 
-{% highlight bash %}
+```sh
 gem install jekyll
-{% endhighlight %}
+```
 
 If you get a permissions error you may have to add ```sudo``` to the command. ```sudo``` which means "Super User Do" will run the command as a super user on your system and require your password. This is the password you use when logging into your computer.
 
@@ -112,9 +112,9 @@ From here on out I will only include the commands you actually type and forgo ad
 </div>
 
 
-{% highlight bash %}
+```sh
 jekyll new my-awesome-site
-{% endhighlight %}
+```
 
 Here we type "jekyll" to know what program we are running, "new" as our command, and "my-awesome-site" as the argument. "my-awesome-site" is the name of your site directory. It can be anything you want. If you want your site to be "joe-bloggs-blog" then you would type ```jekyll new joe-bloggs-blog```. After you hit enter Jekyll will create a new directory (folder) with the name you passed and install all the files needed for a brand new Jekyll blog.
 
@@ -122,9 +122,9 @@ You did it! You created your first Jekyll Blog!!!
 
 Although I suppose you want to actually see it now. For that we have a couple more quick commands.
 
-{% highlight bash %}
+```sh
 cd my-awesome-site
-{% endhighlight %}
+```
 
 Here we are changing directory (cd) to our new site. Think of this as opening finder and double clicking on your sites folder. Don't forget to change "my-awesome-site" to whatever you named your blog.
 
@@ -132,17 +132,17 @@ As I mentioned earlier when we talked about the ~, commands run in our current w
 
 The last command we need to run will spin up a local server for our jekyll site so we can actually view it in a browser.
 
-{% highlight bash %}
+```sh
 jekyll serve
-{% endhighlight %}
+```
 
 In your terminal "my-awesome-site" should be replaced with the name of your own site.
 
 Now what about this last bit in the quickstart?
 
-{% highlight bash %}
+```sh
 # => Now browse to http://localhost:4000
-{% endhighlight %}
+```
 
 That hash # is the start of a comment. It's a signal to the computer that it should ignore this line. It's a special note just to you - the web developer - and you don't have to type it in. It's simply telling you to open up your favorite browser and go to localhost:4000. This is how you can access a local server on your machine to view your website before it actually goes live on the internet. So go ahead, open up your favorite browser and go to [http://localhost:4000](http://localhost:4000)...
 

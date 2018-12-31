@@ -20,7 +20,7 @@ So I took a stab at unlocking that data for David Croteau's Sociology course her
 
 Sorting by author is now possible as shown here:
 
-![sort by author](https://i.imgur.com/QUOIKwZ.gifv)
+![sort by author](https://i.imgur.com/QUOIKwZ.gif)
 
 Some things to note. First we count all blog posts on the mother blog, then we count our results based on author and or keyword search. Finally we do a quick calculation to get the percentage of our results from the entire activity across all of our student's blogs.
 
@@ -28,7 +28,7 @@ When searching per student this is a quick and easy way of getting a count of th
 
 We can also search by keyword.
 
-![sort by keyword](https://i.imgur.com/uACit7X.gifv)
+![sort by keyword](https://i.imgur.com/uACit7X.gif)
 
 When searching by keyword our analytics are the same but can provide some very different and very valuable insights. We see here that of the 184 blog posts we have 5 that contain the word "confederate". This is very likely due to the prominence of the subject in the news recently and VCU's location in particular.
 

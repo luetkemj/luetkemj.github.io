@@ -10,9 +10,9 @@ Until now grid layouts on Rampages have been handled via a combination of styles
 
 [ALT Lab Post Grid](https://github.com/vcualtlab/postgrid) aims to provide a super simple entry to masonry layouts while providing some relatively powerful options for customization. To get started all you have to do is install the plugin and paste a single shortcode onto any post or page.
 
-{% highlight html %}
+```html
 [altlab-postgrid]
-{% endhighlight %}
+```
 
 
 Out of the box you get a paginated 3 column masonry layout for the most recent 15 posts on your site.

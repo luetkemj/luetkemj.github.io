@@ -12,12 +12,13 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 - [ ] ~~sprinkles should go away on print~~
 - [X] about and contact layout css
 - [x] syntax highlighting
-- [ ] misc post formatting
+- [x] misc post formatting
 - [ ] make home page mobile friendly
 
 ### content
 
-- [ ] images on posts are broken or missing
+- [x] images in posts are broken or missing
+- [ ] illustrations are missing from early posts
 
 ### features
 
@@ -31,6 +32,10 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 
 - [ ] remove cruft pages (from the bootstrapping)
 - [ ] fix all console warnings
+
+### bugs
+
+- [ ] fix codepens (not working locally - do they work in production?)
 
 ### devops
 

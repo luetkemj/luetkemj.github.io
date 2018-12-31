@@ -51,6 +51,17 @@
       text-align: left;
     }
   }
+
+  del {
+    color: #e8e8e8;
+  }
+
+  blockquote {
+    font-style: italic;
+    padding: 1em 0;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+  }
 }
 
 // Syntax high-lighting code block background
