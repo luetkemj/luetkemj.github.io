@@ -19,7 +19,7 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 
 - [x] images in posts are broken or missing
 - [ ] illustrations are missing from early posts
-- [ ] update about page
+- [x] update about page
 
 ### features
 
