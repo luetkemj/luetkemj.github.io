@@ -26,13 +26,14 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 - [ ] break up home page list into years
 - [ ] categories? should i have another for DnD or just add icons of some sort? do I need catgories? How does this impact blog navigation?
 - [ ] es2 page
-- [ ] improve seo
+- [x] improve seo
 - [ ] 404 page template
 
 ### chores
 
 - [x] remove cruft pages (from the bootstrapping)
 - [ ] fix all console warnings
+- [ ] move all images from imgur (offline mode broken without this for some posts and all comics)
 
 ### bugs
 
@@ -40,6 +41,6 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 
 ### devops
 
-- [ ] deploy in place of existing jekyll site
+- [x] deploy in place of existing jekyll site
 - [ ] get luetkemj.com to redirect proper
 
