@@ -3,6 +3,14 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+const titleTemplate = (title, siteTitle) => {
+  if (title === siteTitle) {
+    return title;
+  }
+
+  return `%s · ${siteTitle}`;
+}
+
 function SEO({ description, lang, meta, keywords, title }) {
   return (
     <StaticQuery
@@ -20,7 +28,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Inconsolata' },
             ]}
             title={title}
-            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+            titleTemplate={titleTemplate(title, data.site.siteMetadata.title)}
             meta={[
               {
                 name: `description`,

@@ -8,7 +8,7 @@ export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark, allFile, nextPost, nextPostMarkdown, previousPost, previousPostMarkdown } = data; // data.markdownRemark holds our post data
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter, html, excerpt } = markdownRemark;
 
   function getBannerImage() {
     // check if there is an banner image and just return if not.
@@ -53,7 +53,10 @@ export default function Template({
 
   return (
     <>
-      <SEO title={`${frontmatter.title}: ${data.site.siteMetadata.title}`}/>
+      <SEO 
+        title={frontmatter.title}
+        description={excerpt}
+      />
       <div className="blog-template">
         <div className="blog-template__post">
           {bannerImage && <img className="blog-template__banner-image" src={bannerImage} alt=""/>}
@@ -86,6 +89,7 @@ export const pageQuery = graphql`
       }
     }
     markdownRemark(fields: { path: { eq: $path } }) {
+      excerpt
       html
       frontmatter {
         date(formatString: "YYMMDD")
