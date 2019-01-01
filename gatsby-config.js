@@ -5,7 +5,6 @@ module.exports = {
     siteUrl: 'https://luetkemj.github.io/',
     author: `mark luetke`,
   },
-  pathPrefix: "/luetkemj.website",
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
