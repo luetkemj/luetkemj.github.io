@@ -38,6 +38,7 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 ### bugs
 
 - [ ] fix codepens (not working locally - do they work in production?)
+- [ ] font flicker?
 
 ### devops
 
