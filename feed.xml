@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 01 Jan 2019 22:01:34 GMT</lastBuildDate><item><title><![CDATA[Netlify Lambdas - As Simple As Possible]]></title><link>https://luetkemj.github.io//180505/netlify-lambdas-as-simple-as-possible</link><guid isPermaLink="false">https://luetkemj.github.io//180505/netlify-lambdas-as-simple-as-possible</guid><pubDate>Sat, 05 May 2018 15:25:30 GMT</pubDate><content:encoded>&lt;p&gt;I could wax poetic about the wonder that is &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt; or I could get to the point.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 02 Jan 2019 03:06:05 GMT</lastBuildDate><item><title><![CDATA[New Look, Same Great Taste!]]></title><link>https://luetkemj.github.io//190101/new-look-same-great-taste</link><guid isPermaLink="false">https://luetkemj.github.io//190101/new-look-same-great-taste</guid><pubDate>Tue, 01 Jan 2019 19:59:30 GMT</pubDate><content:encoded>&lt;p&gt;I have finally migrated from Jekyll to Gatsby. I began this effort 8 months ago if my git history is to be believed.&lt;/p&gt;
+&lt;p&gt;I don’t remember why things stalled. Probably just got busy. Last year was madness.&lt;/p&gt;
+&lt;p&gt;I never really had any complaints about Jekyll. It worked fine and did exactly what it was supposed to do. But I don’t really know Ruby, templating was weird, I’m super comfortable in React, and I wanted to try out GraphQL. &lt;/p&gt;
+&lt;p&gt;It only took a couple weekends to figure out how everything worked and to build out a redesign. But then I stalled on SEO tweaks, some other low priority things, and new features that had no business holding up the effort. More of a mental block than anything physical.&lt;/p&gt;
+&lt;p&gt;And here we are 8 months on. Deployed but not finished. If I kept waiting to be done this thing would never see the light of day. What is &quot;done&quot; anyways?&lt;/p&gt;
+&lt;p&gt;2018 was a hard year with too many hard lessons. Whatever I have planned for my life this year is not what will happen. Things won’t be perfect in 2019. I won’t be perfect in 2019. There is nothing I can do to plan for all the curve balls life will throw my way. The best thing I can do is to be adaptable. I can take things across the finish line even if they aren’t &quot;finished&quot;. I can make relentless forward progress towards… something.&lt;/p&gt;
+&lt;p&gt;So begins yet another year in this thing called life.&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cb60a493d812bb1e574418382f053dce/21f43/forest-gump.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: 0!important; margin-right: 0!important; max-width: 345px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 95.3623188405797%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEEBQL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAZo6LFgrJtaBugn/xAAcEAACAgIDAAAAAAAAAAAAAAABAgADEyEEEBH/2gAIAQEAAQUCA9PIQDqsaxIy2rjZd1RgJ//EABYRAAMAAAAAAAAAAAAAAAAAAAEgMf/aAAgBAwEBPwERP//EABURAQEAAAAAAAAAAAAAAAAAAAEg/9oACAECAQE/AQj/xAAdEAACAgIDAQAAAAAAAAAAAAABAgAREBIxUWGh/9oACAEBAAY/Ajsd78qKQMW7fJqWlAhh3UXHE//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQVFxkbH/2gAIAQEAAT8hYDAbhgGKqruV49xVctQ2liq3IkXDBZDIu8/ZxEJY11P/2gAMAwEAAgADAAAAEC//AL7/xAAZEQEAAgMAAAAAAAAAAAAAAAABADEQESH/2gAIAQMBAT8QQLdzsbx//8QAGBEBAQADAAAAAAAAAAAAAAAAAQAQITH/2gAIAQIBAT8QUbccx//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFBMVFhcf/aAAgBAQABPxDA3tZ9BeDjmF23bnFcN51Hq09ExeAGRBu9DC7MZGzs4yS7pWBHZT7ibrRZ7hq7RdOvsZmpTIn/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;that&apos;s all I have to say about that&quot;
+        title=&quot;&quot;
+        src=&quot;/static/cb60a493d812bb1e574418382f053dce/21f43/forest-gump.jpg&quot;
+        srcset=&quot;/static/cb60a493d812bb1e574418382f053dce/98ec3/forest-gump.jpg 148w,
+/static/cb60a493d812bb1e574418382f053dce/36fb3/forest-gump.jpg 295w,
+/static/cb60a493d812bb1e574418382f053dce/21f43/forest-gump.jpg 345w&quot;
+        sizes=&quot;(max-width: 345px) 100vw, 345px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Netlify Lambdas - As Simple As Possible]]></title><link>https://luetkemj.github.io//180505/netlify-lambdas-as-simple-as-possible</link><guid isPermaLink="false">https://luetkemj.github.io//180505/netlify-lambdas-as-simple-as-possible</guid><pubDate>Sat, 05 May 2018 15:25:30 GMT</pubDate><content:encoded>&lt;p&gt;I could wax poetic about the wonder that is &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt; or I could get to the point.&lt;/p&gt;
 &lt;p&gt;Let&apos;s get to the point.&lt;/p&gt;
 &lt;p&gt;Netlify does a wonderful job of running your build script and deploying your site. So good in fact it is difficult at times to know where Netlify&apos;s magic begins and ends. While messing around with Lambda functions on Netlify I found myself struggling to get a successful build going. With so much of the process abstracted away I found it difficult to modify my approach in any meaningful way.&lt;/p&gt;
 &lt;p&gt;Why was I having problems? Was my build script configuration buggered up? Were the settings on my Netlify account borked? Did I write my .toml file correctly? When exactly does Netlify deploy my functions and where exactly is it looking for them? Does it build them? Do I build them? Do I have to use their &lt;a href=&quot;https://www.npmjs.com/package/netlify-lambda&quot;&gt;build tool?&lt;/a&gt;&lt;/p&gt;
