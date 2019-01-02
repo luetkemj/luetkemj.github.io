@@ -33,7 +33,7 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 
 - [x] remove cruft pages (from the bootstrapping)
 - [ ] fix all console warnings
-- [ ] move all images from imgur (offline mode broken without this for some posts and all comics)
+- [ ] move all images from imgur (offline mode broken without this for some posts and all comics) have  a sane approach to organizing these...
 
 ### bugs
 
