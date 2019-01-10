@@ -2,7 +2,7 @@
 layout: post
 title:  "Mother Blogs Made Easier"
 date:   2015-06-30 08:54:30
-categories: update
+categories: code
 ---
 
 Call for beta testers!

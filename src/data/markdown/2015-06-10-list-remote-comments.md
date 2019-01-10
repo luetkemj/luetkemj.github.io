@@ -2,7 +2,7 @@
 layout: post
 title:  "List Remote Comments"
 date:   2015-06-10 10:27:30
-categories: update
+categories: code
 illustration: "/assets/posts/list-remote-comments/taking-notes.png"
 ---
 

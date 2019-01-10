@@ -2,7 +2,7 @@
 layout: post
 title: "Raspberry Node and Express"
 date:   2016-04-25 22:58:30
-categories: update
+categories: code
 ---
 
 Spent some time this weekend looking at node and express docs. Why the light seems to have finally

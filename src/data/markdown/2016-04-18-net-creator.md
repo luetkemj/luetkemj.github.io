@@ -2,7 +2,7 @@
 layout: post
 title:  "Net Creator"
 date:   2016-04-18 06:26:30
-categories: update
+categories: life
 ---
 
 I often tell my son to be a net creator instead of a net consumer. It’s my go to reason for why I don’t let him play video games or watch tv at any given moment.

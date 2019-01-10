@@ -2,7 +2,7 @@
 layout: post
 title:  "Useful DnD Generators"
 date:   2016-04-20 21:41:30
-categories: update
+categories: dnd
 ---
 
 ## Places of Interest

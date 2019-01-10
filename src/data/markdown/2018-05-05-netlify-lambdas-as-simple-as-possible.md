@@ -2,7 +2,7 @@
 layout: post
 title: "Netlify Lambdas - As Simple As Possible"
 date:   2018-05-05 15:25:30
-categories: update
+categories: code
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Simple Signups"
 date:   2015-05-28 11:45:30
-categories: update
+categories: code
 illustration: "taking-names.png"
 ---
 

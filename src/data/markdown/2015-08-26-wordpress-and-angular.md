@@ -2,7 +2,7 @@
 layout: post
 title:  "WordPress and Angular"
 date:   2015-08-26 09:36:30
-categories: update
+categories: code
 ---
 
 Benson is a small plugin I wrote while at VCUarts to make it super simple to consume wp-json endpoints with Angular. Here's a video of me attempting to explain how to use it.

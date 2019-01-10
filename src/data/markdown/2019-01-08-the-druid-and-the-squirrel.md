@@ -2,7 +2,7 @@
 layout: post
 title: "The Druid and the Squirrel"
 date:   2019-01-08 19:54:30
-categories: update
+categories: dnd
 ---
 
 [A Five Room Dungeon](http://strolen.com/viewing/5_Room_Dungeon)

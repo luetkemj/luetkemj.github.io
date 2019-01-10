@@ -2,7 +2,7 @@
 layout: post
 title:  "Random Potion Effects Table"
 date:   2016-04-19 21:42:30
-categories: update
+categories: dnd
 ---
 
 Drink a potion. Roll a d20. Roll on modifier charts when appropriate. Rinse. Repeat.

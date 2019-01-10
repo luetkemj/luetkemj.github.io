@@ -133,6 +133,7 @@ module.exports = {
                         title
                         date
                         layout
+                        categories
                       }
                     }
                   }

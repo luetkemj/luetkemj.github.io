@@ -2,7 +2,7 @@
 layout: post
 title: "module.exports"
 date:   2016-05-16 20:58:30
-categories: update
+categories: code
 ---
 
 So this weekend I struggled to get redux working properly. Specifically I had trouble with getting my cardReducer to hold data. It kept coming back undefined even though it seemed like it should have worked per the code below.

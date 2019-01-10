@@ -2,7 +2,7 @@
 layout: post
 title:  "My Web Dev Tool Kit"
 date:   2015-06-05 12:07:30
-categories: update
+categories: code
 illustration: "toolkit.png"
 ---
 

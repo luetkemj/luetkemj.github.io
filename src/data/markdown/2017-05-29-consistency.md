@@ -2,7 +2,7 @@
 layout: post
 title: "Consistency"
 date:   2017-05-29 11:33:30
-categories: update
+categories: life
 ---
 
 My son found himself in trouble recently. To be honest I don’t even remember what he did. At 11, sending him to his room has lost it’s power and grounding him just sucks for everyone. So this time we decided to try and offer a lesson instead. The “punishment” here was to consistently check off a todo list without missing a single item for five days straight. There is nothing on the list he’s not already supposed to be doing. It’s fairly short, the first 4 being get dressed, brush hair, brush teeth and have breakfast. After that he has a couple chores and finally 20 minutes of drum practice.

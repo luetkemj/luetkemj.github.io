@@ -2,7 +2,7 @@
 layout: post
 title: "Aglet Timekeeper Released"
 date:   2017-08-27 19:21:30
-categories: update
+categories: code
 ---
 
 After over a year of tinkering in the garage building RPG tools I finally [released one to the world](http://aglet.io/tools/timekeeper/). It’s a simple timekeeper. It keeps track of the sun, the moon, and it’s phases. You can advance time with a set of predefined buttons, reset to start or undo your last action.

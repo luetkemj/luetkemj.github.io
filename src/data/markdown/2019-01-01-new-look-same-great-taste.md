@@ -2,7 +2,7 @@
 layout: post
 title: "New Look, Same Great Taste!"
 date:   2019-01-01 19:59:30
-categories: update
+categories: life
 ---
 
 I have finally migrated from Jekyll to Gatsby. I began this effort 8 months ago if my git history is to be believed.

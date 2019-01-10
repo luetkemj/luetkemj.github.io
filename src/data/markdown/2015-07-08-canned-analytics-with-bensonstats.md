@@ -2,7 +2,7 @@
 layout: post
 title:  "Canned Analytics with Benson Stats"
 date:   2015-07-08 11:48:30
-categories: update
+categories: code
 illustration: "/assets/posts/150708/illustration.png"
 ---
 <!--

@@ -2,7 +2,7 @@
 layout: post
 title: "Markov Name Generation"
 date:   2017-01-02 11:17:30
-categories: update
+categories: code
 ---
 
 About six months ago I began writing [Scribe](https://github.com/luetkemj/scribe) - a toolkit for dungeon masters. There are no plans to ever market or even release the project beyond it's public repo on github. It's raison d'etre is simply to provide a set of interesting problems for me solve as I learn Javascript.

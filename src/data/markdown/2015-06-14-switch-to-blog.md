@@ -2,7 +2,7 @@
 layout: post
 title:  "switch_to_blog();"
 date:   2015-06-14 10:27:30
-categories: update
+categories: code
 illustration: "/assets/posts/switch-to-blog/full-switchboard.png"
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Mocking specific module functions with jest"
 date:   2017-04-21 11:33:30
-categories: update
+categories: code
 ---
 
 I've recently given jest a try for unit testing. Until now I have really only ever used Mocha. One of the things that I always struggled with was mocking functions. In scribe, many of the generators make heavy use of random numbers. Testing random numbers is challenging and more than a little uncertain. Testing that a result is within a range is far less satisfying than an exact value.

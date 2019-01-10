@@ -2,7 +2,7 @@
 layout: post
 title: "The State of Scribe"
 date:   2017-02-28 09:13:30
-categories: update
+categories: code
 ---
 
 At every major milestone in this project I make the same mistake of thinking all the infrastructure is setup and now I can really begin.
