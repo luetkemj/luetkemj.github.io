@@ -24,7 +24,7 @@ Built with [GatsbyJS](https://www.gatsbyjs.org/).
 ### features
 
 - [ ] break up home page list into years
-- [ ] categories? should i have another for DnD or just add icons of some sort? do I need catgories? How does this impact blog navigation?
+- [x] categories? should i have another for DnD or just add icons of some sort? do I need catgories? How does this impact blog navigation?
 - [ ] es2 page
 - [x] improve seo
 - [ ] 404 page template
