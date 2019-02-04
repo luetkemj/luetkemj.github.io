@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
-import './footer.scss';
+import './footer.scss'
 
 const Footer = ({ siteTitle }) => (
   <div className="footer">
@@ -11,14 +11,20 @@ const Footer = ({ siteTitle }) => (
         <OutboundLink href="https://github.com/luetkemj">github</OutboundLink>
       </li>
       <li className="footer__list-item">
-        <OutboundLink href="https://twitter.com/markluetke">twitter</OutboundLink>
+        <OutboundLink href="https://twitter.com/markluetke">
+          twitter
+        </OutboundLink>
       </li>
       <li className="footer__list-item">
-        <OutboundLink href="https://www.instagram.com/luetkemj/">instagram</OutboundLink>
+        <OutboundLink href="https://www.instagram.com/luetkemj/">
+          instagram
+        </OutboundLink>
       </li>
     </ul>
 
-    <div title="made with &hearts; in ATX" className="footer__heart">&hearts;</div>
+    <div title="made with &hearts; in ATX" className="footer__heart">
+      &hearts;
+    </div>
 
     <ul className="footer__list">
       <li className="footer__list-item">

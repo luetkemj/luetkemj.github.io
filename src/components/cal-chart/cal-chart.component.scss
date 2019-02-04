@@ -1,0 +1,42 @@
+@import '../../theme/base.scss';
+
+.calchart {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__month {
+    margin-bottom: 16px;
+    margin-right: 16px;
+  }
+
+  &__month-name {
+    font-family: 'Inconsolata';
+    color: $date-color;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+
+  &__week {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__day {
+    width: 16px;
+    height: 16px;
+    margin: 0 4px 4px 0;
+
+    &--yes {
+      background-color: $green1;
+    }
+
+    &--no {
+      background-color: $gray2;
+    }
+
+    &--null {
+      background-color: transparent;
+    }
+  }
+}

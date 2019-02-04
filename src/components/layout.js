@@ -25,15 +25,13 @@ const Layout = ({ children }) => (
         <div className="layout__sprinkles">
           <Sprinkles />
         </div>
-        
+
         <div className="layout__header">
           <Header siteTitle={data.site.siteMetadata.title} />
         </div>
-        
-        <div className="layout__content">
-          {children}
-        </div>
-        
+
+        <div className="layout__content">{children}</div>
+
         <Footer title={data.site.siteMetadata.title} />
       </div>
     )}

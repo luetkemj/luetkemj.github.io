@@ -1,0 +1,37 @@
+@import '../../theme/base.scss';
+
+.rows {
+  &__row {
+    font-family: 'Inconsolata';
+    color: $date-color;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    margin-bottom: 8px;
+  }
+
+  &__bar {
+    background: $gray2;
+    flex-grow: 1;
+    margin: 0 8px;
+    overflow: hidden;
+  }
+
+  &__progress {
+    background: $green1;
+    height: 100%;
+  }
+
+  &__check {
+    opacity: 0;
+    color: $green1;
+
+    &.rows__success {
+      opacity: 1;
+    }
+  }
+
+  &__total {
+    text-align: right;
+  }
+}
