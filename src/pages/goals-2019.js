@@ -27,6 +27,9 @@ const Goals2019Page = ({ data }) => (
       <h2>X-Train 4 days a week</h2>
       <CalChart data={data.allJsonJson.edges[0].node.xtrain.data} />
 
+      <h2>Meditation Practice</h2>
+      <CalChart data={data.allJsonJson.edges[0].node.meditation.data} />
+
       <br />
 
       <h2>Publish 1 new blog post a month</h2>
@@ -62,6 +65,12 @@ export const pageQuery = graphql`
             data
             meta {
               comments
+            }
+          }
+          meditation {
+            data {
+              month
+              days
             }
           }
           xtrain {

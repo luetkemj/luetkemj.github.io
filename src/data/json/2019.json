@@ -24,7 +24,7 @@
         "month": "FEB",
         "days": [
           [2, 2, 2, 2, 0, 0, 0],
-          [1, 1, 0, 0, 0, 0, 0],
+          [1, 1, 1, 0, 0, 0, 0],
           [0, 0, 0, 0, 0, 0, 0],
           [0, 0, 0, 0, 0, 0, 0],
           [0, 0, 0, 0, 2, 2, 2]
@@ -32,18 +32,45 @@
       }
     ],
     "meta": {
-      "comments": "data is per week, 2 is a null day (belongs to next or prev month), 0 is no exercise, 1 is exercise"
+      "comments": "data is per week MTWTFSS, 2 is a null day (belongs to next or prev month), 0 is no exercise, 1 is exercise"
+    }
+  },
+  "meditation": {
+    "data": [
+      {
+        "month": "JAN",
+        "days": [
+          [2, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 1, 1, 0],
+          [1, 1, 1, 1, 0, 0, 1],
+          [0, 0, 0, 0, 2, 2, 2]
+        ]
+      },
+      {
+        "month": "FEB",
+        "days": [
+          [2, 2, 2, 2, 0, 0, 0],
+          [1, 1, 1, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 2, 2, 2]
+        ]
+      }
+    ],
+    "meta": {
+      "comments": "data is per week MTWTFSS, 2 is a null day (belongs to next or prev month), 0 is no exercise, 1 is exercise"
     }
   },
   "sober": {
     "data": [
       {
         "month": "",
-        "days": [[1, 1, 1, 1, 1, 1]]
+        "days": [[1, 1, 1, 1, 1, 1, 1]]
       }
     ],
     "meta": {
-      "comments": "1.30 - 2.4"
+      "comments": "1.30 - 2.5"
     }
   }
 }
