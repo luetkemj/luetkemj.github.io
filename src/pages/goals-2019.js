@@ -44,6 +44,11 @@ const Goals2019Page = ({ data }) => (
           title="New Look, Same Great Taste!"
         />
       </ul>
+      <div className="calchart__month-name">FEB</div>
+      <div className="calchart__month-name">MAR</div>
+      <ul style={{ marginLeft: 0 }}>
+        <ListItem path="/190305/neistat/" title="Neistat" />
+      </ul>
 
       <h2>Days Sober</h2>
       <CalChart data={data.allJsonJson.edges[0].node.sober.data} />
