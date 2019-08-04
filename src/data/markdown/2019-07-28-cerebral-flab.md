@@ -15,6 +15,6 @@ No restrictions. No daily requirement. Simply a weekly logging of whatever creat
 
 Weeks start on Monday. This is Sunday. So here is my accounting for the week of July 22, 2019.
 
-![brain exercises](../../images/cerebral-flab.png)
+![brain exercises](../../images/CA-190722-cerebral-flab.png)
 
 Here is begins.
