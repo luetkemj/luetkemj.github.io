@@ -11,8 +11,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-layout`,
       options: {
-          component: require.resolve(`./src/components/layout.js`)
-      }
+        component: require.resolve(`./src/components/layout.js`),
+      },
     },
     {
       resolve: `gatsby-plugin-typography`,
@@ -39,7 +39,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/data/markdown`,
-        name: "markdown-pages",
+        name: 'markdown-pages',
       },
     },
     {
@@ -50,7 +50,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              classPrefix: "language-",
+              classPrefix: 'language-',
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
@@ -64,9 +64,11 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 590,
-              wrapperStyle: 'margin-left: 0!important; margin-right: 0!important;',
+              wrapperStyle:
+                'margin-left: 0!important; margin-right: 0!important;',
             },
           },
+          `gatsby-remark-copy-linked-files`,
         ],
       },
     },
@@ -87,7 +89,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-19986266-1",
+        trackingId: 'UA-19986266-1',
         // Puts tracking script in the head instead of the body
         head: false,
         // Setting this parameter is optional
@@ -122,9 +124,9 @@ module.exports = {
                   return Object.assign({}, edge.node.frontmatter, {
                     url: site.siteMetadata.siteUrl + edge.node.fields.path,
                     guid: site.siteMetadata.siteUrl + edge.node.fields.path,
-                    custom_elements: [{ "content:encoded": edge.node.html }],
-                  });
-              });
+                    custom_elements: [{ 'content:encoded': edge.node.html }],
+                  })
+                })
             },
             query: `
               {
@@ -146,7 +148,7 @@ module.exports = {
                 }
               }
             `,
-            output: "/feed.xml",
+            output: '/feed.xml',
           },
         ],
       },
