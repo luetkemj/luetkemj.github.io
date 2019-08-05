@@ -5,7 +5,7 @@ date: 2019-08-04 18:04:55
 categories: life
 ---
 
-So this week I spent a few mornings dusting off the old animation chops. Got a walk cycles, a bouncing ball a spinning ball, and a double take. Really just seeing how it feels to bang some of this stuff out again. No fancy equipment. Just printer paper and a cheap light table I've had for over a decade. Fancy will only come if I find myself getting serious about any of this.
+So this week I spent a few mornings dusting off the old animation chops. Got a walk cycle, a bouncing ball, a spinning ball, and a double take. Really just seeing how it feels to bang some of this stuff out again. No fancy equipment, just printer paper and a cheap light table I've had for over a decade. Fancy will only come if I find myself getting serious about any of this.
 
 ![walks](../../images/CA-190805-walks.gif)
 ![ball bouncing](../../images/CA-190805-ball-bouncing.gif)
