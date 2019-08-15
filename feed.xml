@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 05 Aug 2019 00:19:12 GMT</lastBuildDate><item><title><![CDATA[Creative Accounting]]></title><link>https://luetkemj.github.io//190728/creative-accounting</link><guid isPermaLink="false">https://luetkemj.github.io//190728/creative-accounting</guid><pubDate>Sun, 04 Aug 2019 18:04:55 GMT</pubDate><content:encoded>&lt;p&gt;So this week I spent a few mornings dusting off the old animation chops. Got a walk cycle, a bouncing ball, a spinning ball, and a double take. Really just seeing how it feels to bang some of this stuff out again. No fancy equipment, just printer paper and a cheap light table I&apos;ve had for over a decade. Fancy will only come if I find myself getting serious about any of this.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 15 Aug 2019 01:12:33 GMT</lastBuildDate><item><title><![CDATA[Does This Count?]]></title><link>https://luetkemj.github.io//190814/does-this-count</link><guid isPermaLink="false">https://luetkemj.github.io//190814/does-this-count</guid><pubDate>Wed, 14 Aug 2019 19:39:30 GMT</pubDate><content:encoded>&lt;p&gt;There&apos;s not a lot to show this week. I was in CO on vacation with my brother running (ok, hiking) trails in Ouray CO. It was a great chance to spend some time with family and really experience what real trails feel like. The Texas heat is rough and our rocky terrain is no joke but 800ft per mile for 5 miles straight up is bananas. The views were incredible and I can&apos;t wait to do it again.&lt;/p&gt;
+&lt;p&gt;As far as artistic output - I spent some time tracking dialogue on x-sheets for an animation I&apos;ve been messing with. I put in some work on Aglet again - got the &lt;a href=&quot;http://aglet.io/tools/hunter-gatherer/&quot;&gt;hunter gatherer app&lt;/a&gt; embedded at a POC level but it&apos;s still on a branch. Not a lot else.&lt;/p&gt;
+&lt;p&gt;Watched the last season of Stranger Things (3) yesterday and Holy Cow! Way better than expected. And &lt;strong&gt;strangely&lt;/strong&gt; motivating...&lt;/p&gt;
+&lt;p&gt;Beyond that, I dunno - just trying to stay consistent.&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bc1775f77b23d060fa622f87468886c1/63b09/CA-190814-old-horse-thief.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: 0!important; margin-right: 0!important; max-width: 574px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.08710801393728%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABY2VoOwnBf//EABsQAAIBBQAAAAAAAAAAAAAAAAABBAIREhQh/9oACAEBAAEFAlJNpDlVXxG+H//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAgBAgEBPwHSv//EABkQAAIDAQAAAAAAAAAAAAAAAAAhARBBkf/aAAgBAQAGPwJmijo7/8QAGhABAAMBAQEAAAAAAAAAAAAAAQAhMRFRgf/aAAgBAQABPyF3D8ZTHSxgQ9VeExFR3Z//2gAMAwEAAgADAAAAEGv/AP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EIj/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARFh/9oACAECAQE/EMQu/8QAGxABAAMBAAMAAAAAAAAAAAAAAQARIUFRcYH/2gAIAQEAAT8QSLniCFRt0q2YDL5YFgCvyGwsNFz5Dq7vqf/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;taking in the view&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bc1775f77b23d060fa622f87468886c1/63b09/CA-190814-old-horse-thief.jpg&quot;
+        srcset=&quot;/static/bc1775f77b23d060fa622f87468886c1/0faf1/CA-190814-old-horse-thief.jpg 148w,
+/static/bc1775f77b23d060fa622f87468886c1/523cc/CA-190814-old-horse-thief.jpg 295w,
+/static/bc1775f77b23d060fa622f87468886c1/63b09/CA-190814-old-horse-thief.jpg 574w&quot;
+        sizes=&quot;(max-width: 574px) 100vw, 574px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Runs on Strava:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.strava.com/activities/2610876707&quot;&gt;Old Horsethief to glacier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.strava.com/activities/2608066250&quot;&gt;Houray Ouray&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Creative Accounting]]></title><link>https://luetkemj.github.io//190728/creative-accounting</link><guid isPermaLink="false">https://luetkemj.github.io//190728/creative-accounting</guid><pubDate>Sun, 04 Aug 2019 18:04:55 GMT</pubDate><content:encoded>&lt;p&gt;So this week I spent a few mornings dusting off the old animation chops. Got a walk cycle, a bouncing ball, a spinning ball, and a double take. Really just seeing how it feels to bang some of this stuff out again. No fancy equipment, just printer paper and a cheap light table I&apos;ve had for over a decade. Fancy will only come if I find myself getting serious about any of this.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/CA-190805-walks-b81a25df3b9c73ec6bb0a083f0d940c2.gif&quot; alt=&quot;walks&quot;&gt;
 &lt;img src=&quot;/CA-190805-ball-bouncing-08773357003ecdc0ca6243769528e2c1.gif&quot; alt=&quot;ball bouncing&quot;&gt;
 &lt;img src=&quot;/CA-190805-ball-spinning-584cbc3260dd8d37d2dc4d57d4fe15ea.gif&quot; alt=&quot;ball spinning&quot;&gt;
