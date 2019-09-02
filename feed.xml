@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 15 Aug 2019 01:12:33 GMT</lastBuildDate><item><title><![CDATA[Does This Count?]]></title><link>https://luetkemj.github.io//190814/does-this-count</link><guid isPermaLink="false">https://luetkemj.github.io//190814/does-this-count</guid><pubDate>Wed, 14 Aug 2019 19:39:30 GMT</pubDate><content:encoded>&lt;p&gt;There&apos;s not a lot to show this week. I was in CO on vacation with my brother running (ok, hiking) trails in Ouray CO. It was a great chance to spend some time with family and really experience what real trails feel like. The Texas heat is rough and our rocky terrain is no joke but 800ft per mile for 5 miles straight up is bananas. The views were incredible and I can&apos;t wait to do it again.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 02 Sep 2019 18:23:20 GMT</lastBuildDate><item><title><![CDATA[Does This Count?]]></title><link>https://luetkemj.github.io//190814/does-this-count</link><guid isPermaLink="false">https://luetkemj.github.io//190814/does-this-count</guid><pubDate>Wed, 14 Aug 2019 19:39:30 GMT</pubDate><content:encoded>&lt;p&gt;There&apos;s not a lot to show this week. I was in CO on vacation with my brother running (ok, hiking) trails in Ouray CO. It was a great chance to spend some time with family and really experience what real trails feel like. The Texas heat is rough and our rocky terrain is no joke but 800ft per mile for 5 miles straight up is bananas. The views were incredible and I can&apos;t wait to do it again.&lt;/p&gt;
 &lt;p&gt;As far as artistic output - I spent some time tracking dialogue on x-sheets for an animation I&apos;ve been messing with. I put in some work on Aglet again - got the &lt;a href=&quot;http://aglet.io/tools/hunter-gatherer/&quot;&gt;hunter gatherer app&lt;/a&gt; embedded at a POC level but it&apos;s still on a branch. Not a lot else.&lt;/p&gt;
 &lt;p&gt;Watched the last season of Stranger Things (3) yesterday and Holy Cow! Way better than expected. And &lt;strong&gt;strangely&lt;/strong&gt; motivating...&lt;/p&gt;
 &lt;p&gt;Beyond that, I dunno - just trying to stay consistent.&lt;/p&gt;
@@ -34,7 +34,47 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.strava.com/activities/2610876707&quot;&gt;Old Horsethief to glacier&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.strava.com/activities/2608066250&quot;&gt;Houray Ouray&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Creative Accounting]]></title><link>https://luetkemj.github.io//190728/creative-accounting</link><guid isPermaLink="false">https://luetkemj.github.io//190728/creative-accounting</guid><pubDate>Sun, 04 Aug 2019 18:04:55 GMT</pubDate><content:encoded>&lt;p&gt;So this week I spent a few mornings dusting off the old animation chops. Got a walk cycle, a bouncing ball, a spinning ball, and a double take. Really just seeing how it feels to bang some of this stuff out again. No fancy equipment, just printer paper and a cheap light table I&apos;ve had for over a decade. Fancy will only come if I find myself getting serious about any of this.&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No Quarter]]></title><link>https://luetkemj.github.io//190902/the-last-few-weeks</link><guid isPermaLink="false">https://luetkemj.github.io//190902/the-last-few-weeks</guid><pubDate>Wed, 14 Aug 2019 19:39:30 GMT</pubDate><content:encoded>&lt;p&gt;Last checkin I was on page 178 of the red journal. I officially finished and archived that book last night and am now on page 7 of the orange journal. 76 pages in 19 days. 4 pages a day.&lt;/p&gt;
+&lt;p&gt;Sometimes life is hard. Sometimes it&apos;s just Tuesday.&lt;/p&gt;
+&lt;p&gt;I&apos;ve been running. More on trails lately. Which is wonderful but makes it harder to get back on the road. I need a nice mix. Should try and get back on the road again soon.&lt;/p&gt;
+&lt;p&gt;Aglet is coming along. Finally got the Dogfood Alpha Milestone completed. All the tabs in the gazetteer work - albeit in a primitive form of MVP. Pointy-top hex math has been added. This paves the way for subhexes allowing for zoom in. I say this a lot but it&apos;s actually getting close to a thing that may be useful soon.&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/95fc03afbf4429a0ca2ebba900ee8759/c2081/CA-190902-aglet.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: 0!important; margin-right: 0!important; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.31400117164616%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACjElEQVQoz02S60vTcRSHf3+AEIIE9cI3Vi96YUEFEkSSvtCkNLCal6ZOZ1PxQoqZ081bli4tpzJvqUuNUPPSi6Qiy4IS0ujyIkqpULLwgrrN3benfUeGBw7nvDmf8zkPR1IUFpCsyCL+kpKzsnTikxTI5AoS5GkkylNJSkn115Q0BenKDDIylaQq0igtU9PW0U63sYfyikrSlCoKCq8ghZX1cUClIVyrJ89QQ4H+KkGXm9md1UxQloFAlYFdma00DD9lYeM3cyu/+LH+h/nVJb4tLzK/tsSCeZVFyxo/N1eQQtV95PVdZ/aLjrm3SgZv7KG6MJi9Si1ScjsBmXqkVD36sZd4HDZMZgt2ux2Hw4HT5cTpdPp7m82Gy+VCOqYx0vZCR+/rOww/K2Zi8DT5lReQEtuJa9Ax8iiHmLoGGoenwGXDsrXlFxTDHo/HnyK8Xi9utxspvLqXmwOl3J3W0z9joOeNGkVjNLE1OYxMqnl+7yhR2lyyOyfBueVzaMZisWD2VfO/XiwQDq1WK9JxrZHo2noez9bR338Kw6sSqo0xzExE8OFzFZ1DKURUnkDW9AC3w47ZJyDcCTc7q0hxvhR6zUhRczbfP+ZQ+TCLizUyBrSBDFcFsjyn4f0nLZr7SuQtQ35B4Ui42ea4neJ0P8O8lnpmnkQyNRbNmdpaAtKbmB6JpUsXwu2BKGa/alB26oi7NepjaGd9YwOrT3Cb3Xb8Z3i4pIuExghGe/cz+66MsKomusdVlPdFkt1xiAzDeaSkO5xrGPEhNPkZimERwpHgtjOkI5pB9hWoUWnlFHU2EpzXysGiYk5W5BJVl09Ikc73NgZSWsfxOu1smkx+VsKhqOJ0sUBg2PJ9wF+22F0L3C8k8AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;aglet-190902&quot;
+        title=&quot;&quot;
+        src=&quot;/static/95fc03afbf4429a0ca2ebba900ee8759/2c4ad/CA-190902-aglet.png&quot;
+        srcset=&quot;/static/95fc03afbf4429a0ca2ebba900ee8759/95a11/CA-190902-aglet.png 148w,
+/static/95fc03afbf4429a0ca2ebba900ee8759/ee161/CA-190902-aglet.png 295w,
+/static/95fc03afbf4429a0ca2ebba900ee8759/2c4ad/CA-190902-aglet.png 590w,
+/static/95fc03afbf4429a0ca2ebba900ee8759/63d17/CA-190902-aglet.png 885w,
+/static/95fc03afbf4429a0ca2ebba900ee8759/29dd9/CA-190902-aglet.png 1180w,
+/static/95fc03afbf4429a0ca2ebba900ee8759/9509c/CA-190902-aglet.png 1770w,
+/static/95fc03afbf4429a0ca2ebba900ee8759/c2081/CA-190902-aglet.png 3414w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Got a table saw and router. The shop is stocked and after I get an outfeed table built for the table saw I&apos;ll be able to get building stuff in earnest. Looking forward to it.&lt;/p&gt;
+&lt;p&gt;I have a lot of hobbies. Doesn&apos;t feel like enough time in the day. Been going to bed around 8:30 and getting up 3:30 to 4am. Sounds early but it&apos;s still around 7 hours of sleep which is more than I used to get. And it&apos;s more restful now that my liver isn&apos;t pulling the night shift every day.&lt;/p&gt;
+&lt;p&gt;It&apos;s been a week since our last drink. My brain is slowly turning the lights back on. Cancer is a mind fuck. Getting over it has been harder than fighting it ever was. But I think we may finally be getting our lives back.&lt;/p&gt;
+&lt;p&gt;Every 7 years your body refreshes all it&apos;s cells. You are a new person. My life has been going through massive swings at a faster clip than that. Maybe I should try riding the waves instead of fighting them. Or at least accepting it as a part of life and seeing what I can do to harness their power.&lt;/p&gt;
+&lt;p&gt;&quot;Don&apos;t give up. Don&apos;t give in. No quarter.&quot;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Creative Accounting]]></title><link>https://luetkemj.github.io//190728/creative-accounting</link><guid isPermaLink="false">https://luetkemj.github.io//190728/creative-accounting</guid><pubDate>Sun, 04 Aug 2019 18:04:55 GMT</pubDate><content:encoded>&lt;p&gt;So this week I spent a few mornings dusting off the old animation chops. Got a walk cycle, a bouncing ball, a spinning ball, and a double take. Really just seeing how it feels to bang some of this stuff out again. No fancy equipment, just printer paper and a cheap light table I&apos;ve had for over a decade. Fancy will only come if I find myself getting serious about any of this.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/CA-190805-walks-b81a25df3b9c73ec6bb0a083f0d940c2.gif&quot; alt=&quot;walks&quot;&gt;
 &lt;img src=&quot;/CA-190805-ball-bouncing-08773357003ecdc0ca6243769528e2c1.gif&quot; alt=&quot;ball bouncing&quot;&gt;
 &lt;img src=&quot;/CA-190805-ball-spinning-584cbc3260dd8d37d2dc4d57d4fe15ea.gif&quot; alt=&quot;ball spinning&quot;&gt;
