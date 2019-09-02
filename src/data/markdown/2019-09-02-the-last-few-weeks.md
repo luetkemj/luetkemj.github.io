@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'No Quarter'
-date: 2019-08-14 19:39:30
+date: 2019-09-02 13:32:45
 categories: life
 ---
 
