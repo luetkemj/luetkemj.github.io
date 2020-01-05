@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "100 Miles of Memories"
-date:   2016-05-01 20:17:30
+title: '100 Miles of Memories'
+date: 2016-05-01 20:17:30
 categories: life
 ---
 
@@ -15,7 +15,7 @@ I'm doing this one for the memories. I'm doing this one for the adventure. I doi
 
 There is nothing quite like suffering with family.
 
-![](http://i.imgur.com/mII0AWl.jpg "_.map()")
+![](https://i.imgur.com/mII0AWl.jpg '_.map()')
 Photo: [Zombie Mark](http://tuff-it-out.blogspot.com/2011/11/grindstone-100-2nd-100-miler.html)
 
 Sunrise during the 2011 Grindstone 100.

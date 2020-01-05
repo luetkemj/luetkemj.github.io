@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Practicing Hardship"
-date:   2016-10-21 15:17:30
+title: 'Practicing Hardship'
+date: 2016-10-21 15:17:30
 categories: life
 ---
 
@@ -11,4 +11,4 @@ The green belt is different challenge altogether. It’s a 10 mile loop around a
 
 One of the things that attracted me to long distance running in the first place was this very experience. I always looked at it as a means to practice hardship. So many things in life can just be bailed on when the going gets tough. Fortunately, a bonk 6 miles from your car with no money and no phone is not one of them.
 
-![Town Lake](http://i.imgur.com/jLY7p6w.jpg)
+![Town Lake](https://i.imgur.com/jLY7p6w.jpg)
