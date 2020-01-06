@@ -6,7 +6,6 @@ import Header from './header/header'
 import Footer from './footer/footer'
 import Sprinkles from './sprinkles'
 
-import './layout.css'
 import './layout.scss'
 
 const Layout = ({ children }) => (
