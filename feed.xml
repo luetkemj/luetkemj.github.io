@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 06 Jan 2020 01:51:40 GMT</lastBuildDate><item><title><![CDATA[Yet Another Lost Amulet]]></title><link>https://luetkemj.github.io/191117/yala</link><guid isPermaLink="false">https://luetkemj.github.io/191117/yala</guid><pubDate>Sun, 17 Nov 2019 15:02:25 GMT</pubDate><content:encoded>&lt;p&gt;Last checkin I was on page 7 of the orange journal. That&apos;s been archived and I am now on 204 of the yellow journal. 449 pages in 76 days. 5.9 pages a day. The pace has quickened.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 18 Apr 2020 14:48:53 GMT</lastBuildDate><item><title><![CDATA[Yet Another Lost Amulet]]></title><link>https://luetkemj.github.io/191117/yala</link><guid isPermaLink="false">https://luetkemj.github.io/191117/yala</guid><pubDate>Sun, 17 Nov 2019 15:02:25 GMT</pubDate><content:encoded>&lt;p&gt;Last checkin I was on page 7 of the orange journal. That&apos;s been archived and I am now on 204 of the yellow journal. 449 pages in 76 days. 5.9 pages a day. The pace has quickened.&lt;/p&gt;
 &lt;p&gt;Last update I was working on Aglet. I haven&apos;t really touched it since then. I was thinking recently about how I used to make a lot comics. About how so much of my energy was spent convincing myself it was worth the effort. Comics always just felt like so much work. This isn&apos;t to say that making comics wasn&apos;t worth the effort just recognizing that some part of me deep down always fought it.&lt;/p&gt;
 &lt;p&gt;Programming is something that rarely feels like work. This is probably why I like my job. Aglet has recently started to feel like work. So much infrastructure and planning just to get to the fun procedural generation parts.&lt;/p&gt;
 &lt;p&gt;That&apos;s when it hit me. There is an entire genre of video games that focuses almost exclusively on the very things I find the most satisfying about Aglet.&lt;/p&gt;
@@ -177,7 +177,388 @@
 &lt;p&gt;Roguelike development appears to be a very rich and very deep mine. The community has been extremely welcoming and generous right out of the gate. I&apos;m excited to see how far I can take this. How many more times I will scratch this game to start over with fresh knowledge. And where exactly I will go from here.&lt;/p&gt;
 &lt;h1&gt;PCGDGNS | &lt;a href=&quot;https://luetkemj.github.io/pcgdgns/&quot;&gt;play&lt;/a&gt; | &lt;a href=&quot;https://github.com/luetkemj/pcgdgns&quot;&gt;source&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Not interested in refactoring the last feature I added to Snail2 this morning, I built a quick little dev tool to help with procedural map generation. I&apos;ve seen a lot of tutorials that animate each step along the way of building out a dungeon. Being able to see what the computer is doing is immensely helpful and I&apos;m really excited to try another map algorithm or just expand on this one using this tool. So far I&apos;ve only implemented a simple boxes and passages approach with a drunken walk excavation at the end but like all things in this world, the possibilities are endless!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/c9e6f7584599b5587a82d55e3cdc6c91/CA-191117-pcgdgns3.gif&quot; alt=&quot;pcgdgns&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No Quarter]]></title><link>https://luetkemj.github.io/190902/no-quarter</link><guid isPermaLink="false">https://luetkemj.github.io/190902/no-quarter</guid><pubDate>Mon, 02 Sep 2019 13:32:45 GMT</pubDate><content:encoded>&lt;p&gt;Last checkin I was on page 178 of the red journal. I officially finished and archived that book last night and am now on page 7 of the orange journal. 76 pages in 19 days. 4 pages a day.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/c9e6f7584599b5587a82d55e3cdc6c91/CA-191117-pcgdgns3.gif&quot; alt=&quot;pcgdgns&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Unstuck #1 Eye Spy]]></title><link>https://luetkemj.github.io/200418/unstuck-1</link><guid isPermaLink="false">https://luetkemj.github.io/200418/unstuck-1</guid><pubDate>Sun, 17 Nov 2019 15:02:25 GMT</pubDate><content:encoded>&lt;h1&gt;Roll&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3d35c1d5b4e52f6f60b3a74cbe16dfc5/e937d/unstuck1-6.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABtxFcUw5oP//EABsQAAIBBQAAAAAAAAAAAAAAAAACAQMREhMi/9oACAEBAAEFAii2yDtZTKRls3//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BZX//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8BbH//xAAbEAACAgMBAAAAAAAAAAAAAAAAAQISEBEiYf/aAAgBAQAGPwItVx8eNxOhpyP/xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAxQXH/2gAIAQEAAT8h8oUO5FQLDEypQR3e/ga2Vvt3/9oADAMBAAIAAwAAABCwz//EABgRAAIDAAAAAAAAAAAAAAAAAAABUYHw/9oACAEDAQE/EBMjUf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAEaH/2gAIAQIBAT8QGTc3l//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQXFRYeH/2gAIAQEAAT8QyKvVBtxo9y2cQFPcr4jdhyfGAKuTgHcw0m1lnGmf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck6&quot;
+        title=&quot;unstuck6&quot;
+        src=&quot;/static/3d35c1d5b4e52f6f60b3a74cbe16dfc5/88218/unstuck1-6.jpg&quot;
+        srcset=&quot;/static/3d35c1d5b4e52f6f60b3a74cbe16dfc5/7237a/unstuck1-6.jpg 148w,
+/static/3d35c1d5b4e52f6f60b3a74cbe16dfc5/0cfdf/unstuck1-6.jpg 295w,
+/static/3d35c1d5b4e52f6f60b3a74cbe16dfc5/88218/unstuck1-6.jpg 590w,
+/static/3d35c1d5b4e52f6f60b3a74cbe16dfc5/77d57/unstuck1-6.jpg 885w,
+/static/3d35c1d5b4e52f6f60b3a74cbe16dfc5/e937d/unstuck1-6.jpg 1024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Steel&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9fce5365c83e38b7ba59ab5c89a17d0b/f30e0/unstuck1-13.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.63557858376511%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAUMj3l1CYr//xAAaEAEAAgMBAAAAAAAAAAAAAAACAAEDESEx/9oACAEBAAEFAh5i4mu7uoErin//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAABBAMAAAAAAAAAAAAAAAABAAIQIRExkf/aAAgBAQAGPwJ2Qriitnsf/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIXGRof/aAAgBAQABPyGliOUVMFFnwxRocYpvsmE5P//aAAwDAQACAAMAAAAQrB//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxAn/8QAGxABAAMBAQEBAAAAAAAAAAAAAQARMSHwQVH/2gAIAQEAAT8Q4AlJgfVMoPgfsdCLiLunthcciyvHY6RgKn//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck13&quot;
+        title=&quot;unstuck13&quot;
+        src=&quot;/static/9fce5365c83e38b7ba59ab5c89a17d0b/88218/unstuck1-13.jpg&quot;
+        srcset=&quot;/static/9fce5365c83e38b7ba59ab5c89a17d0b/7237a/unstuck1-13.jpg 148w,
+/static/9fce5365c83e38b7ba59ab5c89a17d0b/0cfdf/unstuck1-13.jpg 295w,
+/static/9fce5365c83e38b7ba59ab5c89a17d0b/88218/unstuck1-13.jpg 590w,
+/static/9fce5365c83e38b7ba59ab5c89a17d0b/77d57/unstuck1-13.jpg 885w,
+/static/9fce5365c83e38b7ba59ab5c89a17d0b/f30e0/unstuck1-13.jpg 1158w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Coil&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/14e04cc27e2344d8ddcb96b06e6d7b82/cdbd8/unstuck1-1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/2gAMAwEAAhADEAAAAYaaYxgZo5ZMxoM//8QAHhAAAgIBBQEAAAAAAAAAAAAAAREAAgMQEiEiIzL/2gAIAQEAAQUCROQjRuvsZZ3i3THTsuZjJdfj/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEQEv/aAAgBAwEBPwGJGT//xAAWEQADAAAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8BdP/EAB4QAAIBAwUAAAAAAAAAAAAAAAAhARARMQIiQWFx/9oACAEBAAY/AuhL0ZtyXnUi8SJUm1M8EH//xAAeEAEBAAICAgMAAAAAAAAAAAABEQAhMUFRYXGBkf/aAAgBAQABPyFL3ACuajZ9PDAt73LTndnrPeRdpMq2tRnFzSKrzOssCwefjFNELkNfeOVTKz9pn//aAAwDAQACAAMAAAAQOASP/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxA0alhkQsJvbn//xAAYEQADAQEAAAAAAAAAAAAAAAAAASEQUf/aAAgBAgEBPxBLpSY//8QAHhABAQACAwADAQAAAAAAAAAAAREAITFBUWFxkaH/2gAIAQEAAT8Q5zW3RxPteMFRtiSr4fHKUUoSJAw08ASgkePMuAFT8DJpnkwBjARyHMuQrgK7GuYff8y0giI/WSqB9TvCQkmkeM39AK3esOzui+tc/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck1&quot;
+        title=&quot;unstuck1&quot;
+        src=&quot;/static/14e04cc27e2344d8ddcb96b06e6d7b82/88218/unstuck1-1.jpg&quot;
+        srcset=&quot;/static/14e04cc27e2344d8ddcb96b06e6d7b82/7237a/unstuck1-1.jpg 148w,
+/static/14e04cc27e2344d8ddcb96b06e6d7b82/0cfdf/unstuck1-1.jpg 295w,
+/static/14e04cc27e2344d8ddcb96b06e6d7b82/88218/unstuck1-1.jpg 590w,
+/static/14e04cc27e2344d8ddcb96b06e6d7b82/cdbd8/unstuck1-1.jpg 768w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Illuminate&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3e0e741918140357ce0b1dc4ee32474d/cdbd8/unstuck1-3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAADAv/EABcBAQEBAQAAAAAAAAAAAAAAAAECAAP/2gAMAwEAAhADEAAAAQpK83cO5mW+O9tEif/EAB4QAQACAQQDAAAAAAAAAAAAAAIBESEAAxJCIjEy/9oACAEBAAEFAirBOecRoizUHZS8pwekupXro/v/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAWEQEBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQIBAT8BTI//xAAcEAACAgIDAAAAAAAAAAAAAAAAAQIRECEgImH/2gAIAQEABj8CaIyw1dC32Ho94s//xAAbEAEAAwEAAwAAAAAAAAAAAAABABExIVFhwf/aAAgBAQABPyFUIVreDcvIls3pC+wdJbjV+4h3bBrjs2zvIjEVtZ8ES2+Z/9oADAMBAAIAAwAAABAjJUD/xAAXEQEBAQEAAAAAAAAAAAAAAAABADEh/9oACAEDAQE/ECdjJO3/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREQUf/aAAgBAgEBPxBDbpJj/8QAHxABAAMAAgMAAwAAAAAAAAAAAQARITFxQWGhUbHw/9oACAEBAAE/ENYC7M9RaC4CURM+1ApydUH9xqBSzk78hOxX2xHjrzCwoW21sUvaKX1FQS9F/OkdNc2ccRGFqOz+3ZLzXTDqf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck3&quot;
+        title=&quot;unstuck3&quot;
+        src=&quot;/static/3e0e741918140357ce0b1dc4ee32474d/88218/unstuck1-3.jpg&quot;
+        srcset=&quot;/static/3e0e741918140357ce0b1dc4ee32474d/7237a/unstuck1-3.jpg 148w,
+/static/3e0e741918140357ce0b1dc4ee32474d/0cfdf/unstuck1-3.jpg 295w,
+/static/3e0e741918140357ce0b1dc4ee32474d/88218/unstuck1-3.jpg 590w,
+/static/3e0e741918140357ce0b1dc4ee32474d/cdbd8/unstuck1-3.jpg 768w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Compost&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ddd6f590be60c0392b239a7239f85e7e/7d9cf/unstuck1-5.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.03583061889251%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABKXM6GeH/AP/EABkQAAIDAQAAAAAAAAAAAAAAAAABAgMREv/aAAgBAQABBQJWQI2R3Uco5RiP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BiP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/Aar/xAAYEAADAQEAAAAAAAAAAAAAAAAAATEiof/aAAgBAQAGPwLRovCIiIj/xAAbEAEAAgIDAAAAAAAAAAAAAAABABFB8SExYf/aAAgBAQABPyEiqUxxmWNrPIEtvuNNNNNZP//aAAwDAQACAAMAAAAQlA//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCR/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxAP/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAIVExQcH/2gAIAQEAAT8QIpyQiem80MhCI4NoqxZmHFeuY/BuZ7um/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck5&quot;
+        title=&quot;unstuck5&quot;
+        src=&quot;/static/ddd6f590be60c0392b239a7239f85e7e/88218/unstuck1-5.jpg&quot;
+        srcset=&quot;/static/ddd6f590be60c0392b239a7239f85e7e/7237a/unstuck1-5.jpg 148w,
+/static/ddd6f590be60c0392b239a7239f85e7e/0cfdf/unstuck1-5.jpg 295w,
+/static/ddd6f590be60c0392b239a7239f85e7e/88218/unstuck1-5.jpg 590w,
+/static/ddd6f590be60c0392b239a7239f85e7e/77d57/unstuck1-5.jpg 885w,
+/static/ddd6f590be60c0392b239a7239f85e7e/5a917/unstuck1-5.jpg 1180w,
+/static/ddd6f590be60c0392b239a7239f85e7e/7d9cf/unstuck1-5.jpg 1228w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c71a5d5130ff6ef004fb555dbde95f25/cdbd8/unstuck1-2.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAwH/2gAMAwEAAhADEAAAAcXdL4xFwXtlnSJQP//EABsQAAEFAQEAAAAAAAAAAAAAAAEAAgMREyAh/9oACAEBAAEFAgfbVoRxgOyeTELyFCNZ8f/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABwQAAEEAwEAAAAAAAAAAAAAAAEAAhARICExYf/aAAgBAQAGPwKdvs+IdC08UqjuH//EABsQAQACAwEBAAAAAAAAAAAAAAEAMRARYSGh/9oACAEBAAE/IfkwRFOnpiIr5KjdM0PbxgDZVJEYqzfs/9oADAMBAAIAAwAAABCU2jz/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQFR/9oACAEDAQE/EIiZxMf/xAAYEQADAQEAAAAAAAAAAAAAAAAAARFREP/aAAgBAgEBPxDlelen/8QAHBABAAIDAQEBAAAAAAAAAAAAAQARITFBcZGB/9oACAEBAAE/EMvxArnhLVpuI/PLtejtZWIlSlbK1fPYtPOC3+yqX0Wr+yzCGGQewblX5HVwRuKtl+z/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck2&quot;
+        title=&quot;unstuck2&quot;
+        src=&quot;/static/c71a5d5130ff6ef004fb555dbde95f25/88218/unstuck1-2.jpg&quot;
+        srcset=&quot;/static/c71a5d5130ff6ef004fb555dbde95f25/7237a/unstuck1-2.jpg 148w,
+/static/c71a5d5130ff6ef004fb555dbde95f25/0cfdf/unstuck1-2.jpg 295w,
+/static/c71a5d5130ff6ef004fb555dbde95f25/88218/unstuck1-2.jpg 590w,
+/static/c71a5d5130ff6ef004fb555dbde95f25/cdbd8/unstuck1-2.jpg 768w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e5228d96a6abe34cdc2a91dbd108756b/0fc4e/unstuck1-4.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 127.20496894409938%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAAFAf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABD1icuZJkK8rBy5lH/8QAHxAAAQMEAwEAAAAAAAAAAAAAAgABAwQSEzERITIz/9oACAEBAAEFArDWM1jNNPyiLGz1bIRe+o+ZD3FubwGv/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHRAAAgEEAwAAAAAAAAAAAAAAAAEyAhEhgRAxUf/aAAgBAQAGPwKLIsixUesuRZTjFzZ2UG+P/8QAHRAAAwADAAMBAAAAAAAAAAAAAAERITFBUXGhsf/aAAgBAQABPyFT5ehVwUXGpi2g4C8XsK8vHHeDRNbyhKwRqbPvZqP6n//aAAwDAQACAAMAAAAQ+9rP/8QAFhEAAwAAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/EHT/xAAXEQEAAwAAAAAAAAAAAAAAAAAAEBFB/9oACAECAQE/EIxT/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITFB8FFhcf/aAAgBAQABPxDKX2q9L+xVkN1QXFgQaRxUrBkw1tZdacRTzFtU5bJgkRBdIikfFtQul3z8hCxBLUp7PM7PzO36Zu60T//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck4&quot;
+        title=&quot;unstuck4&quot;
+        src=&quot;/static/e5228d96a6abe34cdc2a91dbd108756b/88218/unstuck1-4.jpg&quot;
+        srcset=&quot;/static/e5228d96a6abe34cdc2a91dbd108756b/7237a/unstuck1-4.jpg 148w,
+/static/e5228d96a6abe34cdc2a91dbd108756b/0cfdf/unstuck1-4.jpg 295w,
+/static/e5228d96a6abe34cdc2a91dbd108756b/88218/unstuck1-4.jpg 590w,
+/static/e5228d96a6abe34cdc2a91dbd108756b/0fc4e/unstuck1-4.jpg 805w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Covid-19&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/eecf5c4744d7323687815228a14f7933/93d1b/unstuck1-8.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAABA//aAAwDAQACEAMQAAABncvedjFh/8QAGxAAAwACAwAAAAAAAAAAAAAAAAECAxEEEhP/2gAIAQEAAQUCU5GedGRVFzXQvks3s//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAICAwEAAAAAAAAAAAAAAAARASECMUFh/9oACAEBAAY/AukqcvBMcbKLP//EABsQAQADAQEBAQAAAAAAAAAAAAEAESExgUHx/9oACAEBAAE/IWEzQPktrg75caNPsen4pkSU5vxj2Wz/2gAMAwEAAgADAAAAED//AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EBn/xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhMVFBcf/aAAgBAQABPxAOiUnbXKjahkQp6vciwQBsX0izn3fHxAm8EDf0iNQrq7c//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck8&quot;
+        title=&quot;unstuck8&quot;
+        src=&quot;/static/eecf5c4744d7323687815228a14f7933/88218/unstuck1-8.jpg&quot;
+        srcset=&quot;/static/eecf5c4744d7323687815228a14f7933/7237a/unstuck1-8.jpg 148w,
+/static/eecf5c4744d7323687815228a14f7933/0cfdf/unstuck1-8.jpg 295w,
+/static/eecf5c4744d7323687815228a14f7933/88218/unstuck1-8.jpg 590w,
+/static/eecf5c4744d7323687815228a14f7933/77d57/unstuck1-8.jpg 885w,
+/static/eecf5c4744d7323687815228a14f7933/5a917/unstuck1-8.jpg 1180w,
+/static/eecf5c4744d7323687815228a14f7933/93d1b/unstuck1-8.jpg 4032w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Scream&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bbc2519a5acd4cc1c23915ae142ad501/93d1b/unstuck1-9.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAc5xOzBIgr//xAAaEAEAAgMBAAAAAAAAAAAAAAABAhEAECFB/9oACAEBAAEFAvWqXsRyWv/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAAAEBEhMf/aAAgBAQAGPwI5qpV//8QAGhAAAwEBAQEAAAAAAAAAAAAAAAERITFRcf/aAAgBAQABPyF586NeJS7TQVJ9vC8Twa0//9oADAMBAAIAAwAAABBv/wD/xAAWEQADAAAAAAAAAAAAAAAAAAABEFH/2gAIAQMBAT8QCr//xAAWEQADAAAAAAAAAAAAAAAAAAABECH/2gAIAQIBAT8QEX//xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhQTFRcf/aAAgBAQABPxBfG0Y7UIRyi7o+4fmRFEHewjBZQ7K2oBUH3Mmif//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck9&quot;
+        title=&quot;unstuck9&quot;
+        src=&quot;/static/bbc2519a5acd4cc1c23915ae142ad501/88218/unstuck1-9.jpg&quot;
+        srcset=&quot;/static/bbc2519a5acd4cc1c23915ae142ad501/7237a/unstuck1-9.jpg 148w,
+/static/bbc2519a5acd4cc1c23915ae142ad501/0cfdf/unstuck1-9.jpg 295w,
+/static/bbc2519a5acd4cc1c23915ae142ad501/88218/unstuck1-9.jpg 590w,
+/static/bbc2519a5acd4cc1c23915ae142ad501/77d57/unstuck1-9.jpg 885w,
+/static/bbc2519a5acd4cc1c23915ae142ad501/5a917/unstuck1-9.jpg 1180w,
+/static/bbc2519a5acd4cc1c23915ae142ad501/93d1b/unstuck1-9.jpg 4032w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Pinnochio&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/76b7e6142eeedafc69b4ad1e33f67bfa/6c89e/unstuck1-10.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEBQL/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQD/2gAMAwEAAhADEAAAAbMStcGcVBRTLdlwNJf/xAAcEAADAQACAwAAAAAAAAAAAAAAAQIRAxATIjH/2gAIAQEAAQUCulccvTr1pKzxs0n5jKMWn//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwG0oL//xAAXEQADAQAAAAAAAAAAAAAAAAABAiBB/9oACAECAQE/ASux/8QAHxAAAQMDBQAAAAAAAAAAAAAAAAEQIRExUTJBgZHB/9oACAEBAAY/Arv6RSMGhexTBucv/8QAHBABAAMAAgMAAAAAAAAAAAAAAQARIRAxYYGx/9oACAEBAAE/IbqaDqLqV5mYEzETpacNq4obtkd/SKN2vcIVAQQ2uP/aAAwDAQACAAMAAAAQtyFB/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxA0BYxy5f/EABgRAAMBAQAAAAAAAAAAAAAAAAABIREx/9oACAECAQE/EIJWUfDT/8QAHhABAAIDAAIDAAAAAAAAAAAAAQARITFRYXFBkaH/2gAIAQEAAT8QZbG6CJeV5fcQ5QX2PXtsgJ4rkTU3LEX3WY2t+75/kV3AWnnkW5LGtGJl5VpgBViUMLC/qCigu5//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck10&quot;
+        title=&quot;unstuck10&quot;
+        src=&quot;/static/76b7e6142eeedafc69b4ad1e33f67bfa/88218/unstuck1-10.jpg&quot;
+        srcset=&quot;/static/76b7e6142eeedafc69b4ad1e33f67bfa/7237a/unstuck1-10.jpg 148w,
+/static/76b7e6142eeedafc69b4ad1e33f67bfa/0cfdf/unstuck1-10.jpg 295w,
+/static/76b7e6142eeedafc69b4ad1e33f67bfa/88218/unstuck1-10.jpg 590w,
+/static/76b7e6142eeedafc69b4ad1e33f67bfa/77d57/unstuck1-10.jpg 885w,
+/static/76b7e6142eeedafc69b4ad1e33f67bfa/5a917/unstuck1-10.jpg 1180w,
+/static/76b7e6142eeedafc69b4ad1e33f67bfa/6c89e/unstuck1-10.jpg 3024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Cyclops&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5d6578f2bb3cec3e1dce77a19a8b0b62/cdbd8/unstuck1-12.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABcpsoTTCniamYphop/8QAGRABAQEBAQEAAAAAAAAAAAAAAQIAITED/9oACAEBAAEFAq8DhjrX1YR5VMDVUmce7//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAEDAQE/ASP/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAdEAABAgcAAAAAAAAAAAAAAAABACACAxARITGB/9oACAEBAAY/AmGWBg0Jh2jfrf/EABwQAAICAgMAAAAAAAAAAAAAAAABESEQMUFRcf/aAAgBAQABPyGxuslAygKiA23iasqoYD2w1HM3enZ//9oADAMBAAIAAwAAABAcMbz/xAAXEQEAAwAAAAAAAAAAAAAAAAABABBB/9oACAEDAQE/EDTbP//EABcRAQEBAQAAAAAAAAAAAAAAAAARAUH/2gAIAQIBAT8QquRj/8QAHRABAAMAAwEBAQAAAAAAAAAAAQARITFRcUGR0f/aAAgBAQABPxDcn5Lmre+EascLLFpNU7qEPOZCdV0f2WCkKzSb58sXtm1DgXjQ5cvzfkfHWcxP0wABBz6n/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck12&quot;
+        title=&quot;unstuck12&quot;
+        src=&quot;/static/5d6578f2bb3cec3e1dce77a19a8b0b62/88218/unstuck1-12.jpg&quot;
+        srcset=&quot;/static/5d6578f2bb3cec3e1dce77a19a8b0b62/7237a/unstuck1-12.jpg 148w,
+/static/5d6578f2bb3cec3e1dce77a19a8b0b62/0cfdf/unstuck1-12.jpg 295w,
+/static/5d6578f2bb3cec3e1dce77a19a8b0b62/88218/unstuck1-12.jpg 590w,
+/static/5d6578f2bb3cec3e1dce77a19a8b0b62/cdbd8/unstuck1-12.jpg 768w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Frankie&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/573f1f8f23c2c9d3d727967095c038f5/93d1b/unstuck1-7.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/2gAMAwEAAhADEAAAAX0pVF9UoLj/xAAbEAACAgMBAAAAAAAAAAAAAAABAgAhAxESMf/aAAgBAQABBQJ3IXC/RqONBLfyf//EABcRAQADAAAAAAAAAAAAAAAAAAECEBH/2gAIAQMBAT8BI6V//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bp//EABsQAAEEAwAAAAAAAAAAAAAAAAEAAhARIjGB/9oACAEBAAY/Asdo2T2C6yqj/8QAGhABAQEAAwEAAAAAAAAAAAAAAREAIUFhUf/aAAgBAQABPyGaF+TQCvcndxDGvukaSnOBEqzf/9oADAMBAAIAAwAAABBIz//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAwEBPxAlbL//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQIBAT8QYZn/xAAdEAEAAgICAwAAAAAAAAAAAAABABEhMUFxgbHR/9oACAEBAAE/EF6GMbA5Yrd18yUYG+5W6KzRz6gLXKxlXz1CBJhbtn//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;unstuck7&quot;
+        title=&quot;unstuck7&quot;
+        src=&quot;/static/573f1f8f23c2c9d3d727967095c038f5/88218/unstuck1-7.jpg&quot;
+        srcset=&quot;/static/573f1f8f23c2c9d3d727967095c038f5/7237a/unstuck1-7.jpg 148w,
+/static/573f1f8f23c2c9d3d727967095c038f5/0cfdf/unstuck1-7.jpg 295w,
+/static/573f1f8f23c2c9d3d727967095c038f5/88218/unstuck1-7.jpg 590w,
+/static/573f1f8f23c2c9d3d727967095c038f5/77d57/unstuck1-7.jpg 885w,
+/static/573f1f8f23c2c9d3d727967095c038f5/5a917/unstuck1-7.jpg 1180w,
+/static/573f1f8f23c2c9d3d727967095c038f5/93d1b/unstuck1-7.jpg 4032w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No Quarter]]></title><link>https://luetkemj.github.io/190902/no-quarter</link><guid isPermaLink="false">https://luetkemj.github.io/190902/no-quarter</guid><pubDate>Mon, 02 Sep 2019 13:32:45 GMT</pubDate><content:encoded>&lt;p&gt;Last checkin I was on page 178 of the red journal. I officially finished and archived that book last night and am now on page 7 of the orange journal. 76 pages in 19 days. 4 pages a day.&lt;/p&gt;
 &lt;p&gt;Sometimes life is hard. Sometimes it&apos;s just Tuesday.&lt;/p&gt;
 &lt;p&gt;I&apos;ve been running. More on trails lately. Which is wonderful but makes it harder to get back on the road. I need a nice mix. Should try and get back on the road again soon.&lt;/p&gt;
 &lt;p&gt;Aglet is coming along. Finally got the Dogfood Alpha Milestone completed. All the tabs in the gazetteer work - albeit in a primitive form of MVP. Pointy-top hex math has been added. This paves the way for subhexes allowing for zoom in. I say this a lot but it&apos;s actually getting close to a thing that may be useful soon.&lt;/p&gt;
