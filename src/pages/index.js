@@ -92,6 +92,45 @@ const IndexPage = ({
           />
           <ListItem path="/comics/fiesta" title="Fiesta" />
         </ul>
+
+        <h2 className="index__header">Games</h2>
+        <ul className="index__post-list">
+          <ListItem
+            external
+            path="https://luetkemj.github.io/gobs-o-goblins/"
+            title="Gobs O' Goblins"
+          />
+          <ListItem
+            external
+            path="https://luetkemj.github.io/snail6/ (covered in blood)"
+            title="Covered In Blood"
+          />
+          <ListItem
+            external
+            path="https://luetkemj.github.io/snail5/"
+            title="Snail 5"
+          />
+          <ListItem
+            external
+            path="https://luetkemj.github.io/snail4/"
+            title="Snail 4"
+          />
+          <ListItem
+            external
+            path="https://luetkemj.github.io/snail2/"
+            title="Snail 2"
+          />
+          <ListItem
+            external
+            path="https://luetkemj.github.io/snail/"
+            title="Snail"
+          />
+          <ListItem
+            external
+            path="https://luetkemj.github.io/snerv/"
+            title="Snerv"
+          />
+        </ul>
       </section>
     </div>
   )
