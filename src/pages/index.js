@@ -102,7 +102,7 @@ const IndexPage = ({
           />
           <ListItem
             external
-            path="https://luetkemj.github.io/snail6/ (covered in blood)"
+            path="https://luetkemj.github.io/snail6/"
             title="Covered In Blood"
           />
           <ListItem
