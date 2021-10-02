@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Dev Weekly'
-date: 2020-10-02 05:47:27
+date: 2021-10-02 05:47:27
 categories: code
 ---
 
