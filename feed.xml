@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 Oct 2021 22:49:11 GMT</lastBuildDate><item><title><![CDATA[Dev Weekly]]></title><link>https://luetkemj.github.io/211002/dev-weekly</link><guid isPermaLink="false">https://luetkemj.github.io/211002/dev-weekly</guid><pubDate>Sat, 02 Oct 2021 05:47:27 GMT</pubDate><content:encoded>&lt;p&gt;So I started tinkering with game development again over the last month or so. I stumbled on a different ECS library - &lt;a href=&quot;https://github.com/NateTheGreatt/bitECS&quot;&gt;bitECS&lt;/a&gt; - and for whatever reason it sparked the fires again. I decided to really switch things up and replaced both the ECS engine and the renderer opting this time for &lt;a href=&quot;https://pixijs.com/&quot;&gt;Pixi.js&lt;/a&gt; insead of my own custom implentation.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 09 Oct 2021 23:54:42 GMT</lastBuildDate><item><title><![CDATA[Dev Weekly - Week 2]]></title><link>https://luetkemj.github.io/211009/dev-weekly</link><guid isPermaLink="false">https://luetkemj.github.io/211009/dev-weekly</guid><pubDate>Thu, 07 Oct 2021 17:57:16 GMT</pubDate><content:encoded>&lt;p&gt;Busy week at work. So most of the following was done last weekend.&lt;/p&gt;
+&lt;p&gt;Work this week started with a complete redesign of the game layout. Pretty much all of my other games copied the general layout of Brogue. Now that my font is using half tiles, all of the sudden I have a lot more options. My first inclination was just to increase the visible map size. But planned support for a scrollable map makes that less important. So instead I&apos;m experimenting with always open menus. For now the layout now has a HUD, Ambient log, map, and menu tabs.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bff00a9be84f8544663f363ddbc0ad7a/01d6c/dev-weekly-2-ui.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.17214584578601%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABI0lEQVQoz42SW0+EMBCFuZRyLwUXKG0X13h7MMZHExNjTPz/f+k4LW7Cuq67DyclZebjnBmCoijAGEMcx8iyDEVRodtMeH/9xNPjC4IgJAX+FEJgGAa4niiK/H0YhgcKluJFVSlg9TXu7p/x8faF292DB/0Uous6WGvBOce675dWwKqBGi05qCFkjyCM0MkrqH4iSIamaWCMpbrqMmBNwO2oMantIr2DnWbMyiDNCkjpgAZJklwGFLWEIYdDr6FHg1q05EbQfUMzZgSUHliW5YWRCZhQNPfMeHpU3Latn6E793M9CXQO+o3yW87zkuam/JLWxc6h1pre56cd7r/kQLNycSf0FPlGz5BNd9Twj7NDh+6/4mmOmCU09NRvnP8R+5y+AR/uw/Ho4ubVAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ui relayout&quot;
+        title=&quot;ui relayout&quot;
+        src=&quot;/static/bff00a9be84f8544663f363ddbc0ad7a/799d3/dev-weekly-2-ui.png&quot;
+        srcset=&quot;/static/bff00a9be84f8544663f363ddbc0ad7a/00d96/dev-weekly-2-ui.png 148w,
+/static/bff00a9be84f8544663f363ddbc0ad7a/0b23c/dev-weekly-2-ui.png 295w,
+/static/bff00a9be84f8544663f363ddbc0ad7a/799d3/dev-weekly-2-ui.png 590w,
+/static/bff00a9be84f8544663f363ddbc0ad7a/2a3d6/dev-weekly-2-ui.png 885w,
+/static/bff00a9be84f8544663f363ddbc0ad7a/ae92f/dev-weekly-2-ui.png 1180w,
+/static/bff00a9be84f8544663f363ddbc0ad7a/01d6c/dev-weekly-2-ui.png 3346w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Next up was removing the concept of a hero from the game. Initially I had tossed together some dirty code just to get a feel for Bitecs and Pixi. This led to a lot references to the hero entity sprinkled throughout the codebase. The logic often had to take seperate paths for the hero as opposed to everything else. This would only get worse as the game grew. So I added a new PC component that is added to the hero instead. This is useful as the hero is now an entity just like every thing else. And I can even put the PC component on a goblin and play as one instead!&lt;/p&gt;
+&lt;p&gt;Finally, I started experimenting with world map generation. I mostly followed the &quot;Making maps with noise functions&quot; article on &lt;a href=&quot;https://www.redblobgames.com/maps/terrain-from-noise/&quot;&gt;redblobgames&lt;/a&gt;. That website is an endless resource of the highest quality content. Can&apos;t sing it&apos;s praises enough!&lt;/p&gt;
+&lt;p&gt;I put together a quick generator following the examples but quickly realized that editing the parameters in the code and rerendering was very inefficient and difficult to reason about the actual changes to the map. I added some &quot;knobs&quot; that rerender the map from a static seed giving me a chance to really tweak the options and play around with the math. I definitely don&apos;t understand the formulas enough to just work directly in the code.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/16a8266115eebfdf185effcae05a83a8/de760/dev-weekly-2-mapgen.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 138.19875776397515%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ui relayout&quot;
+        title=&quot;ui relayout&quot;
+        src=&quot;/static/16a8266115eebfdf185effcae05a83a8/799d3/dev-weekly-2-mapgen.png&quot;
+        srcset=&quot;/static/16a8266115eebfdf185effcae05a83a8/00d96/dev-weekly-2-mapgen.png 148w,
+/static/16a8266115eebfdf185effcae05a83a8/0b23c/dev-weekly-2-mapgen.png 295w,
+/static/16a8266115eebfdf185effcae05a83a8/799d3/dev-weekly-2-mapgen.png 590w,
+/static/16a8266115eebfdf185effcae05a83a8/2a3d6/dev-weekly-2-mapgen.png 885w,
+/static/16a8266115eebfdf185effcae05a83a8/ae92f/dev-weekly-2-mapgen.png 1180w,
+/static/16a8266115eebfdf185effcae05a83a8/de760/dev-weekly-2-mapgen.png 1288w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A lot of experimentation this week. Building blocks for moving forward.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dev Weekly]]></title><link>https://luetkemj.github.io/211002/dev-weekly</link><guid isPermaLink="false">https://luetkemj.github.io/211002/dev-weekly</guid><pubDate>Sat, 02 Oct 2021 05:47:27 GMT</pubDate><content:encoded>&lt;p&gt;So I started tinkering with game development again over the last month or so. I stumbled on a different ECS library - &lt;a href=&quot;https://github.com/NateTheGreatt/bitECS&quot;&gt;bitECS&lt;/a&gt; - and for whatever reason it sparked the fires again. I decided to really switch things up and replaced both the ECS engine and the renderer opting this time for &lt;a href=&quot;https://pixijs.com/&quot;&gt;Pixi.js&lt;/a&gt; insead of my own custom implentation.&lt;/p&gt;
 &lt;p&gt;At the start of this gamedev journey I attempted to write my own ECS library with marginal success. &lt;a href=&quot;https://github.com/luetkemj/snail4&quot;&gt;Snail4&lt;/a&gt; got pretty dang far with an entire health system built around limb damage and blood loss. But it being my first attempt eventually collapsed under it&apos;s own weight and naiveté.&lt;/p&gt;
 &lt;p&gt;Then I found &lt;a href=&quot;https://github.com/ddmills/geotic&quot;&gt;geotic&lt;/a&gt; and made a flurry of new games and experiements. It was inspired by some of &lt;a href=&quot;https://www.youtube.com/watch?v=4uxN5GqXcaA&quot;&gt;Brian Bucklew&apos;s talks&lt;/a&gt; from some years ago. I made good progress on some games and even nearly completed an &lt;a href=&quot;https://github.com/luetkemj/jsrlt&quot;&gt;entire javascript rewrite of the Complete Roguelike Tutorial series&lt;/a&gt;. With all that work under my belt I began one last doomed project. A multiplayer ASCII virtual table top.&lt;/p&gt;
 &lt;p&gt;Then I took a very long break.&lt;/p&gt;
