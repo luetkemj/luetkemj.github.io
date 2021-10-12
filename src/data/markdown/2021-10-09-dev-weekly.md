@@ -13,9 +13,7 @@ Work this week started with a complete redesign of the game layout. Pretty much 
 
 Next up was removing the concept of a hero from the game. Initially I had tossed together some dirty code just to get a feel for Bitecs and Pixi. This led to a lot references to the hero entity sprinkled throughout the codebase. The logic often had to take seperate paths for the hero as opposed to everything else. This would only get worse as the game grew. So I added a new PC component that is added to the hero instead. This is useful as the hero is now an entity just like every thing else. And I can even put the PC component on a goblin and play as one instead!
 
-Finally, I started experimenting with world map generation. I mostly followed the "Making maps with noise functions" article on [redblobgames](https://www.redblobgames.com/maps/terrain-from-noise/). That website is an endless resource of the highest quality content. Can't sing it's praises enough!
-
-I put together a quick generator following the examples but quickly realized that editing the parameters in the code and rerendering was very inefficient and difficult to reason about the actual changes to the map. I added some "knobs" that rerender the map from a static seed giving me a chance to really tweak the options and play around with the math. I definitely don't understand the formulas enough to just work directly in the code.
+Finally, I started experimenting with world map generation. I mostly followed the "Making maps with noise functions" article on [redblobgames](https://www.redblobgames.com/maps/terrain-from-noise/). I put together a quick generator following the examples but quickly realized that editing the parameters in the code and rerendering was very inefficient and difficult to reason about the actual changes to the map. I added some "knobs" that rerender the map from a static seed giving me a chance to really tweak the options and play around with the math. I definitely don't understand the formulas enough to just work directly in the code.
 
 ![ui relayout](../../images/dev-weekly-2-mapgen.png)
 
