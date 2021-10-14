@@ -5,7 +5,7 @@ date: 2021-10-13 08:02:47
 categories: life
 ---
 
-Everything was going great until it wasn't. Duthaldumat, "Worthy Roughness" in the common toungue, a once promising dwarven fortress now lay in ruin.
+Everything was going great until it wasn't. Duthaldumat, "Worthy Roughness" in the common tongue, a once promising dwarven fortress now lay in ruin.
 
 Sure I had had a few dwarves lose their minds in the midst of a Strange Mood. One retired to his room and refused food or drink. RIP Lokum Mogshumtekkud. Sorry we didn't have the materials needed to satisfy your creative needs. Aton and Thakut, y'all need to chill your guffins and try not going apeshit on your fellow dwarves next time. Also, maybe don't rise from the dead and haunt the cafeteria like that? Not cool.
 
