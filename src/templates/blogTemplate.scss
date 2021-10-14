@@ -64,8 +64,13 @@
   }
 }
 
+.duthaldumat {
+  color: #e43800;
+}
+
 // Syntax high-lighting code block background
-:not(pre) > code[class*="language-"], pre[class*="language-"] {
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
   background-color: #efefef;
   border: 1px solid #eee;
 }
