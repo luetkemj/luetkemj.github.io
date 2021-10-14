@@ -9,7 +9,7 @@ Everything was going great until it wasn't. Duthaldumat, "Worthy Roughness" in t
 
 Sure I had had a few dwarves lose their minds in the midst of a Strange Mood. One retired to his room and refused food or drink. RIP Lokum Mogshumtekkud. Sorry we didn't have the materials needed to satisfy your creative needs. Aton and Thakut, y'all need to chill your guffins and try not going apeshit on your fellow dwarves next time. Also, maybe don't rise from the dead and haunt the cafeteria like that? Not cool.
 
-Despite a few hiccups things were chugging along quite smoothly. Even the fogotton beast down in the caverns below didn't seem to pose much of a problem for us. Twenty years in, 120+ dwarves, babies out the wazoo, a thriving little trade depot... good times.
+Despite a few hiccups things were chugging along quite smoothly. Even the fogotton beast down in the caverns below didn't seem to pose much of a problem for us. Two years in, 120+ dwarves, babies out the wazoo, a thriving little trade depot... good times.
 
 I suppose it was the trade depot that eventually did us in. Nearly the entire fortress hauling goods to and fro. Under the blue sky. Exposed.
 
