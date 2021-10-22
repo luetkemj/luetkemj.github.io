@@ -37,7 +37,7 @@ Only to be welcomed by yet another "survivor" turned wereelephant and slaughtere
 
 ---
 
-Those poor few, who had already witnesses so much, made one last grasp for honor and legend. They through their bodies once more at this threat in a suicidal last ditch effort to rid the fortress of evil. What initially seemed like a surprising victory turned into anything but.
+Those poor few, who had already witnessed so much, made one last grasp for honor and legend. They threw their bodies once more at this threat in a suicidal last ditch effort to rid the fortress of evil. What initially seemed like a surprising victory turned into anything but.
 
 A miasma grows.
 
