@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 22 Oct 2021 16:29:45 GMT</lastBuildDate><item><title><![CDATA[Duthaldumat]]></title><link>https://luetkemj.github.io/211012/duthaldumat</link><guid isPermaLink="false">https://luetkemj.github.io/211012/duthaldumat</guid><pubDate>Wed, 13 Oct 2021 08:02:47 GMT</pubDate><content:encoded>&lt;p&gt;Everything was going great until it wasn&apos;t. Duthaldumat, &quot;Worthy Roughness&quot; in the common tongue, a once promising dwarven fortress now lay in ruin.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 26 Oct 2021 00:18:32 GMT</lastBuildDate><item><title><![CDATA[Dev Weekly?]]></title><link>https://luetkemj.github.io/211024/dev-weekly</link><guid isPermaLink="false">https://luetkemj.github.io/211024/dev-weekly</guid><pubDate>Sun, 24 Oct 2021 17:57:16 GMT</pubDate><content:encoded>&lt;p&gt;Dev &quot;Weekly&quot; is a bit of a misnomer. I don&apos;t talk about my professional work in these reports and I don&apos;t work on my personal project much if at all during the week. So these are mostly my weekend game dev reports. Also I skipped a weekend due to Ragnar so I&apos;m not sure if keeping a count in the title makes sense either. Am I counting the weekend or the number of reports?&lt;/p&gt;
+&lt;p&gt;In the interest of not getting bogged down in meaningless details... moving on!&lt;/p&gt;
+&lt;p&gt;Stuff I did over the weekend:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added z-index&lt;/li&gt;
+&lt;li&gt;Back to Ascii&lt;/li&gt;
+&lt;li&gt;FOV bug fixing&lt;/li&gt;
+&lt;li&gt;FPS counter&lt;/li&gt;
+&lt;li&gt;Color&lt;/li&gt;
+&lt;li&gt;FOV Range component&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also trying to decide what it is I actually want to build. If I&apos;m being honest, I want to make the adventure mode from Dwarf Fortress, but fun. Which is of course a ridiculous thing to say. Having started and eventually bailed on close to 10 rogulikes over the last couple of years, I feel like I&apos;ve learned enough to try and stick with one. Pretty sure at this point I can avoid any truly game ending pitfalls. It&apos;s just gonna take some determination to work through any upcoming issues.&lt;/p&gt;
+&lt;p&gt;The basic plan? Angband style town with a dungeon. I figure if I can get through that it&apos;s just a few steps to repeating that setup around a larger world map. Yes, that&apos;s a gross over simplification but this is all about steps towards a goal and making compromises along the way. Not letting perfection be the enemy of good and all that.&lt;/p&gt;
+&lt;p&gt;Look, a screenshot!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/80b1b21df510b075a8ac68d78f0fb60e/a3040/dev-weekly-screenshot.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.334310850439884%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAb0lEQVQoz92SQQrAIAwEo7FGRS/i/7+6bSztqYjUnnoYgiGMISyVUhBCgLUWzAwR6eibiIbEGNFaQ60VKSV477VPeIt+nHPu6DK9b4zBivQB+pFw8jxzMnZnAu7jrwivSDFbOOe+EWrGRPxRt+HsDr/vtXzAswvUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;screenshot!&quot;
+        title=&quot;screenshot!&quot;
+        src=&quot;/static/80b1b21df510b075a8ac68d78f0fb60e/799d3/dev-weekly-screenshot.png&quot;
+        srcset=&quot;/static/80b1b21df510b075a8ac68d78f0fb60e/00d96/dev-weekly-screenshot.png 148w,
+/static/80b1b21df510b075a8ac68d78f0fb60e/0b23c/dev-weekly-screenshot.png 295w,
+/static/80b1b21df510b075a8ac68d78f0fb60e/799d3/dev-weekly-screenshot.png 590w,
+/static/80b1b21df510b075a8ac68d78f0fb60e/2a3d6/dev-weekly-screenshot.png 885w,
+/static/80b1b21df510b075a8ac68d78f0fb60e/ae92f/dev-weekly-screenshot.png 1180w,
+/static/80b1b21df510b075a8ac68d78f0fb60e/a3040/dev-weekly-screenshot.png 2728w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Duthaldumat]]></title><link>https://luetkemj.github.io/211012/duthaldumat</link><guid isPermaLink="false">https://luetkemj.github.io/211012/duthaldumat</guid><pubDate>Wed, 13 Oct 2021 08:02:47 GMT</pubDate><content:encoded>&lt;p&gt;Everything was going great until it wasn&apos;t. Duthaldumat, &quot;Worthy Roughness&quot; in the common tongue, a once promising dwarven fortress now lay in ruin.&lt;/p&gt;
 &lt;p&gt;Sure I had had a few dwarves lose their minds in the midst of a Strange Mood. One retired to his room and refused food or drink. RIP Lokum Mogshumtekkud. Sorry we didn&apos;t have the materials needed to satisfy your creative needs. Aton and Thakut, y&apos;all need to chill your guffins and try not going apeshit on your fellow dwarves next time. Also, maybe don&apos;t rise from the dead and haunt the cafeteria like that? Not cool.&lt;/p&gt;
 &lt;p&gt;Despite a few hiccups things were chugging along quite smoothly. Even the fogotton beast down in the caverns below didn&apos;t seem to pose much of a problem for us. Two years in, 120+ dwarves, babies out the wazoo, a thriving little trade depot... good times.&lt;/p&gt;
 &lt;p&gt;I suppose it was the trade depot that eventually did us in. Nearly the entire fortress hauling goods to and fro. Under the blue sky. Exposed.&lt;/p&gt;
