@@ -29,7 +29,7 @@ const IndexPage = ({
       <SEO title={`${title}`} />
       <section>
         {postsByCategory.map((category, index) => (
-          <>
+          <div key={categories[index]}>
             <h2 className="index__header">{categories[index]}</h2>
             <ul className="index__post-list">
               {category.map(post => (
@@ -41,7 +41,7 @@ const IndexPage = ({
                 />
               ))}
             </ul>
-          </>
+          </div>
         ))}
       </section>
 
