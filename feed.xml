@@ -1,43 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 26 Oct 2021 00:18:32 GMT</lastBuildDate><item><title><![CDATA[Dev Weekly?]]></title><link>https://luetkemj.github.io/211024/dev-weekly</link><guid isPermaLink="false">https://luetkemj.github.io/211024/dev-weekly</guid><pubDate>Sun, 24 Oct 2021 17:57:16 GMT</pubDate><content:encoded>&lt;p&gt;Dev &quot;Weekly&quot; is a bit of a misnomer. I don&apos;t talk about my professional work in these reports and I don&apos;t work on my personal project much if at all during the week. So these are mostly my weekend game dev reports. Also I skipped a weekend due to Ragnar so I&apos;m not sure if keeping a count in the title makes sense either. Am I counting the weekend or the number of reports?&lt;/p&gt;
-&lt;p&gt;In the interest of not getting bogged down in meaningless details... moving on!&lt;/p&gt;
-&lt;p&gt;Stuff I did over the weekend:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Added z-index&lt;/li&gt;
-&lt;li&gt;Back to Ascii&lt;/li&gt;
-&lt;li&gt;FOV bug fixing&lt;/li&gt;
-&lt;li&gt;FPS counter&lt;/li&gt;
-&lt;li&gt;Color&lt;/li&gt;
-&lt;li&gt;FOV Range component&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Also trying to decide what it is I actually want to build. If I&apos;m being honest, I want to make the adventure mode from Dwarf Fortress, but fun. Which is of course a ridiculous thing to say. Having started and eventually bailed on close to 10 rogulikes over the last couple of years, I feel like I&apos;ve learned enough to try and stick with one. Pretty sure at this point I can avoid any truly game ending pitfalls. It&apos;s just gonna take some determination to work through any upcoming issues.&lt;/p&gt;
-&lt;p&gt;The basic plan? Angband style town with a dungeon. I figure if I can get through that it&apos;s just a few steps to repeating that setup around a larger world map. Yes, that&apos;s a gross over simplification but this is all about steps towards a goal and making compromises along the way. Not letting perfection be the enemy of good and all that.&lt;/p&gt;
-&lt;p&gt;Look, a screenshot!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 Nov 2021 23:14:34 GMT</lastBuildDate><item><title><![CDATA[Wieldable Goblins and Hierarchical Bodies]]></title><link>https://luetkemj.github.io/211101/dev-weekly</link><guid isPermaLink="false">https://luetkemj.github.io/211101/dev-weekly</guid><pubDate>Mon, 01 Nov 2021 17:48:03 GMT</pubDate><content:encoded>&lt;h2&gt;Adjusting the game layout again&lt;/h2&gt;
+&lt;p&gt;This could very well become a regular feature around here. I didn&apos;t like the tiny space alotted to the map and after some very lackluster attempts at scrolling and chunking I just went with a big map and big menus. Focus on one thing at a time. For now. This will continue to evolve as the game progresses.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/80b1b21df510b075a8ac68d78f0fb60e/a3040/dev-weekly-screenshot.png&quot;
+    href=&quot;/static/3b1184da3d9138a256a277090492d0c9/8ded7/dev-weekly-211101-1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 46.334310850439884%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAb0lEQVQoz92SQQrAIAwEo7FGRS/i/7+6bSztqYjUnnoYgiGMISyVUhBCgLUWzAwR6eibiIbEGNFaQ60VKSV477VPeIt+nHPu6DK9b4zBivQB+pFw8jxzMnZnAu7jrwivSDFbOOe+EWrGRPxRt+HsDr/vtXzAswvUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 43.95203336809176%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAaklEQVQoz52SSw7AIAgFEfyE+x+Y1qa21oAlLGbDYnj6AGYWIhJMSWqtknMWAHhI57wzz34AVRDBFGryNa2W+p7FE7qEETkizktsWS9rk8Qqzk5WSvlsdz7fFrbWLuHgFcDulHx/aDW7cgCY5bS+7Y373AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;screenshot!&quot;
-        title=&quot;screenshot!&quot;
-        src=&quot;/static/80b1b21df510b075a8ac68d78f0fb60e/799d3/dev-weekly-screenshot.png&quot;
-        srcset=&quot;/static/80b1b21df510b075a8ac68d78f0fb60e/00d96/dev-weekly-screenshot.png 148w,
-/static/80b1b21df510b075a8ac68d78f0fb60e/0b23c/dev-weekly-screenshot.png 295w,
-/static/80b1b21df510b075a8ac68d78f0fb60e/799d3/dev-weekly-screenshot.png 590w,
-/static/80b1b21df510b075a8ac68d78f0fb60e/2a3d6/dev-weekly-screenshot.png 885w,
-/static/80b1b21df510b075a8ac68d78f0fb60e/ae92f/dev-weekly-screenshot.png 1180w,
-/static/80b1b21df510b075a8ac68d78f0fb60e/a3040/dev-weekly-screenshot.png 2728w&quot;
+        alt=&quot;big map energy&quot;
+        title=&quot;big map energy&quot;
+        src=&quot;/static/3b1184da3d9138a256a277090492d0c9/799d3/dev-weekly-211101-1.png&quot;
+        srcset=&quot;/static/3b1184da3d9138a256a277090492d0c9/00d96/dev-weekly-211101-1.png 148w,
+/static/3b1184da3d9138a256a277090492d0c9/0b23c/dev-weekly-211101-1.png 295w,
+/static/3b1184da3d9138a256a277090492d0c9/799d3/dev-weekly-211101-1.png 590w,
+/static/3b1184da3d9138a256a277090492d0c9/2a3d6/dev-weekly-211101-1.png 885w,
+/static/3b1184da3d9138a256a277090492d0c9/ae92f/dev-weekly-211101-1.png 1180w,
+/static/3b1184da3d9138a256a277090492d0c9/8ded7/dev-weekly-211101-1.png 3836w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Refactored Game/Menu states to share a global MODE&lt;/h2&gt;
+&lt;p&gt;To better support the big menus, big map, one focus ethos I refactored menu and game states. Previously game state was tracked seperately from menu state, making things like pausing and contextual control schemes very difficult. Combining all things into one MODE tracked on the world object simplifies a lot of logic.&lt;/p&gt;
+&lt;h2&gt;Look command and UI&lt;/h2&gt;
+&lt;p&gt;After moving away from pixel graphics in favor of ascii, the alure of key commands became too great. Mouse support will have to come later if at all. The game now supports looking with the key command &lt;code class=&quot;language-text&quot;&gt;k&lt;/code&gt;. Pressing &lt;code class=&quot;language-text&quot;&gt;k&lt;/code&gt; automatically pauses the game and adds an overlay with a yellow underscore. You can then move the underscore with arrows to &quot;look&quot; at each entity on the current cell. Currently the read out goes to the ambiant log and is VERY crude. I need to add descriptions and better templates to render meaningful sentances. Also would like to add the ability to &quot;examine&quot; or see details of a selected item you&apos;re looking at.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3bd3fa15eb43f2a3a5f8f804d27b63f6/af94b/dev-weekly-211101-2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.88581314878893%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAs0lEQVQoz6WS2w6EIAxEuQkqURINmvj//znLdMUY9wn3YVKuh2mLOo4Dy7Ig54x5nrFtG7z3UEqJhmHAvu+yV+O6rpimCSml69ylcRzRdZ1c/Nks0s+51rDWyh3GEIKs3c4otMg5JzLGCIjZcPwaSMAXWFxphb7v/wNKqoapGlhHh+FyyRI0A1kzQgVQxDFdcv1sZrtDpsz6sZHU6aw2p72GtcMVygde15AgQmOMAma8f5sPdOG5GZulOuoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;a look at Look&quot;
+        title=&quot;a look at Look&quot;
+        src=&quot;/static/3bd3fa15eb43f2a3a5f8f804d27b63f6/799d3/dev-weekly-211101-2.png&quot;
+        srcset=&quot;/static/3bd3fa15eb43f2a3a5f8f804d27b63f6/00d96/dev-weekly-211101-2.png 148w,
+/static/3bd3fa15eb43f2a3a5f8f804d27b63f6/0b23c/dev-weekly-211101-2.png 295w,
+/static/3bd3fa15eb43f2a3a5f8f804d27b63f6/799d3/dev-weekly-211101-2.png 590w,
+/static/3bd3fa15eb43f2a3a5f8f804d27b63f6/2a3d6/dev-weekly-211101-2.png 885w,
+/static/3bd3fa15eb43f2a3a5f8f804d27b63f6/af94b/dev-weekly-211101-2.png 1156w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Pickupable and Wieldable goblins!&lt;/h2&gt;
+&lt;p&gt;You can now pickup dead goblins and wield them like a weapon. Nothing quite like beating a nasty goblin to death with a nasty goblin corpse you found on the ground.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d1a64086de0f6248895d76b977650d51/c82e2/dev-weekly-211101-3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.80246913580247%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAsUlEQVQoz52S3QqEIBSETUEvKirsP6mo3v8VZ5kTtbtEsO3FXMgZP2dUta4r0jRF3/fw3ovatsU8z8jzHEqpL9V1jWma0HUdiqKQNZUkye7hRmutgDhwzskgiqILjKqqCuM4omka8RhjRFrr3XO38U48lEAmJDyEgGEY3m1IfwpkK0JYmc3KskQcx7vnjPqjmGpZFknJq7p4ngKZcNs2qZpl2XnnfwP5mnwQ/oyj8uf8BUpGmIaxXN7CAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;goblins in inventory&quot;
+        title=&quot;goblins in inventory&quot;
+        src=&quot;/static/d1a64086de0f6248895d76b977650d51/799d3/dev-weekly-211101-3.png&quot;
+        srcset=&quot;/static/d1a64086de0f6248895d76b977650d51/00d96/dev-weekly-211101-3.png 148w,
+/static/d1a64086de0f6248895d76b977650d51/0b23c/dev-weekly-211101-3.png 295w,
+/static/d1a64086de0f6248895d76b977650d51/799d3/dev-weekly-211101-3.png 590w,
+/static/d1a64086de0f6248895d76b977650d51/c82e2/dev-weekly-211101-3.png 810w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Heirarchical anatomy&lt;/h2&gt;
+&lt;p&gt;I&apos;m most excited about this feature. The goal was to be able to lop off the arm of a goblin, pick up the arm, and continue to beat the goblin to death with it. Entities can now have a &lt;code class=&quot;language-text&quot;&gt;Body&lt;/code&gt; component which behaves like an &lt;code class=&quot;language-text&quot;&gt;Inventory&lt;/code&gt;. Humanoid bodies container a &lt;code class=&quot;language-text&quot;&gt;Torso&lt;/code&gt; entity that has a &lt;code class=&quot;language-text&quot;&gt;Body&lt;/code&gt; that contains a &lt;code class=&quot;language-text&quot;&gt;Left Arm&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Right Arm&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Left Leg&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Right Leg&lt;/code&gt;. Each of the limbs have a &lt;code class=&quot;language-text&quot;&gt;Body&lt;/code&gt; that contains their respective hands and feet. It&apos;s bodies all the way down!&lt;/p&gt;
+&lt;p&gt;This architecture is extremely useful for amputating limbs. Removing a &lt;code class=&quot;language-text&quot;&gt;Left Arm&lt;/code&gt; will take the &lt;code class=&quot;language-text&quot;&gt;Left Hand&lt;/code&gt; with it. The body parts are already entities so giving it a position and putting it on the ground as a pickupable and wieldable item is trivial! Adding parent entity ids to each part will make future &quot;Fetch me the head of [SOME_ENTITY]&quot; quests possible. Bone, muscle, and organs can be added as nested parts with an eye towards a proper butchering system down the line. Chef in town needs three troll livers for an upcoming festival stew? Find and kill any three trolls, try not to damage the livers during combat, butcher and return with the three specimans. Voila! Quest complete. No more farming creatures and hoping for the random drop you actually need.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/28b328ff72b359981407d3d1f328bb11/6ed10/dev-weekly-211101-4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.22222222222223%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA40lEQVQoz52SWxKFIAxDoSjqqPtfLtdTjKJz3x8ZGWjSNDaEEAqIMZa+70vO2TEMQ5mmqYzjeJzNrKj+DerBrAp2Kfo5bmTbQTOEU0q/CJoLmlW3LXj/QxCHeSPVM0Ktw3mevxOEQCHu+i07Q/wQS4cIguu6ulNlS9bO20CdZ3wfzxFqjnk8xZZlcULXdQ4EEmb25orm4pBCidZ7K3qXQ9wJ2gi44lx+Co9aoXjrjCBEvbe50ZC7PZ5TkH3DpdxSIAeM/OqnqPHFIVA+gJH40kSj3Z09FWxXoyUgpFE+rYr41D8AiXnhqmMQF+gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;a smattering of limbs&quot;
+        title=&quot;a smattering of limbs&quot;
+        src=&quot;/static/28b328ff72b359981407d3d1f328bb11/799d3/dev-weekly-211101-4.png&quot;
+        srcset=&quot;/static/28b328ff72b359981407d3d1f328bb11/00d96/dev-weekly-211101-4.png 148w,
+/static/28b328ff72b359981407d3d1f328bb11/0b23c/dev-weekly-211101-4.png 295w,
+/static/28b328ff72b359981407d3d1f328bb11/799d3/dev-weekly-211101-4.png 590w,
+/static/28b328ff72b359981407d3d1f328bb11/2a3d6/dev-weekly-211101-4.png 885w,
+/static/28b328ff72b359981407d3d1f328bb11/6ed10/dev-weekly-211101-4.png 900w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
