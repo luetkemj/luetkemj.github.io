@@ -1,4 +1,296 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 10 Nov 2021 14:13:42 GMT</lastBuildDate><item><title><![CDATA[Inventory UI and dropping stuff]]></title><link>https://luetkemj.github.io/211109/dev-weekly</link><guid isPermaLink="false">https://luetkemj.github.io/211109/dev-weekly</guid><pubDate>Tue, 09 Nov 2021 09:59:30 GMT</pubDate><content:encoded>&lt;h2&gt;Update fonts&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Nov 2021 13:39:35 GMT</lastBuildDate><item><title><![CDATA[TX BMF (Last Human Standing)]]></title><link>https://luetkemj.github.io/211122/last-human-standing</link><guid isPermaLink="false">https://luetkemj.github.io/211122/last-human-standing</guid><pubDate>Mon, 22 Nov 2021 16:41:24 GMT</pubDate><content:encoded>&lt;p&gt;I can run four miles in an hour. That&apos;s easy!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The backyard ultra is a form of ultramarathon race where competitors must consecutively run the distance of 6,706 meters (4.167 miles) in less than one hour. When each lap is completed, the remaining time within the hour is typically used to recover for the next hour&apos;s race.&lt;/p&gt;
+&lt;p&gt;The race ends when the last runner or runners either concede or fail to finish the distance within the allotted time frame.&lt;/p&gt;
+&lt;p&gt;~ &lt;a href=&quot;https://en.wikipedia.org/wiki/Backyard_ultra&quot;&gt;wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I&apos;ve been intrigued with the backyard format for years. I got wind of it 5 or 6 years ago. Sometime after Guillaume Calmettes won at Big&apos;s Backyard. On the surface it sounds so easy - just 4 miles every hour on the hour. Of course, theory and practice and two very different things. I had to find out for myself just how hard this really was and when I saw Trail Racing Over Texas was putting on a backyard ultra I signed up immediately.&lt;/p&gt;
+&lt;h2&gt;7IL&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5c01f3fd78c3da4465390bbc9c14d4e2/45d4e/7il.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.52692031586504%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAADtElEQVQ4yw3S6VPUBRzH8f0DemAe2FAjiUgREcdGcsixy40r7MKuLMkCu8CGHIuw7HIsCix3XHLDIMshZyIYoJYFDUKhDoMRZEJaQ9OMaQ+cHmTO1My734PvzPfBd16f74OPyEXsTlVbH8Pz31B3eZa5tR3WHz9leetXFjf3uLG+x3e7z/jz5b+8ePUfv714ye7zv7l25xGNs+tcXd1iafNnrn/7gNGv1xAFyWTozSXk5OQTI0+kbXwZS/8tMq1CyNwy07fXGJ5dZGltk6bBGQamb3P/4WPMWTamOr7g1sYTrq1sM726zdzdLUS6PCMSWRRqhZzi+l7qB26SqS+k2NpBZ9cgQ4PjXBmeZGRoEpuwlxWUUl7fw8yNLWwJFfT02pi9u0H90Ain0+SIPvDz4riHI6c1sbR+tsDVlQfYbBP8+Mc//PT8FT/8/hfrvzxj4f4OSztPGZ3+ksV7u3QvzOMW/h7uIS54RbjyTqA9ds6vITp89ACHnfbh6PUmjp5v4X7SFVm4H4YSIy3DI7SOTBCv/5iGoSmu33tEQWEe582f8GGEBwcc9nHwyH4cPA5x3MeeN5wOIbI78jp2b+/H3ukgHqGOuAU6EBbyLlKVC+q8QDRmCdkWBYt3PufTMRMavZiz5z4i3uBLdIqYU2lipEluHPMSPhQskUzjh8YYQUaZDEN1HOZmNXk5UVS0ayjpV3JpIp0nD+fZ276JdVCFuToSU2MUxSMKCvtjMfTJSG+NRF7sj7vsGCJVTjDKDClag4yMIhn5NUqyBFBvicZyKZHlrwb4fnWGjZVJLrSloNb7k2oKRW0NQF5ygiijF2EGT2HE+Ke6CqAuiLjUYJIyIlCkS9CYhBrp5RTkqmiy5tHbVElj+Xm6a42Um5LJ1ck5Z0ggIf0UccK9OltKdKoXvvHOiGOcECUkCO8mSIg9I0Ua6o9Op6IsP5WhFgszg82M9dYy1lnBcGsJzcVpNJi0lBpT0egUKLURqPShAhxEjPYkEqU3Iu8wV0IUPvhJ/AiR+JKtldNSkctoVxWT/Q1c6aoWwCpmBXyq10pPbT5FWWdISZYhTwpHro0kKklCuDqQgBgBlMb6EquSkpasoMyQQpUpnc66Ii63XGCwo4q+pjIGWi4KAdWM91Rjay6m6WI2JblnSdecxl8qJiDShyilFIk8CJG7tzMhUk80cWEoo4PJ1iVSYcqkxWqku6GU9hozfY0WhtorGemoxNZqobvORE2RHmuBVujsCVzeP0pEtB/B0T78D9cSZjjbExFCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;7IL&quot;
+        title=&quot;7IL&quot;
+        src=&quot;/static/5c01f3fd78c3da4465390bbc9c14d4e2/799d3/7il.png&quot;
+        srcset=&quot;/static/5c01f3fd78c3da4465390bbc9c14d4e2/00d96/7il.png 148w,
+/static/5c01f3fd78c3da4465390bbc9c14d4e2/0b23c/7il.png 295w,
+/static/5c01f3fd78c3da4465390bbc9c14d4e2/799d3/7il.png 590w,
+/static/5c01f3fd78c3da4465390bbc9c14d4e2/2a3d6/7il.png 885w,
+/static/5c01f3fd78c3da4465390bbc9c14d4e2/ae92f/7il.png 1180w,
+/static/5c01f3fd78c3da4465390bbc9c14d4e2/45d4e/7il.png 2786w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This was my first time at the 7IL Ranch, a &quot;Premier Equestrian, Running, and Wedding Destination&quot;. I arrived late in the afternoon the day before the race, nervously unpacked, and began to setup camp.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9c20be1f453c6a19618c54ae132c4e39/93d1b/before.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAbpoLJqCxnX/xAAcEAACAgIDAAAAAAAAAAAAAAABAgADBBIRIjH/2gAIAQEAAQUCOSBBdsGuflNIzd/Z/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BJ//EABYRAQEBAAAAAAAAAAAAAAAAAAABIf/aAAgBAgEBPwGtf//EAB0QAAICAQUAAAAAAAAAAAAAAAARASECEjEyQYH/2gAIAQEABj8C3Hip9OjUuI4hWWf/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFxgf/aAAgBAQABPyEa6eXFwBAqFPsuREFgYTWdE7F22n//2gAMAwEAAgADAAAAEMfv/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxCLo0rh/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERIUH/2gAIAQIBAT8QRzGXo//EABwQAQEAAwEAAwAAAAAAAAAAAAERACExQWFxkf/aAAgBAQABPxCsJ8CrjGNZuG/UuRAwbFd/M5VwDpec8w7WOKoXu/cpEsSzP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;the before&quot;
+        title=&quot;the before&quot;
+        src=&quot;/static/9c20be1f453c6a19618c54ae132c4e39/88218/before.jpg&quot;
+        srcset=&quot;/static/9c20be1f453c6a19618c54ae132c4e39/7237a/before.jpg 148w,
+/static/9c20be1f453c6a19618c54ae132c4e39/0cfdf/before.jpg 295w,
+/static/9c20be1f453c6a19618c54ae132c4e39/88218/before.jpg 590w,
+/static/9c20be1f453c6a19618c54ae132c4e39/77d57/before.jpg 885w,
+/static/9c20be1f453c6a19618c54ae132c4e39/5a917/before.jpg 1180w,
+/static/9c20be1f453c6a19618c54ae132c4e39/93d1b/before.jpg 4032w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Short line for packet pickup the night before.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1774f9c4db5e44f777127e1d7f8a8cbb/93d1b/ranch.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABQzm7S0lC/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQIAEhETIv/aAAgBAQABBQIuikVYYnEVqDYs/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQMBAT8BlL//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEv/aAAgBAgEBPwG1v//EABoQAAIDAQEAAAAAAAAAAAAAAAERAAIQIZH/2gAIAQEABj8CRjrnan2FZ//EABsQAAMAAgMAAAAAAAAAAAAAAAABESFBUWFx/9oACAEBAAE/IbJd8M2VDzK9ob4Ewzj0Lfb22f/aAAwDAQACAAMAAAAQcx//xAAXEQEAAwAAAAAAAAAAAAAAAAAAEVFx/9oACAEDAQE/EIW2/8QAFxEBAAMAAAAAAAAAAAAAAAAAABFRcf/aAAgBAgEBPxCVMP/EABsQAAMBAQADAAAAAAAAAAAAAAERIQAxYXGh/9oACAEBAAE/ECwMAcZ7lEKMoOEONWNTaB5GXHO6Xq5Y2Y0s/Fv/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;the ranch house&quot;
+        title=&quot;the ranch house&quot;
+        src=&quot;/static/1774f9c4db5e44f777127e1d7f8a8cbb/88218/ranch.jpg&quot;
+        srcset=&quot;/static/1774f9c4db5e44f777127e1d7f8a8cbb/7237a/ranch.jpg 148w,
+/static/1774f9c4db5e44f777127e1d7f8a8cbb/0cfdf/ranch.jpg 295w,
+/static/1774f9c4db5e44f777127e1d7f8a8cbb/88218/ranch.jpg 590w,
+/static/1774f9c4db5e44f777127e1d7f8a8cbb/77d57/ranch.jpg 885w,
+/static/1774f9c4db5e44f777127e1d7f8a8cbb/5a917/ranch.jpg 1180w,
+/static/1774f9c4db5e44f777127e1d7f8a8cbb/93d1b/ranch.jpg 4032w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I met a friendly little kittybunn outside packet pickup.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cc8774287b1628560ba1a3e704dfcb44/6c89e/kittybunn.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAMEBQECBv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABga26cNYYE6JDiYBNK//EAB0QAQACAgIDAAAAAAAAAAAAAAIAARESAxATIUL/2gAIAQEAAQUCUFVas7W+ExjAxF7jOx8d9fU//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFREBAQAAAAAAAAAAAAAAAAAAASD/2gAIAQIBAT8BI//EABwQAAICAgMAAAAAAAAAAAAAAAABEBICMRFRgf/aAAgBAQAGPwIQ2coeVtI1Fe58j//EAB0QAQACAgIDAAAAAAAAAAAAAAEAMREhUWEQQaH/2gAIAQEAAT8hweGEWPe5uW3mWhIN6RgkyufCWzHTqJaMeC0Nz//aAAwDAQACAAMAAAAQwzZy/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREP/aAAgBAwEBPxCEHn//xAAXEQEBAQEAAAAAAAAAAAAAAAABABAh/9oACAECAQE/EAl2M//EABwQAQACAwEBAQAAAAAAAAAAAAEAESExQZFh0f/aAAgBAQABPxAEhg5CuhpRebhOC2Ye7B2mHNUIqgUrUHKr9lMLxgE3MMlHKNe1EbEQAMHJndwV6/kJaf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ranch cat&quot;
+        title=&quot;ranch cat&quot;
+        src=&quot;/static/cc8774287b1628560ba1a3e704dfcb44/88218/kittybunn.jpg&quot;
+        srcset=&quot;/static/cc8774287b1628560ba1a3e704dfcb44/7237a/kittybunn.jpg 148w,
+/static/cc8774287b1628560ba1a3e704dfcb44/0cfdf/kittybunn.jpg 295w,
+/static/cc8774287b1628560ba1a3e704dfcb44/88218/kittybunn.jpg 590w,
+/static/cc8774287b1628560ba1a3e704dfcb44/77d57/kittybunn.jpg 885w,
+/static/cc8774287b1628560ba1a3e704dfcb44/5a917/kittybunn.jpg 1180w,
+/static/cc8774287b1628560ba1a3e704dfcb44/6c89e/kittybunn.jpg 3024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Solo camping under a chilly sky for a 7am start.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/214dd7264b967a8a8ff3b0426ec329d6/93d1b/moon.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQAE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAARmBtopEUv8A/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAIBAxEEE//aAAgBAQABBQKuuXavmVTCGk9mldP/xAAXEQADAQAAAAAAAAAAAAAAAAAAARET/9oACAEDAQE/AUqZn//EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAgBAgEBPwGtv//EABgQAAIDAAAAAAAAAAAAAAAAABAhAAER/9oACAEBAAY/AsjZdj//xAAaEAACAgMAAAAAAAAAAAAAAAAAAREhMWFx/9oACAEBAAE/IYchdYlm01FsFOwVUf/aAAwDAQACAAMAAAAQy+//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFx/9oACAEDAQE/EGtDR//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQIBAT8Qcl4f/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBkVH/2gAIAQEAAT8QPOr2rz7KAvWyjyVMAo1Wovk3E56zOdx9yY4z/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;the moon&quot;
+        title=&quot;the moon&quot;
+        src=&quot;/static/214dd7264b967a8a8ff3b0426ec329d6/88218/moon.jpg&quot;
+        srcset=&quot;/static/214dd7264b967a8a8ff3b0426ec329d6/7237a/moon.jpg 148w,
+/static/214dd7264b967a8a8ff3b0426ec329d6/0cfdf/moon.jpg 295w,
+/static/214dd7264b967a8a8ff3b0426ec329d6/88218/moon.jpg 590w,
+/static/214dd7264b967a8a8ff3b0426ec329d6/77d57/moon.jpg 885w,
+/static/214dd7264b967a8a8ff3b0426ec329d6/5a917/moon.jpg 1180w,
+/static/214dd7264b967a8a8ff3b0426ec329d6/93d1b/moon.jpg 4032w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;The Race&lt;/h2&gt;
+&lt;p&gt;At 6:45am the RD went over the rules and explained the whistles. 3 tweets with 3 minutes to go before the start of the lap. 2 at 2 minutes and 1 final a minute before. If you weren&apos;t in the corral at lap start you were out. No exceptions.&lt;/p&gt;
+&lt;p&gt;It was cold and sun was just rising.&lt;/p&gt;
+&lt;p&gt;3 tweets of the whistle. 2 tweets. 1 tweet. Go time.&lt;/p&gt;
+&lt;p&gt;I did my best to take it easy. I knew my training hadn&apos;t been very focused leading up to the race. That was OK. I came with a plane. Hold it together nutritionally and bring it mentally.&lt;/p&gt;
+&lt;p&gt;Things fell into an hourly rhythm pretty quickly. I recorded each lap seperately on my watch and it wasn&apos;t long before I had forgotten what lap we were on or how many miles we had actually run. Twenty came and went before I knew it, literally!&lt;/p&gt;
+&lt;p&gt;I was eating surprisingly well! Real food even! The routine was rhythmic. The recovery time adequate. The company of others pleasant. I was really enjoying myself and the format of this race.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/53bd521bf4b4de408f771cd2c5ab0351/93d1b/sun.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABtkvzjIUFf//EABoQAAEFAQAAAAAAAAAAAAAAAAEAAgMSIRH/2gAIAQEAAQUCL+ETVRmVtkftiv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwFkf//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AVf/xAAZEAACAwEAAAAAAAAAAAAAAAAAMQEQEUH/2gAIAQEABj8Cw5ArZ//EABwQAQACAQUAAAAAAAAAAAAAAAEAEUEhMVFhof/aAAgBAQABPyEEAMrKCdstdnsyZiaKpMw50//aAAwDAQACAAMAAAAQ48//xAAZEQACAwEAAAAAAAAAAAAAAAAAARExYaH/2gAIAQMBAT8QhKkacP/EABkRAAIDAQAAAAAAAAAAAAAAAAABITFxof/aAAgBAgEBPxBTbM9Z/8QAHRABAAIBBQEAAAAAAAAAAAAAAQARYSExUXGhwf/aAAgBAQABPxCmm9k0sZxWYgu+cCEFBtmATSG7XKH2n//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;the sun&quot;
+        title=&quot;the sun&quot;
+        src=&quot;/static/53bd521bf4b4de408f771cd2c5ab0351/88218/sun.jpg&quot;
+        srcset=&quot;/static/53bd521bf4b4de408f771cd2c5ab0351/7237a/sun.jpg 148w,
+/static/53bd521bf4b4de408f771cd2c5ab0351/0cfdf/sun.jpg 295w,
+/static/53bd521bf4b4de408f771cd2c5ab0351/88218/sun.jpg 590w,
+/static/53bd521bf4b4de408f771cd2c5ab0351/77d57/sun.jpg 885w,
+/static/53bd521bf4b4de408f771cd2c5ab0351/5a917/sun.jpg 1180w,
+/static/53bd521bf4b4de408f771cd2c5ab0351/93d1b/sun.jpg 4032w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We passed the marathon distance. The field winnowed. I felt good, like I could keep going forever! Perhaps I was feeling a bit too good...&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Nutrition early on had gone well, but I didn&apos;t really have much of a nutrition plan. How many calories was I trying to eat an hour anyway? 🤷‍♀️ In the end it was my stomach that would do me in. I had had no interest in gels all day and probably wasn&apos;t taking in enough salts considering how much I was losing. I had made the assumption that I wouldn&apos;t sweat much considering the cool weather and easy effort. But alas, it seems my maniacal sweating knows no limits.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a043470b5343fea5e16ff29c1c81f98c/6c89e/salt.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAP/2gAMAwEAAhADEAAAAd1gRjqCGaiTXRVhCBf/xAAcEAACAgMBAQAAAAAAAAAAAAABAgAiAxESITL/2gAIAQEAAQUC6xiAoCeGj/WtQejK1hcotRYKoE6M/8QAGREAAgMBAAAAAAAAAAAAAAAAAAEQERIh/9oACAEDAQE/AbhrptH/xAAYEQACAwAAAAAAAAAAAAAAAAAAEgEQIf/aAAgBAgEBPwFabBJP/8QAHRAAAgEEAwAAAAAAAAAAAAAAAAEhERIxYQJRsf/aAAgBAQAGPwLBEV2TUZsUF3ZrwRyTxcKiMn//xAAdEAEAAgIDAQEAAAAAAAAAAAABABEhMUFRkWFx/9oACAEBAAE/IVVFX4xZkvSDIlA3O9ZgmtTVXI7j6un7GjadqjlqOMQmQ2SrbNxVcvZ//9oADAMBAAIAAwAAABCXG7L/xAAXEQEBAQEAAAAAAAAAAAAAAAABABBB/9oACAEDAQE/EGGAHl//xAAZEQACAwEAAAAAAAAAAAAAAAAAAREhQWH/2gAIAQIBAT8QXQ2ygk0//8QAHRABAAIDAAMBAAAAAAAAAAAAAQARITFBUWFxkf/aAAgBAQABPxAr24UMN++AXCQoCi01K4Nmyt/CsS6FWi6oODAFYA1x+kDQHJrqmYPNRYThqEVYWHhCOCqHmCKAA/a8xid8f//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;salty cap&quot;
+        title=&quot;salty cap&quot;
+        src=&quot;/static/a043470b5343fea5e16ff29c1c81f98c/88218/salt.jpg&quot;
+        srcset=&quot;/static/a043470b5343fea5e16ff29c1c81f98c/7237a/salt.jpg 148w,
+/static/a043470b5343fea5e16ff29c1c81f98c/0cfdf/salt.jpg 295w,
+/static/a043470b5343fea5e16ff29c1c81f98c/88218/salt.jpg 590w,
+/static/a043470b5343fea5e16ff29c1c81f98c/77d57/salt.jpg 885w,
+/static/a043470b5343fea5e16ff29c1c81f98c/5a917/salt.jpg 1180w,
+/static/a043470b5343fea5e16ff29c1c81f98c/6c89e/salt.jpg 3024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Not long after 50k my stomach turned sour. I was struggling to eat, struggling to drink. My gut felt like a rock. I don&apos;t think I was absorbing much of whatever I managed to force down. In any other ultra I could have slowed down, taken some time to reassess. Maybe just slow walked for a few miles.&lt;/p&gt;
+&lt;p&gt;Not possible in the backyard ultra. This is where that simple idea of running 4 miles in an hour met with the reality of doing it every hour on the hour. Having to be back at the start line for each lap removes the ability to slow walk it. 14 minutes per mile may not sound fast - and it isn&apos;t - but it&apos;s not a slow walk either. And the longer you take to finish a lap the less time you have to prepare for the next one.&lt;/p&gt;
+&lt;p&gt;I had recorded a couple 47 minute laps leaving me with only about 10 minutes of actual prep time. Then a 53 minute lap. Less than 5 minutes before the whistles started. I was beginning to dread the whistles.&lt;/p&gt;
+&lt;p&gt;I did some delerious math in my head and felt reasonably sure this was the 40 mile lap. I could bail early and still chalk it up as a birthday run. I only needed 39 miles for that. Now I just had to figure out where to bail and still hit 39...&lt;/p&gt;
+&lt;h2&gt;DNF&lt;/h2&gt;
+&lt;p&gt;And that was it. My nutrition game was way off target and I had just lost the mental game. I didn&apos;t have a strong block of training to rely on physically or to use as a mental bargaining chip with myself. I hated the course at this point. I dreaded the whistles. It was getting cold again. The sun was going down. The whistles... the whistles...&lt;/p&gt;
+&lt;p&gt;To do well in an ultra you absolutely must stay positive. I was deeply negative at this point.&lt;/p&gt;
+&lt;p&gt;I called it.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/558759b0a93c2935652a5e5a73828413/6c89e/medal.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAXAQADAQAAAAAAAAAAAAAAAAABAgMA/9oADAMBAAIQAxAAAAGp1yG6zIdeVOQzJKR//8QAGhAAAwADAQAAAAAAAAAAAAAAAAECAxIhMf/aAAgBAQABBQLjKZNJy9YnDXXTGthwbOTL6M//xAAYEQEBAAMAAAAAAAAAAAAAAAABAAIQEv/aAAgBAwEBPwFLssnX/8QAGBEBAQADAAAAAAAAAAAAAAAAAQACEBL/2gAIAQIBAT8BxW5YNf/EABoQAAIDAQEAAAAAAAAAAAAAAAAxARARICH/2gAIAQEABj8CMgeHrJ106x8f/8QAHBAAAgMAAwEAAAAAAAAAAAAAAREAITFBUWHB/9oACAEBAAE/IS4pt0xFnqquIEcFKbIeOYgqiCjsLYp9gtYPYMNBT2UADHElNT//2gAMAwEAAgADAAAAEFveg//EABkRAQACAwAAAAAAAAAAAAAAAAEAERAhUf/aAAgBAwEBPxAatYcIZqsf/8QAGREBAAIDAAAAAAAAAAAAAAAAAQARECFh/9oACAECAQE/EAOidoq3eP/EAB0QAQEAAgIDAQAAAAAAAAAAAAERADEhQVFhkXH/2gAIAQEAAT8Qr4bnD+ZXmhp7u8bTgbJJlgJNByvneEYtoXz4+Y9RzHOQENV75KORm1vZjFTodz17xKRFyB9YgQS7w88//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;dnf medal&quot;
+        title=&quot;dnf medal&quot;
+        src=&quot;/static/558759b0a93c2935652a5e5a73828413/88218/medal.jpg&quot;
+        srcset=&quot;/static/558759b0a93c2935652a5e5a73828413/7237a/medal.jpg 148w,
+/static/558759b0a93c2935652a5e5a73828413/0cfdf/medal.jpg 295w,
+/static/558759b0a93c2935652a5e5a73828413/88218/medal.jpg 590w,
+/static/558759b0a93c2935652a5e5a73828413/77d57/medal.jpg 885w,
+/static/558759b0a93c2935652a5e5a73828413/5a917/medal.jpg 1180w,
+/static/558759b0a93c2935652a5e5a73828413/6c89e/medal.jpg 3024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Aftermath&lt;/h2&gt;
+&lt;p&gt;In the end, after totalling it all up with a calculator (not my delerious brain) I found I had only run 38.8 miles. I didn&apos;t even get an official birthday run.&lt;/p&gt;
+&lt;p&gt;Looking back I think there were ways to recover physically. At least for a few more laps. I could&apos;ve pushed through - gotten to 50 miles. But on the day I chose not to. I had had enough.&lt;/p&gt;
+&lt;p&gt;I learned a lot from this experience. About running. About myself. About a seemingly simple task...&lt;/p&gt;
+&lt;p&gt;I knew it wouldn&apos;t be easy but I didn&apos;t know it would this hard.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That&apos;s not true. I knew it would super tough - just didn&apos;t know where and when and how I would start to fall apart. Now that I know? Already looking to sign up for the next one.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Inventory UI and dropping stuff]]></title><link>https://luetkemj.github.io/211109/dev-weekly</link><guid isPermaLink="false">https://luetkemj.github.io/211109/dev-weekly</guid><pubDate>Tue, 09 Nov 2021 09:59:30 GMT</pubDate><content:encoded>&lt;h2&gt;Update fonts&lt;/h2&gt;
 &lt;p&gt;Switched from courier to menlo. I got sick of looking at courier after moving away from graphical sprites. The letters aren&apos;t as nice yet as they look in Covered In Blood. Not sure if the number of tiles on screen make them smaller or if the composition on the tile is different. Still some work to do to get them looking really nice. But it&apos;s a big improvement.&lt;/p&gt;
 &lt;p&gt;Just looked at the sprite sheets - def could make the letters larger. Will need some experimentation to get a good balance between size, line height, spacing, etc.&lt;/p&gt;
 &lt;p&gt;&lt;span
