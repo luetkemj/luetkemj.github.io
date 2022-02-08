@@ -1,4 +1,296 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Feb 2022 12:10:57 GMT</lastBuildDate><item><title><![CDATA[TX BMF (Last Human Standing)]]></title><link>https://luetkemj.github.io/211122/last-human-standing</link><guid isPermaLink="false">https://luetkemj.github.io/211122/last-human-standing</guid><pubDate>Mon, 22 Nov 2021 16:41:24 GMT</pubDate><content:encoded>&lt;p&gt;I can run four miles in an hour. That&apos;s easy!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Feb 2022 13:13:19 GMT</lastBuildDate><item><title><![CDATA[The Test Is Over]]></title><link>https://luetkemj.github.io/220207/dev-weekly</link><guid isPermaLink="false">https://luetkemj.github.io/220207/dev-weekly</guid><pubDate>Tue, 08 Feb 2022 06:09:03 GMT</pubDate><content:encoded>&lt;p&gt;This update has been a long time coming. First the updates to the game. Then a brief discussion on why it has all been a big waste of time. (Not really)&lt;/p&gt;
+&lt;p&gt;To make this a bit easier to digest, I&apos;m going to group features together logically as opposed to presenting them in order of development.&lt;/p&gt;
+&lt;h2&gt;Deploys!&lt;/h2&gt;
+&lt;p&gt;Finally got reliable deploys working. I got fed up with all the issues I was having with so called &quot;no config&quot; config solutions. When it comes down to it, as soon as you get past the most basic tutorial project, you do actually have to write some configuration. All the no config solutions tend to be black-boxy, whereas webpack for all it&apos;s complexity is an open book. At the expense of longer dev-server compile times, I get reliable deploys that I actually understand! 🚀&lt;/p&gt;
+&lt;h2&gt;A Focus On UI&lt;/h2&gt;
+&lt;p&gt;At this stage in the game, nearly every new feature requires extensive UI work. The goal of course is to get to a robust enough UI that additional features can plug into the existing interface with little to no effort.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Character Menu&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Built mostly as a means to more easily debug anotomy and wielding. Doesn&apos;t get a lot of use or love at the moment. But it does exist.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/97e8ea559598f9e4cbde49b5a43cd560/8263a/dev-weekly-220207-1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 84.89583333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAABEklEQVQ4y61Tx46FMBALvYveOwiJ9v+/N08eLW+1xwUOUTKjxLFjR8iyTL7vU9M0VNc1ryVJIiHE3SHItm3Ksoxc1yVVVZ8DOo5DVVWRpmlPgP4yhNy2banrOlqWhRnjkrIsuR9FEdfzPFNRFNT3PfctyyLDMEjX9UuZ4A3HcfAhsE3TlMIw5DqOY8rznDzP40tQJ0nyXQdBwAPn4MeXIRqQjFlRlGeSIQsub9vGkgCK/k1zBEcFA1JeMQVxAUu82yuAlxFw7BVAgA3D8AbYrynrunIWTdPk3wK2PzH4PyByOI4jBxrGIKh4TwDfAkTiz/Nk2Vi/8obIIVheGXwEiP+77ztN08TyHwMi1PibmJ9m8QMG02pcgpP9qwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;character menu&quot;
+        title=&quot;character menu&quot;
+        src=&quot;/static/97e8ea559598f9e4cbde49b5a43cd560/799d3/dev-weekly-220207-1.png&quot;
+        srcset=&quot;/static/97e8ea559598f9e4cbde49b5a43cd560/00d96/dev-weekly-220207-1.png 148w,
+/static/97e8ea559598f9e4cbde49b5a43cd560/0b23c/dev-weekly-220207-1.png 295w,
+/static/97e8ea559598f9e4cbde49b5a43cd560/799d3/dev-weekly-220207-1.png 590w,
+/static/97e8ea559598f9e4cbde49b5a43cd560/2a3d6/dev-weekly-220207-1.png 885w,
+/static/97e8ea559598f9e4cbde49b5a43cd560/8263a/dev-weekly-220207-1.png 1152w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Legend&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a feature borrowed from Brogue that I consider essential. Basic in it&apos;s current form, lacking health bars and status effects, the utility of having a quickly accessible key for ascii graphics is immense.&lt;/p&gt;
+&lt;p&gt;This legend shows each &quot;legendable&quot; entity within your field of vision and updates every turn.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 276px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dbce465a90d1e217466ace420a420392/0d238/dev-weekly-220207-2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 91.30434782608695%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAACMUlEQVQ4y61UaYsaQRAdHWfc8T6GeBA13gdRUfCKJ7iKByqirpL1AhF083uyf/dlqmEmG0JwPuRD0dNd06/rVb0qzmAwgOO4/2fdbheyLEMQBNRqNfh8Pni9XkQiEVitVuRyOUSjUSQSCX2A7+8/USwWIUkSrtcrNpsNBoMBJpMJjscj7vc71us1ptMpeJ5/DPg1X4LT6WIbitJms8FsNsPhcCCVSrGVfHSmKz0Br8g+JMmC2WyGcrmMUCjEqAaDQVQqFaTTaf05rOU9sEsKoMWGdruNZDKJUqnEaFN++/0+stks+1lnAYV/OtWcGY1G/RFW+1/gkEWYeBHD4QCNRgPL5RKj0QjNZpNFVygUFN+Q5fgh4HCXQTBmhYHj8fbjDc/Pz+h0OqjX60w6+Xye5ZXo6wIMhN3ahnSn5spkMrEKi6KoD0i11iQOu9sEUXjC6+t3zOdzXC4XbLdbLdJer4f9fs+k8xDQ/cmJJxsPo4HHbrdjFEl/sViMdVA4HGbU6UyXsEM+yh+niVd1EG2iSh3k9/v1Ux5/k+G0KgBGQaH5gsVioVFutVpsfzqd/pAPPabaX/oMyGYtQpfLpbShE3a7nRWEKFosFq1YuuxzKKK8zLPXPR4PmyrUcgQej8fZA7RXaRN4tVpleaXJRHfoPw2QKkmXCJCKQmKmyXI+nzEej1mVqRXJRxcymQxutxtWqxWbRjSJDofD74J9LARpT506akFUDaqrqlEyAqHzjzn8BSJPt5splBj6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;dynamic legend&quot;
+        title=&quot;dynamic legend&quot;
+        src=&quot;/static/dbce465a90d1e217466ace420a420392/0d238/dev-weekly-220207-2.png&quot;
+        srcset=&quot;/static/dbce465a90d1e217466ace420a420392/00d96/dev-weekly-220207-2.png 148w,
+/static/dbce465a90d1e217466ace420a420392/0d238/dev-weekly-220207-2.png 276w&quot;
+        sizes=&quot;(max-width: 276px) 100vw, 276px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Log Improvements&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The adventure log is better than it was but I&apos;m definitely not satisfied with it&apos;s current state. Multiple logs can occur on the same turn, so they are now grouped accordingly. Multiple colors can also be used on a single line via a templating system I ported from an earlier game. Again, this is better, but still not great.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/34878d17a3341f9d5402d8656f2dc7b7/b2e88/dev-weekly-220207-3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.54761904761905%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACSUlEQVQ4y5WUaY+bMBRFwWwJGZawGzBmDRl1Wqn9///t9ppUHanTNpoPT1akx8m137EtIQSSJMGoNZQasK4ryrJEmqao6wa+H8CyrM+UBc/38RLHiOIXxEmEMAxxPrPCE1xfwBYWXNeFbdsQ7PdZzn+BcYao61GrE+LCRVllUP2AaxlC6oRrhLookAU+WsJXz0Ym/gMU1wiXtYHeE+TtCZ1qMM8LlmXBtm4Y9IjIEVgcCz98G5V4smUnTxHtCmqNDmDb1ZjGCeM4Ejyj63skngtN4DcDdJ4A7ZQJbw3UFiGTAWRXYZ5m6FEfQDUMSAmcfyWsnwEFgdHcYVwrVG1KQA8pW9zvd2zbhqqqcBY2Cm51cC3E9hOglZ8Q3EoseoUeJuz7juv1yvWO23aDI5zPaSOoTDn16FUFPSmmukFzENs+Y5wVfE7Xo482e0OmOz9N+EJV1hJ6rtASaqasphK1NtpkKPMELUVvuOXZtfFKbUrxgF9Ygf3nUC4Ruk3xDGs0XYl+aNCNBUamVUqjIqxg33cO5EZYIh4gUwbqf5hyFKPfqcksqYwkNEc3ZUxbHMoUSXy494XAmcCnZ2jFFxRLjmGNca3CQ5dG1rzXywGsixwp+16py935kOgvwDBAvUieXY6mZaquO3R5e/vKxB1a2aDJM6w5J8+q85z3PkZhrmOWoeefmvUdmFLmbcJ0KPNwT+uH1Ob1aaQ85K7bFlLxrKcJnuchCIJjNY+JzwfmXZszt8xmpYzQ8hA5ZgKT1Pw2Hxllfpf973P8CSFpcBgt8z9+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;log improvements&quot;
+        title=&quot;log improvements&quot;
+        src=&quot;/static/34878d17a3341f9d5402d8656f2dc7b7/799d3/dev-weekly-220207-3.png&quot;
+        srcset=&quot;/static/34878d17a3341f9d5402d8656f2dc7b7/00d96/dev-weekly-220207-3.png 148w,
+/static/34878d17a3341f9d5402d8656f2dc7b7/0b23c/dev-weekly-220207-3.png 295w,
+/static/34878d17a3341f9d5402d8656f2dc7b7/799d3/dev-weekly-220207-3.png 590w,
+/static/34878d17a3341f9d5402d8656f2dc7b7/2a3d6/dev-weekly-220207-3.png 885w,
+/static/34878d17a3341f9d5402d8656f2dc7b7/b2e88/dev-weekly-220207-3.png 1008w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Within Reach&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The within reach menu was a bit of a rabbit hole that I went down. I got sick of going into my inventory to do this or that only to forget the exact layout of the map. That frustration only grew as I began to consider other ways of interacting with the environment beyond just getting and dropping. Pick pocketing, lock picking, drawing in dust, directional interactions - all made much easier, at least from a UI perspective, with a clear view on what exactly is within reach at all times.&lt;/p&gt;
+&lt;p&gt;The 3x3 grid in the top right is a dynamic view of your location on the map. The center list is populated with all entities within reach regardless of their current order in the render stack. The description renders for the currently selected entity and it&apos;s grid location highlights in the top right to give you the clearest indication of the identity and location of each.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f6d34625d2649cd55d2c907e2a0cdc70/2aa44/dev-weekly-220207-4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.028368794326237%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAYUlEQVQY072POQoAMQhFzUZWUwa8/0F/UEg5kCJM8UDwL0pEhBc45zAng1JKaK0hhADvvaHz4RhijGBm9N7N/BmuASoaY6CUgpyzFdRajSPU3Vrr5tq7l7TkaaBeKyL/B273znq7eonQqQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;within reach&quot;
+        title=&quot;within reach&quot;
+        src=&quot;/static/f6d34625d2649cd55d2c907e2a0cdc70/799d3/dev-weekly-220207-4.png&quot;
+        srcset=&quot;/static/f6d34625d2649cd55d2c907e2a0cdc70/00d96/dev-weekly-220207-4.png 148w,
+/static/f6d34625d2649cd55d2c907e2a0cdc70/0b23c/dev-weekly-220207-4.png 295w,
+/static/f6d34625d2649cd55d2c907e2a0cdc70/799d3/dev-weekly-220207-4.png 590w,
+/static/f6d34625d2649cd55d2c907e2a0cdc70/2a3d6/dev-weekly-220207-4.png 885w,
+/static/f6d34625d2649cd55d2c907e2a0cdc70/ae92f/dev-weekly-220207-4.png 1180w,
+/static/f6d34625d2649cd55d2c907e2a0cdc70/2aa44/dev-weekly-220207-4.png 2256w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Actions: Wield, Remove, and Quaff&lt;/h2&gt;
+&lt;p&gt;Additional actions were implemented for (w)Wield, (r)Remove, (q)Quaff. Nothing too remarkable here - you can wield weapons, remove weapons, and drink liquids. Available actions are listed below the description of items in your inventory and the within reach menu.&lt;/p&gt;
+&lt;p&gt;Additionally, in the UI there is now an inventory key. It&apos;s important to know what is being wielded, in which hand, and what if anything is on fire. Symbols are added to the list with a long form explanation in the description of each item.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/013bdc436a7ecd2fcf75ae5e4259b725/b98a9/dev-weekly-220207-5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.848034006376196%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAjUlEQVQY042PvQ7DIBCD+TkIlFAQKEMyRE0W3v8J3XBbKrVl+GSdzrJssSwLSqkgIggh/uK9R4wRKSWUWqC1vnvO88QzZNDn4wvWThzWVUkNpRQjpWQVrTV49xgK6xiyCGG+CFzEOw87WRhDcM5BHMcLea6wNI0FGsOT+/ScM983z77v2LYV68Voy1+8ASRbaViLsvBfAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;within reach&quot;
+        title=&quot;within reach&quot;
+        src=&quot;/static/013bdc436a7ecd2fcf75ae5e4259b725/799d3/dev-weekly-220207-5.png&quot;
+        srcset=&quot;/static/013bdc436a7ecd2fcf75ae5e4259b725/00d96/dev-weekly-220207-5.png 148w,
+/static/013bdc436a7ecd2fcf75ae5e4259b725/0b23c/dev-weekly-220207-5.png 295w,
+/static/013bdc436a7ecd2fcf75ae5e4259b725/799d3/dev-weekly-220207-5.png 590w,
+/static/013bdc436a7ecd2fcf75ae5e4259b725/2a3d6/dev-weekly-220207-5.png 885w,
+/static/013bdc436a7ecd2fcf75ae5e4259b725/ae92f/dev-weekly-220207-5.png 1180w,
+/static/013bdc436a7ecd2fcf75ae5e4259b725/b98a9/dev-weekly-220207-5.png 1882w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Dungeon Delving&lt;/h2&gt;
+&lt;p&gt;Stairs themselves are nothing new but this go round has brought some significant learnings (and bugs). My previous games have mostly used geotic for an ecs library. With that brought a relatively simple pattern of serializing and storing each floor in some sort of database. Navigating stairs was as simple as creating/loading floors as needed. That pattern ran into some issues with bitecs - the new ecs I&apos;ve been trying out. There&apos;s an outstanding bug in the serialization path in bitecs so saving and loading floors is off the table for now. Simply ignoring the issue and just delving deeper anyways, relying on the systems in place to just do the right thing only got me so far. Enemy AI quickly got mixed up across floors or just got bogged down trying to run for every enemy ever created.&lt;/p&gt;
+&lt;p&gt;The solution was to create an &quot;onCurrentMap&quot; component. Moving floors requires a complex dance of removing the &quot;onCurrentMap&quot; component from everything, collecting every entity attached to any entity traversing floors, generating or loading the next floor, and then attaching the &quot;onCurrentMap&quot; component to all of those entities. In addition, every query requires the &quot;onCurrentMap&quot; component. This keeps the systems running against only the entities on the current map which not only prevents AI from getting confused accross floors but also keeps the general memory and computation requirements to a relatively even level.&lt;/p&gt;
+&lt;p&gt;Unfortunately there is another outstanding bug in bitecs that causes it to crash after reaching the default maximum number of entities in a world. There is an api to expand that default, but again, bug. The serialization bug is preventing me from storing each level as it&apos;s own world, and the maximium entities bug is preventing me from working around it much longer. At the moment, I can delve to ~25 levels before crashing the game.&lt;/p&gt;
+&lt;p&gt;The developer of bitecs has been super responsive in the past and is currently in the process of a total rewrite, so I expect these issues to be ironed out eventually. But for now, there is no eta.&lt;/p&gt;
+&lt;h2&gt;Dijkstra&lt;/h2&gt;
+&lt;p&gt;Enemy ai relied entirely on aStar and was running into endless issues. It was slow and didn&apos;t work across floors. I&apos;m sure the problems were how I was using it, not the algorithm itself, but in the moment I just decided to switch to dijkstra and move on. Dijkstra is far more useful overall and can do so much more than just pathing. Eventually I would like to combine the two algorithms like I have in the past. Dijkstra for basic ai and pathing to the general vacinity of a goal, and aStar for finishing the job.&lt;/p&gt;
+&lt;p&gt;A new addition this time is a visualizer for debugging.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bb584510a67241cf7b014ad2435a527d/8524a/dev-weekly-220207-6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.324840764331206%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABIElEQVQoz42SyU4EMQxE7cRZe5lhE4L//8+i7G4xMByYg5XYUV6V44iI4JHItUNzPnLVW0QuaLOiDfP8MaD1iVQqJCWIgy3Har2grw1vnxveP643oP4D1Gw3Rz+dF0OiyLI37Jd5AIcYXmVglfIN1nsRTWf9N1SL3YsIqmQ8ScdCoPGCC3TGC0U6z5Sw1jYU69jKhpE6xSuDsPLHuaBIClg+1X3vtTcCF7/EerOJagNbXjG0UjiFuNidw8SiA57psNGNQychvnruF2MoqUQocz1rPpQ0V7Zdo4tw6i051Nt20EVawHde2ljb2NqizMuOWXfk3JAyu/GwGt/Jp5/riLr4e9XTmYcDruGW7xYuU5xXJUA5UeZu4Ihj7+5Ujz/6BfY6uX7Tw+ICAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;within reach&quot;
+        title=&quot;within reach&quot;
+        src=&quot;/static/bb584510a67241cf7b014ad2435a527d/799d3/dev-weekly-220207-6.png&quot;
+        srcset=&quot;/static/bb584510a67241cf7b014ad2435a527d/00d96/dev-weekly-220207-6.png 148w,
+/static/bb584510a67241cf7b014ad2435a527d/0b23c/dev-weekly-220207-6.png 295w,
+/static/bb584510a67241cf7b014ad2435a527d/799d3/dev-weekly-220207-6.png 590w,
+/static/bb584510a67241cf7b014ad2435a527d/2a3d6/dev-weekly-220207-6.png 885w,
+/static/bb584510a67241cf7b014ad2435a527d/ae92f/dev-weekly-220207-6.png 1180w,
+/static/bb584510a67241cf7b014ad2435a527d/8524a/dev-weekly-220207-6.png 3140w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Torches&lt;/h2&gt;
+&lt;p&gt;How hard could it be to add a torch?&lt;/p&gt;
+&lt;p&gt;Hoo-boy, was this ever a rabbit hole! The first requirement I set for myself in this journey was multiple light sources. A torch is an item, and items can be picked up and dropped. A torch on the ground should emit light. Thus multiple light sources were required.&lt;/p&gt;
+&lt;p&gt;Torches don&apos;t just glow - they burn! So we needed a burning system. Things that burn turn to ash so I experimented with entropy, damage, and resistance systems. And of course something has to actually light the torch on fire. Why not flint?&lt;/p&gt;
+&lt;p&gt;Adding flint to light the torch required the concept of applying one item to another. And this is where things began to really got out of hand. I had hoped to reuse concepts from an effects system I had previously written using geotic. Unfortunately that system relies on strings stored in components. Bitecs doesn&apos;t store strings on components for perf reasons - which I totally get. But I&apos;m not hitting perf issues and don&apos;t expect to anytime soon. Create a comparable effects/apply system requires a total reengineering, so once again I kicked the can down the road. Not to mention all the UI work torches created - status keys in item descriptions to show what was burning as well as the entire within reach preview. And after solving all of that it&apos;s still not something I would consider done.&lt;/p&gt;
+&lt;p&gt;Torches are going to be left as a humble mvp that technically does the thing. There are bugs and incomplete edges that for the most part I feel pretty good about. I learned a ton. It&apos;s just that it took about a month to add torches. Torches that provide light for the player. The player that could already see just fine...&lt;/p&gt;
+&lt;p&gt;Before torches:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 354px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.75141242937853%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA7klEQVQ4y+1TSW6EQBBr9n3fBRxAQtwQr+D/P/KMa9JJZuaY3JJDyyrb7a4qhFJK4ZfPnwt0HAdBEMC2bfR9D8MwsO+7iOd5irZtG9q2xTAMWNcVYRhiWRbxkqM3SRKplWVZ0CeKIhHruhakmXyWZYJlWSKOY/i+jzRNJYA1va7rfo0syXfkJSK7JbJ74nEcmKbpidMe0zTxPeNph1p8Db6u63MNWtPet0ASfJXIMUhyX8RxHEUrikJ2xPGappGHqqqSEH3H87xHKGdnwYs0k+RH0KNSY53nOeZ5lkcYzBWwia7rxEvuo8v/P+WH5wYeMCVTseyLhAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;within reach&quot;
+        title=&quot;within reach&quot;
+        src=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png&quot;
+        srcset=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/00d96/dev-weekly-220207-7.png 148w,
+/static/2d0670c857aaa080550c78cb275fb8fb/0b23c/dev-weekly-220207-7.png 295w,
+/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png 354w&quot;
+        sizes=&quot;(max-width: 354px) 100vw, 354px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;After torches:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 354px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.75141242937853%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA7klEQVQ4y+1TSW6EQBBr9n3fBRxAQtwQr+D/P/KMa9JJZuaY3JJDyyrb7a4qhFJK4ZfPnwt0HAdBEMC2bfR9D8MwsO+7iOd5irZtG9q2xTAMWNcVYRhiWRbxkqM3SRKplWVZ0CeKIhHruhakmXyWZYJlWSKOY/i+jzRNJYA1va7rfo0syXfkJSK7JbJ74nEcmKbpidMe0zTxPeNph1p8Db6u63MNWtPet0ASfJXIMUhyX8RxHEUrikJ2xPGappGHqqqSEH3H87xHKGdnwYs0k+RH0KNSY53nOeZ5lkcYzBWwia7rxEvuo8v/P+WH5wYeMCVTseyLhAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;within reach&quot;
+        title=&quot;within reach&quot;
+        src=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png&quot;
+        srcset=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/00d96/dev-weekly-220207-7.png 148w,
+/static/2d0670c857aaa080550c78cb275fb8fb/0b23c/dev-weekly-220207-7.png 295w,
+/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png 354w&quot;
+        sizes=&quot;(max-width: 354px) 100vw, 354px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Worth it!&lt;/p&gt;
+&lt;h2&gt;Why I&apos;m gonna start over. Again.&lt;/h2&gt;
+&lt;p&gt;I know. I commited to this one. It&apos;s been going on for months. Across the years even! But this ecs lib is too dogmatic for me. I miss events and storing strings in components and simple serialization that can be stored as JSON. When you get down to it, it&apos;s solving for problems I don&apos;t have.&lt;/p&gt;
+&lt;p&gt;I&apos;ve learned a TON with this one. Pixijs is faster and less buggy than my own implementation of canvas. Using a tile sheet of ascii characters is nicer than relying on web fonts.&lt;/p&gt;
+&lt;p&gt;This was only supposed to be a pixi test and the test is over.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TX BMF (Last Human Standing)]]></title><link>https://luetkemj.github.io/211122/last-human-standing</link><guid isPermaLink="false">https://luetkemj.github.io/211122/last-human-standing</guid><pubDate>Mon, 22 Nov 2021 16:41:24 GMT</pubDate><content:encoded>&lt;p&gt;I can run four miles in an hour. That&apos;s easy!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The backyard ultra is a form of ultramarathon race where competitors must consecutively run the distance of 6,706 meters (4.167 miles) in less than one hour. When each lap is completed, the remaining time within the hour is typically used to recover for the next hour&apos;s race.&lt;/p&gt;
 &lt;p&gt;The race ends when the last runner or runners either concede or fail to finish the distance within the allotted time frame.&lt;/p&gt;
@@ -690,299 +982,7 @@ The Wereelephant Doto Kadieslik has come! A very large elephant twisted into hum
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Beyond the interface work there&apos;s the addition of swords and health potions that can be found on the map. Only the player can pick them up and they are automatically quaffed or equipped. No interface yet to manage those actions.&lt;/p&gt;
-&lt;p&gt;I seem to have forgotten how much work these games are. But then again that&apos;s sort of the point isn&apos;t it?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Test Is Over]]></title><link>https://luetkemj.github.io/220207/dev-weekly</link><guid isPermaLink="false">https://luetkemj.github.io/220207/dev-weekly</guid><pubDate>Mon, 08 Feb 2021 06:09:03 GMT</pubDate><content:encoded>&lt;p&gt;This update has been a long time coming. First the updates to the game. Then a brief discussion on why it has all been a big waste of time. (Not really)&lt;/p&gt;
-&lt;p&gt;To make this a bit easier to digest, I&apos;m going to group features together logically as opposed to presenting them in order of development.&lt;/p&gt;
-&lt;h2&gt;Deploys!&lt;/h2&gt;
-&lt;p&gt;Finally got reliable deploys working. I got fed up with all the issues I was having with so called &quot;no config&quot; config solutions. When it comes down to it, as soon as you get past the most basic tutorial project, you do actually have to write some configuration. All the no config solutions tend to be black-boxy, whereas webpack for all it&apos;s complexity is an open book. At the expense of longer dev-server compile times, I get reliable deploys that I actually understand! 🚀&lt;/p&gt;
-&lt;h2&gt;A Focus On UI&lt;/h2&gt;
-&lt;p&gt;At this stage in the game, nearly every new feature requires extensive UI work. The goal of course is to get to a robust enough UI that additional features can plug into the existing interface with little to no effort.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Character Menu&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Built mostly as a means to more easily debug anotomy and wielding. Doesn&apos;t get a lot of use or love at the moment. But it does exist.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/97e8ea559598f9e4cbde49b5a43cd560/8263a/dev-weekly-220207-1.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 84.89583333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAABEklEQVQ4y61Tx46FMBALvYveOwiJ9v+/N08eLW+1xwUOUTKjxLFjR8iyTL7vU9M0VNc1ryVJIiHE3SHItm3Ksoxc1yVVVZ8DOo5DVVWRpmlPgP4yhNy2banrOlqWhRnjkrIsuR9FEdfzPFNRFNT3PfctyyLDMEjX9UuZ4A3HcfAhsE3TlMIw5DqOY8rznDzP40tQJ0nyXQdBwAPn4MeXIRqQjFlRlGeSIQsub9vGkgCK/k1zBEcFA1JeMQVxAUu82yuAlxFw7BVAgA3D8AbYrynrunIWTdPk3wK2PzH4PyByOI4jBxrGIKh4TwDfAkTiz/Nk2Vi/8obIIVheGXwEiP+77ztN08TyHwMi1PibmJ9m8QMG02pcgpP9qwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;character menu&quot;
-        title=&quot;character menu&quot;
-        src=&quot;/static/97e8ea559598f9e4cbde49b5a43cd560/799d3/dev-weekly-220207-1.png&quot;
-        srcset=&quot;/static/97e8ea559598f9e4cbde49b5a43cd560/00d96/dev-weekly-220207-1.png 148w,
-/static/97e8ea559598f9e4cbde49b5a43cd560/0b23c/dev-weekly-220207-1.png 295w,
-/static/97e8ea559598f9e4cbde49b5a43cd560/799d3/dev-weekly-220207-1.png 590w,
-/static/97e8ea559598f9e4cbde49b5a43cd560/2a3d6/dev-weekly-220207-1.png 885w,
-/static/97e8ea559598f9e4cbde49b5a43cd560/8263a/dev-weekly-220207-1.png 1152w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Dynamic Legend&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is a feature borrowed from Brogue that I consider essential. Basic in it&apos;s current form, lacking health bars and status effects, the utility of having a quickly accessible key for ascii graphics is immense.&lt;/p&gt;
-&lt;p&gt;This legend shows each &quot;legendable&quot; entity within your field of vision and updates every turn.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 276px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/dbce465a90d1e217466ace420a420392/0d238/dev-weekly-220207-2.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 91.30434782608695%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAACMUlEQVQ4y61UaYsaQRAdHWfc8T6GeBA13gdRUfCKJ7iKByqirpL1AhF083uyf/dlqmEmG0JwPuRD0dNd06/rVb0qzmAwgOO4/2fdbheyLEMQBNRqNfh8Pni9XkQiEVitVuRyOUSjUSQSCX2A7+8/USwWIUkSrtcrNpsNBoMBJpMJjscj7vc71us1ptMpeJ5/DPg1X4LT6WIbitJms8FsNsPhcCCVSrGVfHSmKz0Br8g+JMmC2WyGcrmMUCjEqAaDQVQqFaTTaf05rOU9sEsKoMWGdruNZDKJUqnEaFN++/0+stks+1lnAYV/OtWcGY1G/RFW+1/gkEWYeBHD4QCNRgPL5RKj0QjNZpNFVygUFN+Q5fgh4HCXQTBmhYHj8fbjDc/Pz+h0OqjX60w6+Xye5ZXo6wIMhN3ahnSn5spkMrEKi6KoD0i11iQOu9sEUXjC6+t3zOdzXC4XbLdbLdJer4f9fs+k8xDQ/cmJJxsPo4HHbrdjFEl/sViMdVA4HGbU6UyXsEM+yh+niVd1EG2iSh3k9/v1Ux5/k+G0KgBGQaH5gsVioVFutVpsfzqd/pAPPabaX/oMyGYtQpfLpbShE3a7nRWEKFosFq1YuuxzKKK8zLPXPR4PmyrUcgQej8fZA7RXaRN4tVpleaXJRHfoPw2QKkmXCJCKQmKmyXI+nzEej1mVqRXJRxcymQxutxtWqxWbRjSJDofD74J9LARpT506akFUDaqrqlEyAqHzjzn8BSJPt5splBj6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;dynamic legend&quot;
-        title=&quot;dynamic legend&quot;
-        src=&quot;/static/dbce465a90d1e217466ace420a420392/0d238/dev-weekly-220207-2.png&quot;
-        srcset=&quot;/static/dbce465a90d1e217466ace420a420392/00d96/dev-weekly-220207-2.png 148w,
-/static/dbce465a90d1e217466ace420a420392/0d238/dev-weekly-220207-2.png 276w&quot;
-        sizes=&quot;(max-width: 276px) 100vw, 276px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Log Improvements&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The adventure log is better than it was but I&apos;m definitely not satisfied with it&apos;s current state. Multiple logs can occur on the same turn, so they are now grouped accordingly. Multiple colors can also be used on a single line via a templating system I ported from an earlier game. Again, this is better, but still not great.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/34878d17a3341f9d5402d8656f2dc7b7/b2e88/dev-weekly-220207-3.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 81.54761904761905%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACSUlEQVQ4y5WUaY+bMBRFwWwJGZawGzBmDRl1Wqn9///t9ppUHanTNpoPT1akx8m137EtIQSSJMGoNZQasK4ryrJEmqao6wa+H8CyrM+UBc/38RLHiOIXxEmEMAxxPrPCE1xfwBYWXNeFbdsQ7PdZzn+BcYao61GrE+LCRVllUP2AaxlC6oRrhLookAU+WsJXz0Ym/gMU1wiXtYHeE+TtCZ1qMM8LlmXBtm4Y9IjIEVgcCz98G5V4smUnTxHtCmqNDmDb1ZjGCeM4Ejyj63skngtN4DcDdJ4A7ZQJbw3UFiGTAWRXYZ5m6FEfQDUMSAmcfyWsnwEFgdHcYVwrVG1KQA8pW9zvd2zbhqqqcBY2Cm51cC3E9hOglZ8Q3EoseoUeJuz7juv1yvWO23aDI5zPaSOoTDn16FUFPSmmukFzENs+Y5wVfE7Xo482e0OmOz9N+EJV1hJ6rtASaqasphK1NtpkKPMELUVvuOXZtfFKbUrxgF9Ygf3nUC4Ruk3xDGs0XYl+aNCNBUamVUqjIqxg33cO5EZYIh4gUwbqf5hyFKPfqcksqYwkNEc3ZUxbHMoUSXy494XAmcCnZ2jFFxRLjmGNca3CQ5dG1rzXywGsixwp+16py935kOgvwDBAvUieXY6mZaquO3R5e/vKxB1a2aDJM6w5J8+q85z3PkZhrmOWoeefmvUdmFLmbcJ0KPNwT+uH1Ob1aaQ85K7bFlLxrKcJnuchCIJjNY+JzwfmXZszt8xmpYzQ8hA5ZgKT1Pw2Hxllfpf973P8CSFpcBgt8z9+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;log improvements&quot;
-        title=&quot;log improvements&quot;
-        src=&quot;/static/34878d17a3341f9d5402d8656f2dc7b7/799d3/dev-weekly-220207-3.png&quot;
-        srcset=&quot;/static/34878d17a3341f9d5402d8656f2dc7b7/00d96/dev-weekly-220207-3.png 148w,
-/static/34878d17a3341f9d5402d8656f2dc7b7/0b23c/dev-weekly-220207-3.png 295w,
-/static/34878d17a3341f9d5402d8656f2dc7b7/799d3/dev-weekly-220207-3.png 590w,
-/static/34878d17a3341f9d5402d8656f2dc7b7/2a3d6/dev-weekly-220207-3.png 885w,
-/static/34878d17a3341f9d5402d8656f2dc7b7/b2e88/dev-weekly-220207-3.png 1008w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Within Reach&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The within reach menu was a bit of a rabbit hole that I went down. I got sick of going into my inventory to do this or that only to forget the exact layout of the map. That frustration only grew as I began to consider other ways of interacting with the environment beyond just getting and dropping. Pick pocketing, lock picking, drawing in dust, directional interactions - all made much easier, at least from a UI perspective, with a clear view on what exactly is within reach at all times.&lt;/p&gt;
-&lt;p&gt;The 3x3 grid in the top right is a dynamic view of your location on the map. The center list is populated with all entities within reach regardless of their current order in the render stack. The description renders for the currently selected entity and it&apos;s grid location highlights in the top right to give you the clearest indication of the identity and location of each.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/f6d34625d2649cd55d2c907e2a0cdc70/2aa44/dev-weekly-220207-4.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 31.028368794326237%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAYUlEQVQY072POQoAMQhFzUZWUwa8/0F/UEg5kCJM8UDwL0pEhBc45zAng1JKaK0hhADvvaHz4RhijGBm9N7N/BmuASoaY6CUgpyzFdRajSPU3Vrr5tq7l7TkaaBeKyL/B273znq7eonQqQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;within reach&quot;
-        title=&quot;within reach&quot;
-        src=&quot;/static/f6d34625d2649cd55d2c907e2a0cdc70/799d3/dev-weekly-220207-4.png&quot;
-        srcset=&quot;/static/f6d34625d2649cd55d2c907e2a0cdc70/00d96/dev-weekly-220207-4.png 148w,
-/static/f6d34625d2649cd55d2c907e2a0cdc70/0b23c/dev-weekly-220207-4.png 295w,
-/static/f6d34625d2649cd55d2c907e2a0cdc70/799d3/dev-weekly-220207-4.png 590w,
-/static/f6d34625d2649cd55d2c907e2a0cdc70/2a3d6/dev-weekly-220207-4.png 885w,
-/static/f6d34625d2649cd55d2c907e2a0cdc70/ae92f/dev-weekly-220207-4.png 1180w,
-/static/f6d34625d2649cd55d2c907e2a0cdc70/2aa44/dev-weekly-220207-4.png 2256w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Actions: Wield, Remove, and Quaff&lt;/h2&gt;
-&lt;p&gt;Additional actions were implemented for (w)Wield, (r)Remove, (q)Quaff. Nothing too remarkable here - you can wield weapons, remove weapons, and drink liquids. Available actions are listed below the description of items in your inventory and the within reach menu.&lt;/p&gt;
-&lt;p&gt;Additionally, in the UI there is now an inventory key. It&apos;s important to know what is being wielded, in which hand, and what if anything is on fire. Symbols are added to the list with a long form explanation in the description of each item.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/013bdc436a7ecd2fcf75ae5e4259b725/b98a9/dev-weekly-220207-5.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 22.848034006376196%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAjUlEQVQY042PvQ7DIBCD+TkIlFAQKEMyRE0W3v8J3XBbKrVl+GSdzrJssSwLSqkgIggh/uK9R4wRKSWUWqC1vnvO88QzZNDn4wvWThzWVUkNpRQjpWQVrTV49xgK6xiyCGG+CFzEOw87WRhDcM5BHMcLea6wNI0FGsOT+/ScM983z77v2LYV68Voy1+8ASRbaViLsvBfAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;within reach&quot;
-        title=&quot;within reach&quot;
-        src=&quot;/static/013bdc436a7ecd2fcf75ae5e4259b725/799d3/dev-weekly-220207-5.png&quot;
-        srcset=&quot;/static/013bdc436a7ecd2fcf75ae5e4259b725/00d96/dev-weekly-220207-5.png 148w,
-/static/013bdc436a7ecd2fcf75ae5e4259b725/0b23c/dev-weekly-220207-5.png 295w,
-/static/013bdc436a7ecd2fcf75ae5e4259b725/799d3/dev-weekly-220207-5.png 590w,
-/static/013bdc436a7ecd2fcf75ae5e4259b725/2a3d6/dev-weekly-220207-5.png 885w,
-/static/013bdc436a7ecd2fcf75ae5e4259b725/ae92f/dev-weekly-220207-5.png 1180w,
-/static/013bdc436a7ecd2fcf75ae5e4259b725/b98a9/dev-weekly-220207-5.png 1882w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Dungeon Delving&lt;/h2&gt;
-&lt;p&gt;Stairs themselves are nothing new but this go round has brought some significant learnings (and bugs). My previous games have mostly used geotic for an ecs library. With that brought a relatively simple pattern of serializing and storing each floor in some sort of database. Navigating stairs was as simple as creating/loading floors as needed. That pattern ran into some issues with bitecs - the new ecs I&apos;ve been trying out. There&apos;s an outstanding bug in the serialization path in bitecs so saving and loading floors is off the table for now. Simply ignoring the issue and just delving deeper anyways, relying on the systems in place to just do the right thing only got me so far. Enemy AI quickly got mixed up across floors or just got bogged down trying to run for every enemy ever created.&lt;/p&gt;
-&lt;p&gt;The solution was to create an &quot;onCurrentMap&quot; component. Moving floors requires a complex dance of removing the &quot;onCurrentMap&quot; component from everything, collecting every entity attached to any entity traversing floors, generating or loading the next floor, and then attaching the &quot;onCurrentMap&quot; component to all of those entities. In addition, every query requires the &quot;onCurrentMap&quot; component. This keeps the systems running against only the entities on the current map which not only prevents AI from getting confused accross floors but also keeps the general memory and computation requirements to a relatively even level.&lt;/p&gt;
-&lt;p&gt;Unfortunately there is another outstanding bug in bitecs that causes it to crash after reaching the default maximum number of entities in a world. There is an api to expand that default, but again, bug. The serialization bug is preventing me from storing each level as it&apos;s own world, and the maximium entities bug is preventing me from working around it much longer. At the moment, I can delve to ~25 levels before crashing the game.&lt;/p&gt;
-&lt;p&gt;The developer of bitecs has been super responsive in the past and is currently in the process of a total rewrite, so I expect these issues to be ironed out eventually. But for now, there is no eta.&lt;/p&gt;
-&lt;h2&gt;Dijkstra&lt;/h2&gt;
-&lt;p&gt;Enemy ai relied entirely on aStar and was running into endless issues. It was slow and didn&apos;t work across floors. I&apos;m sure the problems were how I was using it, not the algorithm itself, but in the moment I just decided to switch to dijkstra and move on. Dijkstra is far more useful overall and can do so much more than just pathing. Eventually I would like to combine the two algorithms like I have in the past. Dijkstra for basic ai and pathing to the general vacinity of a goal, and aStar for finishing the job.&lt;/p&gt;
-&lt;p&gt;A new addition this time is a visualizer for debugging.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/bb584510a67241cf7b014ad2435a527d/8524a/dev-weekly-220207-6.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 47.324840764331206%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABIElEQVQoz42SyU4EMQxE7cRZe5lhE4L//8+i7G4xMByYg5XYUV6V44iI4JHItUNzPnLVW0QuaLOiDfP8MaD1iVQqJCWIgy3Har2grw1vnxveP643oP4D1Gw3Rz+dF0OiyLI37Jd5AIcYXmVglfIN1nsRTWf9N1SL3YsIqmQ8ScdCoPGCC3TGC0U6z5Sw1jYU69jKhpE6xSuDsPLHuaBIClg+1X3vtTcCF7/EerOJagNbXjG0UjiFuNidw8SiA57psNGNQychvnruF2MoqUQocz1rPpQ0V7Zdo4tw6i051Nt20EVawHde2ljb2NqizMuOWXfk3JAyu/GwGt/Jp5/riLr4e9XTmYcDruGW7xYuU5xXJUA5UeZu4Ihj7+5Ujz/6BfY6uX7Tw+ICAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;within reach&quot;
-        title=&quot;within reach&quot;
-        src=&quot;/static/bb584510a67241cf7b014ad2435a527d/799d3/dev-weekly-220207-6.png&quot;
-        srcset=&quot;/static/bb584510a67241cf7b014ad2435a527d/00d96/dev-weekly-220207-6.png 148w,
-/static/bb584510a67241cf7b014ad2435a527d/0b23c/dev-weekly-220207-6.png 295w,
-/static/bb584510a67241cf7b014ad2435a527d/799d3/dev-weekly-220207-6.png 590w,
-/static/bb584510a67241cf7b014ad2435a527d/2a3d6/dev-weekly-220207-6.png 885w,
-/static/bb584510a67241cf7b014ad2435a527d/ae92f/dev-weekly-220207-6.png 1180w,
-/static/bb584510a67241cf7b014ad2435a527d/8524a/dev-weekly-220207-6.png 3140w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Torches&lt;/h2&gt;
-&lt;p&gt;How hard could it be to add a torch?&lt;/p&gt;
-&lt;p&gt;Hoo-boy, was this ever a rabbit hole! The first requirement I set for myself in this journey was multiple light sources. A torch is an item, and items can be picked up and dropped. A torch on the ground should emit light. Thus multiple light sources were required.&lt;/p&gt;
-&lt;p&gt;Torches don&apos;t just glow - they burn! So we needed a burning system. Things that burn turn to ash so I experimented with entropy, damage, and resistance systems. And of course something has to actually light the torch on fire. Why not flint?&lt;/p&gt;
-&lt;p&gt;Adding flint to light the torch required the concept of applying one item to another. And this is where things began to really got out of hand. I had hoped to reuse concepts from an effects system I had previously written using geotic. Unfortunately that system relies on strings stored in components. Bitecs doesn&apos;t store strings on components for perf reasons - which I totally get. But I&apos;m not hitting perf issues and don&apos;t expect to anytime soon. Create a comparable effects/apply system requires a total reengineering, so once again I kicked the can down the road. Not to mention all the UI work torches created - status keys in item descriptions to show what was burning as well as the entire within reach preview. And after solving all of that it&apos;s still not something I would consider done.&lt;/p&gt;
-&lt;p&gt;Torches are going to be left as a humble mvp that technically does the thing. There are bugs and incomplete edges that for the most part I feel pretty good about. I learned a ton. It&apos;s just that it took about a month to add torches. Torches that provide light for the player. The player that could already see just fine...&lt;/p&gt;
-&lt;p&gt;Before torches:
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 354px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 71.75141242937853%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA7klEQVQ4y+1TSW6EQBBr9n3fBRxAQtwQr+D/P/KMa9JJZuaY3JJDyyrb7a4qhFJK4ZfPnwt0HAdBEMC2bfR9D8MwsO+7iOd5irZtG9q2xTAMWNcVYRhiWRbxkqM3SRKplWVZ0CeKIhHruhakmXyWZYJlWSKOY/i+jzRNJYA1va7rfo0syXfkJSK7JbJ74nEcmKbpidMe0zTxPeNph1p8Db6u63MNWtPet0ASfJXIMUhyX8RxHEUrikJ2xPGappGHqqqSEH3H87xHKGdnwYs0k+RH0KNSY53nOeZ5lkcYzBWwia7rxEvuo8v/P+WH5wYeMCVTseyLhAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;within reach&quot;
-        title=&quot;within reach&quot;
-        src=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png&quot;
-        srcset=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/00d96/dev-weekly-220207-7.png 148w,
-/static/2d0670c857aaa080550c78cb275fb8fb/0b23c/dev-weekly-220207-7.png 295w,
-/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png 354w&quot;
-        sizes=&quot;(max-width: 354px) 100vw, 354px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;After torches:
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 354px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 71.75141242937853%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA7klEQVQ4y+1TSW6EQBBr9n3fBRxAQtwQr+D/P/KMa9JJZuaY3JJDyyrb7a4qhFJK4ZfPnwt0HAdBEMC2bfR9D8MwsO+7iOd5irZtG9q2xTAMWNcVYRhiWRbxkqM3SRKplWVZ0CeKIhHruhakmXyWZYJlWSKOY/i+jzRNJYA1va7rfo0syXfkJSK7JbJ74nEcmKbpidMe0zTxPeNph1p8Db6u63MNWtPet0ASfJXIMUhyX8RxHEUrikJ2xPGappGHqqqSEH3H87xHKGdnwYs0k+RH0KNSY53nOeZ5lkcYzBWwia7rxEvuo8v/P+WH5wYeMCVTseyLhAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;within reach&quot;
-        title=&quot;within reach&quot;
-        src=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png&quot;
-        srcset=&quot;/static/2d0670c857aaa080550c78cb275fb8fb/00d96/dev-weekly-220207-7.png 148w,
-/static/2d0670c857aaa080550c78cb275fb8fb/0b23c/dev-weekly-220207-7.png 295w,
-/static/2d0670c857aaa080550c78cb275fb8fb/6eb4e/dev-weekly-220207-7.png 354w&quot;
-        sizes=&quot;(max-width: 354px) 100vw, 354px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Worth it!&lt;/p&gt;
-&lt;h2&gt;Why I&apos;m gonna start over. Again.&lt;/h2&gt;
-&lt;p&gt;I know. I commited to this one. It&apos;s been going on for months. Across the years even! But this ecs lib is too dogmatic for me. I miss events and storing strings in components and simple serialization that can be stored as JSON. When you get down to it, it&apos;s solving for problems I don&apos;t have.&lt;/p&gt;
-&lt;p&gt;I&apos;ve learned a TON with this one. Pixijs is faster and less buggy than my own implementation of canvas. Using a tile sheet of ascii characters is nicer than relying on web fonts.&lt;/p&gt;
-&lt;p&gt;This was only supposed to be a pixi test and the test is over.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Unstuck #1 Eye Spy]]></title><link>https://luetkemj.github.io/200418/unstuck-1</link><guid isPermaLink="false">https://luetkemj.github.io/200418/unstuck-1</guid><pubDate>Sat, 18 Apr 2020 09:50:59 GMT</pubDate><content:encoded>&lt;h1&gt;Roll&lt;/h1&gt;
+&lt;p&gt;I seem to have forgotten how much work these games are. But then again that&apos;s sort of the point isn&apos;t it?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Unstuck #1 Eye Spy]]></title><link>https://luetkemj.github.io/200418/unstuck-1</link><guid isPermaLink="false">https://luetkemj.github.io/200418/unstuck-1</guid><pubDate>Sat, 18 Apr 2020 09:50:59 GMT</pubDate><content:encoded>&lt;h1&gt;Roll&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0!important; margin-right: 0!important; max-width: 590px;&quot;
