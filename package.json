@@ -3,7 +3,8 @@
   "private": true,
   "description": "Change is good",
   "version": "0.1.0",
-  "author": "Marl Luetke <luetkemj@gmail.com>",
+  "author": "Mark Luetke <luetkemj@gmail.com>",
+  "enginges":  { "node": "~12.13.1" },
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "^2.0.53",
