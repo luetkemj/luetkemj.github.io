@@ -4,7 +4,7 @@
   "description": "Change is good",
   "version": "0.1.0",
   "author": "Mark Luetke <luetkemj@gmail.com>",
-  "enginges":  { "node": "~12.13.1" },
+  "engines": { "node": "~12.13.1" },
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "^2.0.53",
@@ -36,9 +36,7 @@
     "react-typography": "^0.16.18",
     "typography": "^0.16.18"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
