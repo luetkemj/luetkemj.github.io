@@ -71,9 +71,11 @@ made it over the hump I could push it on the back half. On the first hike I was 
 runners chewing up the climbs with a steady gait only to bomb past them on the
 downs. We played leapfrog for the next hour until about mile 7.
 
-Topping out at about 8500 feet it was finally time to head back down. I offered
-final trail greetings to some familar faces I had been trading places with and
-happily opened up my stride for some sustained downhill running.
+![Action shot of me running on course with mountains in the background](../../images/220919/oncourse.jpeg)
+
+Topping out at about 8500 feet it was finally time to head back down. I said my goodbyes to some familar faces I had been trading places with and
+happily opened up my stride for some long awaited:w
+sustained downhill running.
 
 The trail dropped about 500 feet over the next 2 miles to Lady Moon aid at mile 8.5.
 It was there that I tagged a gate, refilled my water bottles and turned around
@@ -82,41 +84,45 @@ to execute the only out and back on the course.
 ![cows on course](../../images/220919/cows.png)
 
 The next mile and half included yet another climb, nothing major but at this point I
-was really hoping for more sustained descents. Mile 11 was just what I was
+was really hoping to be done with climbing. Mile 11 was just what I was
 looking for! ~300 feet loss on smooth downhill single track! My first and only sub 8
 minute mile of the day. I passed a few more folks here and settled in for what I
 thought would be a smooth cruise to the finish line at the bottom of a big hill.
 
-After a mile or so of fast (for me) running the Elkhorn aid came into view
-again. With only a couple miles to go I again ran through the aid station
-without stopping. The shouts of encouragement from volunteers did not go
-unnoticed!
+After a mile or so of fast (for me) running Elkhorn aid came into view. With only a couple miles to go I again ran through the aid station
+without stopping. The shouts of encouragement from volunteers and spectators
+were very much appreciated!
 
-I was looking forward to more downhill - this time on a flat dirt road.
+I was looking forward to more downhill - this time on the flat dirt road we
+started on.
 Unfortunately I seem to have had forgotten that there were also climbs on that
-road. Again, nothing major but I was running low on steam and chose to do some
+road. Again, nothing major but I was running low on steam and ended up doing yet
 more hiking.
 
-The turn to finish line was finally in sight. I was looking forward to cheers,
+The last turn to the finish line was finally in sight. I was looking forward to cheers,
 maybe some cowbells, anything to pull me that last little bit to the end. It was
-oddly quiet. When the trail turned, there was no finish line, no cowbells, no
+oddly quiet. When the trail did turn, there was no finish line, no cowbells, no
 cheers. Just more course markings.
 
-They moved the finish line to mess hall! Just one more push up a few hundred
+They had moved the finish line to the mess hall! One last push up a few hundred
 feet of stairs... nothing to do but power through.
 
 ## The End
 
-Finally, after 13.8 miles and bit a more elevation than advertised I made it
-across the finish line. It took just over 2 and a half hours. I had decided beforehand
-that anything under 3 would feel like a success - really didn't expect to land
-it this fast with as much hiking as I did. I may not look it but I really couldn't be happier with the result.
+Finally, after 13.8 miles and a bit more elevation than advertised I made it
+across the finish line. I had decided beforehand
+that anything under 3 hours would feel like a success. With as much hiking as I
+did I really wasn't expecting to even crack 3 hours. But in the end I
+managed to cross the finish line in just over two and half good enough for
+36th place overall.
 
-![still working on the fresh finish look](../../images/220919/wrecked.jpg)
+I may not look it but I really couldn't be happier with the result.
 
-The Red Feather Jamboree was a fantastic event. It was very well organized, had perfect weather, and felt like a great intro to Colorado trail racing. Oh! and instead of yet another finishers medal we got our pick from an array of specially bottled jams! I waffled between rhubarb, peach, and strawberry before settling on strawberry.
+![looking pretty wrecked as I cross the finish line with an unofficial clock time of 2:30:19](../../images/220919/wrecked.jpg)
 
-![finisher's jam](../../images/220919/finished.png)
+The Red Feather Jamboree was a fantastic event. It was very well organized, had perfect weather, and felt like a great intro to Colorado trail racing. Oh! and instead of yet another finishers amulet we got our pick from an array of specially bottled jams! I waffled between rhubarb, peach, and strawberry before deciding.
+
+![finisher's strawberry jam and beer from the porch of the mess hall](../../images/220919/finished.png)
 
 10 out of 10 would race again.
 
