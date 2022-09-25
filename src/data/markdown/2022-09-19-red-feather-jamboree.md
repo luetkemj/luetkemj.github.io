@@ -5,95 +5,49 @@ date: 2022-09-19 06:36:46
 categories: life
 ---
 
-# Rea Feather Trail Jamboree
-
-> // tell 'em what I'm gonna tell em
-
-> - intro the race
-
-> I moved to Fort Collins in May of this year and their other race
-> offerings were either full of a bit out of my league right now.
-
-> Red Feather Trail Jamboree is a new race from local race directors Gnar
-> Runners. I moved to Fort Collins in May of this year and their other race
-> offerings were either full of a bit out of my league right now.
-
-> I moved to Fort Collins in May of this year and their other race
-> offerings were either full of a bit out of my league right now.
-
----
-
-# intro
-
 I moved to Fort Collins in May of this year. Running in the mountains, while not
 the only reason for the move, was definitely a primary motivator. After taking 4
-months off starting with an injury in early February it was time to get back at it. The move was done and I could no longer use it as an excuse.
+months off that began with an injury in early February it was time to get back at it.
 
-> I'm pushing 40 and have lived at or near sea level my whole life. A combination
-> of being out of shape, older than I've ever been, at elevation, and climbing
-> more each week than I had previously gotten in a month has been extremely humbling.
-
-# training
+## The Training
 
 My training since moving to CO has been consistantly minimal. On average I've run about 13 miles a week.
-I've done some cross training with family hikes, mountain biking, and just tooling around town.
-In short - it's been ok. Enough to get to the finish line but not enough to race
-or expect any sort of spectactular day.
+I've done some cross training with family hikes, mountain biking, and just tooling around town on an old fixed gear.
+In short - it's been ok. Enough to get to the finish line but not enough to
+actually race or expect any sort of spectactular day.
 
-> As a result my expectations were low and my plan was simple. I would actually
-> hike the climbs and run the downs. I would not try to race anyone I shouldn't be
-> racing. I would respect my training or lack there of and listen to my body.
+## The Preamble
 
-> Yeah. Ok. I've heard that refrain before.
+The start line near Red Feather Lakes is about an hour from my house. I could have left the
+morning of but I've been itching to try out my camper shell on the
+truck so instead I packed up the day before and headed out after work.
 
-> after about 4 months
-> off from running. I blew a hamstring in february and spent the rest of the time
-> planning and executing a cross country move.
-
-# packet pick pickup
-
-The start line near Red Feather Lakes is about an hour from my house so I could have left the
-morning of. I've been itching to try out my camper shell on the
-truck so instead I packed up the day before and headed out after work. I'm still
-getting used to how beautiful it is out here. Maybe 20 minutes or so across and
+I'm still getting used to how beautiful it is out here. Maybe 20 minutes or so across and
 out of town and suddenly I'm surrounded by huge skies, vaulted ridges, and a
 sneaking suspicion I took a wrong turn and ended up in Wyoming.
 
-I made it to the Scout Ranch shortly before sunset. There was a volunteer at the
-gate waiting to greet me who asked if I had registered for camping. I told him I
-was hoping to just park overnight and would sleep in the back of the truck. He
-told me where I could find overnight parking (which I promptly forgot) and sent
-me on my way.
+I made it to the Scout Ranch shortly before sunset. The volunteer at the gate
+welcomed me to the Jamboree and gave me quick directions to mess hall for packet
+pickup.
 
-The dirt road to the mess hall for packet pickup is steep. I don't think I would have
-made it in the Prius. Thankful to have the truck so I don't have to worry about
-getting stuck. When it came to parking, definitely missed the Prius. I got it
+The dirt road up to the mess hall is steep - I don't think I would have
+made it in the Prius. Thankful to have the truck so I didn't have to worry about
+getting stuck. That said, when it came to parking, definitely missed the Prius. I got it
 done but it wasn't pretty.
 
-Packet pickup was mostly uneventful. They found my name right away and handed
-me my race swag and bib. It wasn't until I asked for directions to the camper lot that things
-got awkward. Being new here I was hoping to just park overnight and
-crash in the back of the truck. Stealth camping is a thing right? Well, I guess
-you're supposed to be stealthy about it.
+Packet pickup was far easier than parking a big dumb truck on a narrow dirt road.
+I received my bib and race swag without much of a wait and was quickly on my
+way.
 
-The volunteer asked me to wait to talk to the RD about my camping situation but
-he was in a long conversation with another runner. Being the introvert I am, I
-decided to just leave the ranch without talking to anyone and find some public
-lands nearby.
+There is a small parking lot at the start line and there were few other runners already parked and settling in for the night. I
+set up a little nest in the bed of the truck and slept easy until around 5am
+when the things started to get busy. A line of early arrivals soon appeared as
+they queued up to enter the proper parking lot. I followed suit to avoid the start
+line ruckus. Time for some truck coffee, breakfast, and a relaxed wait until race start at 8am.
 
-I got in the truck and made my way to the front gate only to find it locked. I
-had not considered they would close the gate after dark... I drove around for a
-bit looking for somewhere quiet to park the truck and ended up settling in next
-to another racer who had parked at the startline. Not very stealthy I know, but
-we were quickly joined by at least one other car camper. Strength in numbers
-right? Well, apart from stressing about an awkward conversation with the RD that
-never happened, I slept great.
+![truck coffee](../../images/220919/sunrisetruck.jpeg)
 
-The startline began to get busy around 5am and shortly after I saw a line of
-vehicles heading to a proper parking lot. I got in line and followed suit. Time
-for some truck coffee, breakfast, and a relaxed wait until race start at 8am.
-
-# The race
+## The Race
 
 The half marathon started an hour after the 50k at about 7500 feet. This was the low point of the course. It would be all uphill (and downhill) from
 here for a total change of about 1800 feet.
@@ -105,14 +59,15 @@ BLOW UP.
 
 I ran through the first aid station without stopping. At just 2 miles in and only
 11 left there wasn't much of a point. I may not have hiked any of the inital
-climbs like I planned, but I was definitely taking it easy. 
+climbs like I planned, but I was definitely taking it easy.
 
 So far so good.
 
+![climbing](../../images/220919/climbing.jpeg)
+
 The next four to five miles contained the bulk of the elevation for the
 remainder of the race. I knew that if I could keep it under control until we
-made it over the hump I could push it on the back half. The climbs
-weren't intense, but they were climbs. On the first hike I was passed by a few
+made it over the hump I could push it on the back half. On the first hike I was passed by a few
 runners chewing up the climbs with a steady gait only to bomb past them on the
 downs. We played leapfrog for the next hour until about mile 7.
 
@@ -124,56 +79,64 @@ The trail dropped about 500 feet over the next 2 miles to Lady Moon aid at mile 
 It was there that I tagged a gate, refilled my water bottles and turned around
 to execute the only out and back on the course.
 
-The next mile and half included yet another climb, nothing major at this point I
+![cows on course](../../images/220919/cows.png)
+
+The next mile and half included yet another climb, nothing major but at this point I
 was really hoping for more sustained descents. Mile 11 was just what I was
-looking for! 300+ feet of smooth downhill single track! My first and only sub 8
+looking for! ~300 feet loss on smooth downhill single track! My first and only sub 8
 minute mile of the day. I passed a few more folks here and settled in for what I
-thought would be smooth cruise to the finish line at the bottom of a big hill.
+thought would be a smooth cruise to the finish line at the bottom of a big hill.
 
+After a mile or so of fast (for me) running the Elkhorn aid came into view
+again. With only a couple miles to go I again ran through the aid station
+without stopping. The shouts of encouragement from volunteers did not go
+unnoticed!
 
+I was looking forward to more downhill - this time on a flat dirt road.
+Unfortunately I seem to have had forgotten that there were also climbs on that
+road. Again, nothing major but I was running low on steam and chose to do some
+more hiking.
 
+The turn to finish line was finally in sight. I was looking forward to cheers,
+maybe some cowbells, anything to pull me that last little bit to the end. It was
+oddly quiet. When the trail turned, there was no finish line, no cowbells, no
+cheers. Just more course markings.
 
-After refilling my water bottles (with the help of some very kind volunteers) I
-turned around for a little bit of backtracking.
+They moved the finish line to mess hall! Just one more push up a few hundred
+feet of stairs... nothing to do but power through.
 
+## The End
 
+Finally, after 13.8 miles and bit a more elevation than advertised I made it
+across the finish line. It took just over 2 and a half hours. I had decided beforehand
+that anything under 3 would feel like a success - really didn't expect to land
+it this fast with as much hiking as I did. I may not look it but I really couldn't be happier with the result.
 
-- my race plan
--
-- drive to the race
-- packet pickup and camping the night before
-- race morning
--
-- racestart
-- the dirt road
-- playing leap frog on the climb
-- passing Katie and Ann for the last time
-- The aid station
-- The kiwi
-- The downhill cruise
-- The plan appears to be working
-- Sticking to it for the dirt road
-- The stairs to the finish line
-- A jar of jam
--
-- Tellem what I told em
-- conclusion and what's next
+![still working on the fresh finish look](../../images/220919/wrecked.jpg)
 
-  6.91
-  5.88
-  13.7
-  10.3
-  15.65
-  15.30
-  10.15
-  23.27
-  13.01
-  25.97
-  0.4
-  10.64
-  14.63
-  21.91
-  12.10
-  12.18
-  24.94
-  25.61
+The Red Feather Jamboree was a fantastic event. It was very well organized, had perfect weather, and felt like a great intro to Colorado trail racing. Oh! and instead of yet another finishers medal we got our pick from an array of specially bottled jams! I waffled between rhubarb, peach, and strawberry before settling on strawberry.
+
+![finisher's jam](../../images/220919/finished.png)
+
+10 out of 10 would race again.
+
+---
+
+6.91
+5.88
+13.7
+10.3
+15.65
+15.30
+10.15
+23.27
+13.01
+25.97
+0.4
+10.64
+14.63
+21.91
+12.10
+12.18
+24.94
+25.61
