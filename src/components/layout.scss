@@ -8,6 +8,8 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background: $black;
+  color: $white;
 }
 
 body {
@@ -21,6 +23,7 @@ a {
 
 .layout {
   &__wrapper {
+    color: $white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -44,9 +47,9 @@ a {
     padding: 0 1.0875rem 1.45rem;
     margin-top: 183px;
     flex: 1;
-    
+
     > div {
-      background: rgba(255, 255, 255, 0.85);
+      background: rgba($black, 0.85);
       position: relative;
       z-index: 1;
     }

@@ -12,11 +12,11 @@
 
     .list-item {
       &__date {
-        color: $white;
+        color: $black;
       }
 
       &__link {
-        color: $white;
+        color: $black;
       }
     }
   }
@@ -28,7 +28,7 @@
     width: 100%;
     height: 1px;
     bottom: 0;
-    background: $date-color;
+    background: $jetblack;
   }
 
   &--with-date {
