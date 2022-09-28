@@ -1,3 +1,4 @@
+import { graphql } from 'gatsby'
 import React from 'react'
 import './blogTemplate.scss'
 import { Link } from 'gatsby'
@@ -27,7 +28,7 @@ export default function Template({
       } else {
         // filter on all imageNodes and find the right one
         const imageNode = allFile.edges.filter(
-          edge =>
+          (edge) =>
             edge.node.relativePath === last(frontmatter.illustration.split('/'))
         )
         return get(imageNode, '[0].node.publicURL')

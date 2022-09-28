@@ -5,6 +5,8 @@ date: 2022-09-19 06:36:46
 categories: life
 ---
 
+![Red Feather Jamboree sticker](../../images/220919/sticker.jpeg)
+
 I moved to Fort Collins in May of this year. Running in the mountains, while not
 the only reason for the move, was definitely a primary motivator. After taking 4
 months off that began with an injury in early February it was time to get back at it.
@@ -122,7 +124,7 @@ I may not look it but I really couldn't be happier with the result.
 
 The Red Feather Jamboree was a fantastic event. It was very well organized, had perfect weather, and felt like a great intro to Colorado trail racing. Oh! and instead of yet another finishers amulet we got our pick from an array of specially bottled jams! I waffled between rhubarb, peach, and strawberry before deciding.
 
-![finisher's strawberry jam and beer from the porch of the mess hall](../../images/220919/finished.png)
+![finisher's strawberry jam and beer from the porch of the mess hall](../../images/220919/finishedjam.png)
 
 10 out of 10 would race again.
 

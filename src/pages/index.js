@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import SEO from '../components/seo'
 import ListItem from '../components/list-item/list-item.component'
 import _ from 'lodash'
@@ -13,17 +14,12 @@ const IndexPage = ({
     },
   },
 }) => {
-  const posts = edges.filter(post => post.node.frontmatter.layout === 'post')
-  const categories = _.chain(posts)
-    .map(p => p.node.frontmatter.categories)
-    .uniq()
-    .value()
-  const postsByCategory = _.chain(categories)
-    .map(category =>
-      _.filter(posts, post => post.node.frontmatter.categories === category)
-    )
-    .value()
-
+  const posts = edges.filter((post) => post.node.frontmatter.layout === 'post')
+  const categories = _.uniq(_.map(posts, (p) => p.node.frontmatter.categories))
+  const postsByCategory = _.map(categories, (cat) =>
+    _.filter(posts, (post) => post.node.frontmatter.categories === cat)
+  )
+  console.log({ categories, posts, postsByCategory })
   return (
     <div className="index">
       <SEO title={`${title}`} />
@@ -32,7 +28,7 @@ const IndexPage = ({
           <div key={categories[index]}>
             <h2 className="index__header">{categories[index]}</h2>
             <ul className="index__post-list">
-              {category.map(post => (
+              {category.map((post) => (
                 <ListItem
                   key={post.node.fields.path}
                   date={post.node.frontmatter.date}

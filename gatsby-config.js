@@ -117,10 +117,11 @@ module.exports = {
         `,
         feeds: [
           {
+            title: `luetkemj`,
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges
-                .filter(edge => edge.node.frontmatter.layout !== 'comic')
-                .map(edge => {
+                .filter((edge) => edge.node.frontmatter.layout !== 'comic')
+                .map((edge) => {
                   return Object.assign({}, edge.node.frontmatter, {
                     url: site.siteMetadata.siteUrl + edge.node.fields.path,
                     guid: site.siteMetadata.siteUrl + edge.node.fields.path,
