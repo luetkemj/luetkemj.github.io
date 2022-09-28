@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkluetkemj_website=self.webpackChunkluetkemj_website||[]).push([[501],{5791:function(e,t,l){l.r(t);var n=l(7294),a=l(9357);t.default=function(){return n.createElement(n.Fragment,null,n.createElement(a.Z,{title:"About"}),n.createElement("div",{style:{maxWidth:"592px",margin:"0 auto"}},n.createElement("h1",null,"Contact"),n.createElement("p",null,"luetkemj@gmail.com"," ",n.createElement("span",{role:"img","aria-label":"Writing Hand"},"✍"))))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-6d8e265dfcef9c29068e.js.map
