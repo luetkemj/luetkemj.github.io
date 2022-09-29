@@ -49,7 +49,7 @@ a {
     flex: 1;
 
     > div {
-      background: rgba($black, 0.85);
+      background: $black;
       position: relative;
       z-index: 1;
     }
