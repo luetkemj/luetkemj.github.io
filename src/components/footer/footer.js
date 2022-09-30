@@ -22,8 +22,8 @@ const Footer = ({ siteTitle }) => (
       </li>
     </ul>
 
-    <div title="made with &hearts; in ATX" className="footer__heart">
-      &hearts;
+    <div title="made with &hearts; in FOCO" className="footer__heart">
+      🏔️&hearts;🏔️
     </div>
 
     <ul className="footer__list">

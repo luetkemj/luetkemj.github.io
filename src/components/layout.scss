@@ -9,7 +9,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   background: $black;
-  color: $white;
+  color: $text-color;
 }
 
 body {
@@ -23,7 +23,7 @@ a {
 
 .layout {
   &__wrapper {
-    color: $white;
+    color: $text-color;
     display: flex;
     flex-direction: column;
     min-height: 100vh;

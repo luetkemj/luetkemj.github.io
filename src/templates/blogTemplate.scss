@@ -16,6 +16,8 @@
   }
 
   &__title {
+    color: $post-title;
+
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -27,7 +29,8 @@
   }
 
   img {
-    border: 1px solid #e8e8e8;
+    // border: 1px solid $image-border;
+    background: $image-background;
     padding: 8px;
 
     &.blog-template__banner-image {
@@ -53,14 +56,23 @@
   }
 
   del {
-    color: #e8e8e8;
+    color: $del;
+    opacity: 0.25;
   }
 
   blockquote {
     font-style: italic;
     padding: 1em 0;
-    border-top: 1px solid #efefef;
-    border-bottom: 1px solid #efefef;
+    border-top: 1px solid $border;
+    border-bottom: 1px solid $border;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: $heading;
   }
 }
 
@@ -71,6 +83,6 @@
 // Syntax high-lighting code block background
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
-  background-color: #efefef;
-  border: 1px solid #eee;
+  background-color: $code-background;
+  border: 1px solid $border;
 }

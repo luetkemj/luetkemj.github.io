@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Built With Jekyll Part 2"
-date:   2015-06-16 10:27:30
+title: 'Built With Jekyll Part 2'
+date: 2015-06-16 10:27:30
 categories: code
-illustration: "/assets/posts/built-with-jekyll/octocat.png"
+illustration: '/assets/posts/built-with-jekyll/octocat.png'
 ---
 
 Jekyll has fantastic documentation. And getting started with Jekyll couldn't be any easier! Direct from the below is the Quick-start guide to getting started with Jekyll. &#9759;
@@ -18,7 +18,7 @@ Jekyll has fantastic documentation. And getting started with Jekyll couldn't be 
 
 ...if any of that looks familiar to you, you probably don't need to read any further. Just head over to the Jekyll docs and have at it. You'll be fine. For the rest of you that have that no idea what to do with any of those squigglies and dollar signs, stick around. We'll work through it.
 
-##Requirements
+## Requirements
 
 Before we get into what that mess above is there are some [requirements](http://jekyllrb.com/docs/installation/). Jekyll runs on Linux, Unix, and Mac OS X as well as Windows. Unfortunately, [Windows installation](http://jekyllrb.com/docs/windows/#installation) is a bit different, has it's own docs, and is beyond the scope of this guide. For our purposes I will assume we are all working on a Mac.
 
@@ -32,22 +32,23 @@ All downloaded and installed? Awesome, go ahead and launch it, accept the EULA a
 
 Now that we Xcode on your machine we can now install command line tools. Open up Terminal (it comes pre-installed on all macs), paste the following command into it, and press enter.
 
-```bash xcode-select --install```
+`bash xcode-select --install`
 
 Everything go akay? Awesome!
 
 <div class="meta" markdown="1">
+
 #### EDITOR'S NOTE
 
 I got reports of the following error happening for a couple people:
 
-```/usr/bin/xcode-select: /usr/bin/xcode-select: cannot execute binary file```
+`/usr/bin/xcode-select: /usr/bin/xcode-select: cannot execute binary file`
 
 If you get that error just skip the step and move on.
 
 If anyone actually knows what that's about I would love to hear it in the comments.
-</div>
 
+</div>
 
 **Ruby**
 
@@ -55,23 +56,23 @@ Jekyll is written in Ruby and Ruby comes installed on Macs so you should be good
 
 In your terminal app type the following command and press enter:
 
-```ruby -v```
+`ruby -v`
 
 You should see something like
 
-```ruby 2.0.0p481 (2014-05-08 revision 45883) [universal.x86_64-darwin14]```
+`ruby 2.0.0p481 (2014-05-08 revision 45883) [universal.x86_64-darwin14]`
 
-If instead you get: ```ruby: command not found``` then you're gonna have to [install it yourself](https://www.ruby-lang.org/en/).
+If instead you get: `ruby: command not found` then you're gonna have to [install it yourself](https://www.ruby-lang.org/en/).
 
-```ruby -v``` is a command that will tell us what version of ruby we are running. We see from the output that at the time of this writing I am running version 2.0.0p481.
+`ruby -v` is a command that will tell us what version of ruby we are running. We see from the output that at the time of this writing I am running version 2.0.0p481.
 
 **RubyGems**
 
 Now that we have Ruby installed the next thing we need is RubyGems. Again if you are on a Mac you probably just have this. We'll check our version again just to be sure.
 
-```gem -v```
+`gem -v`
 
-Look familiar? "gem" is our command for RubyGems and -v is how we check the version number. This time I get ```2.0.14``` if you have to install it yourself you will find detailed instructions on [rubygems.org](https://rubygems.org/pages/download).
+Look familiar? "gem" is our command for RubyGems and -v is how we check the version number. This time I get `2.0.14` if you have to install it yourself you will find detailed instructions on [rubygems.org](https://rubygems.org/pages/download).
 
 RubyGems is a package manager framework for Ruby. It's what we will use to install Jekyll later.
 
@@ -87,11 +88,11 @@ Ok, let's go line by line on the Quick-start so we fully understand what we're d
 ~ $ gem install jekyll
 ```
 
-That squiggly is called a tilde and is a shortcut for your home directory. You don't actually type it. If we were to move to another directory, say a folder on your desktop called "untitled" you would see something like ```~/Desktop/untitled```. Again, you wouldn't actually type any of that - it's just there in the terminal so you knwo where you are.
+That squiggly is called a tilde and is a shortcut for your home directory. You don't actually type it. If we were to move to another directory, say a folder on your desktop called "untitled" you would see something like `~/Desktop/untitled`. Again, you wouldn't actually type any of that - it's just there in the terminal so you knwo where you are.
 
-What about that dollar sign? You don't actually type that either. It just means that you are a normal user and is automatically placed at the start of every command. You only have to actually type everything that comes after the $.
+What about that dollar sign? You don't actually type that either. It just means that you are a normal user and is automatically placed at the start of every command. You only have to actually type everything that comes after the \$.
 
-```gem install jekyll``` is the command we type into terminal to install jekyll. Technically speaking, "gem" is the program we want to run, "install" is the command, and "jekyll" is the argument. Together they form a nice programatic sentance.
+`gem install jekyll` is the command we type into terminal to install jekyll. Technically speaking, "gem" is the program we want to run, "install" is the command, and "jekyll" is the argument. Together they form a nice programatic sentance.
 
 So, now that we know what we're actually doing, go ahead and install Jekyll.
 
@@ -99,24 +100,25 @@ So, now that we know what we're actually doing, go ahead and install Jekyll.
 gem install jekyll
 ```
 
-If you get a permissions error you may have to add ```sudo``` to the command. ```sudo``` which means "Super User Do" will run the command as a super user on your system and require your password. This is the password you use when logging into your computer.
+If you get a permissions error you may have to add `sudo` to the command. `sudo` which means "Super User Do" will run the command as a super user on your system and require your password. This is the password you use when logging into your computer.
 
-The sudo version of this command looks like ```sudo gem install jekyll```
+The sudo version of this command looks like `sudo gem install jekyll`
 
 All set? Fantastic! Next we'll create our blog.
 
 <div class="meta" markdown="1">
+
 #### EDITOR'S NOTE
 
-From here on out I will only include the commands you actually type and forgo adding the ```~ $``` bits as they can be confusing since you don't actually have to type them in.
-</div>
+From here on out I will only include the commands you actually type and forgo adding the `~ $` bits as they can be confusing since you don't actually have to type them in.
 
+</div>
 
 ```sh
 jekyll new my-awesome-site
 ```
 
-Here we type "jekyll" to know what program we are running, "new" as our command, and "my-awesome-site" as the argument. "my-awesome-site" is the name of your site directory. It can be anything you want. If you want your site to be "joe-bloggs-blog" then you would type ```jekyll new joe-bloggs-blog```. After you hit enter Jekyll will create a new directory (folder) with the name you passed and install all the files needed for a brand new Jekyll blog.
+Here we type "jekyll" to know what program we are running, "new" as our command, and "my-awesome-site" as the argument. "my-awesome-site" is the name of your site directory. It can be anything you want. If you want your site to be "joe-bloggs-blog" then you would type `jekyll new joe-bloggs-blog`. After you hit enter Jekyll will create a new directory (folder) with the name you passed and install all the files needed for a brand new Jekyll blog.
 
 You did it! You created your first Jekyll Blog!!!
 
@@ -154,7 +156,7 @@ Now do you feel like a web developer? You should!
 
 #### Next Up:
 
-We'll learn how to actually write posts and pages as well as set up version control with github *and* launch our site on github. Exciting! 😁
+We'll learn how to actually write posts and pages as well as set up version control with github _and_ launch our site on github. Exciting! 😁
 
 ### In this series
 

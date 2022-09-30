@@ -11,6 +11,16 @@ $pink1: #ff6680;
 
 $text-color: $gray1;
 $link-color: $green1;
-$date-color: $gray2;
-$footer-border: $gray2;
+$date-color: $gray3;
+$footer-border: $gray3;
 $pink: $pink1;
+
+// blog post colors
+$heading: $green1;
+$post-title: $green1;
+$image-border: $gray3;
+$image-background: rgba($gray3, 0.25);
+
+$border: $gray3;
+$code-background: $gray3;
+$del: $text-color;
