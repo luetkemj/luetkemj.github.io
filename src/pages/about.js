@@ -28,9 +28,8 @@ const AboutPage = () => (
       </p>
 
       <p>
-        Currently I hold the lofty title of "Lead Design Engineer" where I
-        bridge the gap between engineering and design in the world of
-        healthcare.
+        Currently I bridge the gap between engineering and design in the
+        complicated world of healthcare.
       </p>
 
       <p>
