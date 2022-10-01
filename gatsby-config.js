@@ -81,8 +81,8 @@ module.exports = {
         name: `luetkemj`,
         short_name: `luetkemj`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#1d1e20`,
+        theme_color: `#1d1e20`,
         display: `minimal-ui`,
         icon: `src/images/luetkemj.png`, // This path is relative to the root of the site.
       },
