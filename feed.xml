@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 28 Sep 2022 01:17:07 GMT</lastBuildDate><item><title><![CDATA[Red Feather Trail Jamboree]]></title><link>https://luetkemj.github.io/220919/red-feather-jamboree</link><guid isPermaLink="false">https://luetkemj.github.io/220919/red-feather-jamboree</guid><pubDate>Mon, 19 Sep 2022 06:36:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 01 Oct 2022 16:42:04 GMT</lastBuildDate><item><title><![CDATA[Red Feather Trail Jamboree]]></title><link>https://luetkemj.github.io/220919/red-feather-jamboree</link><guid isPermaLink="false">https://luetkemj.github.io/220919/red-feather-jamboree</guid><pubDate>Mon, 19 Sep 2022 06:36:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin-left: 0!important; margin-right: 0!important;&quot;
     &gt;
@@ -3088,7 +3088,7 @@ see &lt;a href=&quot;http://wp-api.org/&quot;&gt;wp-api.org&lt;/a&gt; for more i
 ~/my-awesome-site $ jekyll serve
 &lt;span class=&quot;token comment&quot;&gt;# =&gt; Now browse to http://localhost:4000&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;...if any of that looks familiar to you, you probably don&apos;t need to read any further. Just head over to the Jekyll docs and have at it. You&apos;ll be fine. For the rest of you that have that no idea what to do with any of those squigglies and dollar signs, stick around. We&apos;ll work through it.&lt;/p&gt;
-&lt;p&gt;##Requirements&lt;/p&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
 &lt;p&gt;Before we get into what that mess above is there are some &lt;a href=&quot;http://jekyllrb.com/docs/installation/&quot;&gt;requirements&lt;/a&gt;. Jekyll runs on Linux, Unix, and Mac OS X as well as Windows. Unfortunately, &lt;a href=&quot;http://jekyllrb.com/docs/windows/#installation&quot;&gt;Windows installation&lt;/a&gt; is a bit different, has it&apos;s own docs, and is beyond the scope of this guide. For our purposes I will assume we are all working on a Mac.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Xcode&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Working with Jekyll requires a few terminal commands. For that we need to install &lt;a href=&quot;https://itunes.apple.com/us/app/xcode/https://itunes.apple.com/us/app/xcode/id497799835?mt=12&quot;&gt;Xcode&lt;/a&gt;. Xcode is pretty large. You may wanna grab a coffee while it downloads.&lt;/p&gt;
@@ -3098,7 +3098,7 @@ see &lt;a href=&quot;http://wp-api.org/&quot;&gt;wp-api.org&lt;/a&gt; for more i
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;bash xcode-select --install&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Everything go akay? Awesome!&lt;/p&gt;
 &lt;div class=&quot;meta&quot; markdown=&quot;1&quot;&gt;
-#### EDITOR&apos;S NOTE
+&lt;h4&gt;EDITOR&apos;S NOTE&lt;/h4&gt;
 &lt;p&gt;I got reports of the following error happening for a couple people:&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;/usr/bin/xcode-select: /usr/bin/xcode-select: cannot execute binary file&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;If you get that error just skip the step and move on.&lt;/p&gt;
@@ -3131,7 +3131,7 @@ see &lt;a href=&quot;http://wp-api.org/&quot;&gt;wp-api.org&lt;/a&gt; for more i
 &lt;p&gt;The sudo version of this command looks like &lt;code class=&quot;language-text&quot;&gt;sudo gem install jekyll&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;All set? Fantastic! Next we&apos;ll create our blog.&lt;/p&gt;
 &lt;div class=&quot;meta&quot; markdown=&quot;1&quot;&gt;
-#### EDITOR&apos;S NOTE
+&lt;h4&gt;EDITOR&apos;S NOTE&lt;/h4&gt;
 &lt;p&gt;From here on out I will only include the commands you actually type and forgo adding the &lt;code class=&quot;language-text&quot;&gt;~ $&lt;/code&gt; bits as they can be confusing since you don&apos;t actually have to type them in.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;jekyll new my-awesome-site&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
