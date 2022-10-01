@@ -8,7 +8,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background: $black;
+  background: $background;
   color: $text-color;
 }
 
@@ -39,6 +39,14 @@ a {
   }
 
   &__content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: $heading;
+    }
+
     width: 100%;
     margin: 0 auto;
     max-width: 960px;
@@ -49,7 +57,7 @@ a {
     flex: 1;
 
     > div {
-      background: $black;
+      background: $background;
       position: relative;
       z-index: 1;
     }

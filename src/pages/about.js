@@ -8,25 +8,34 @@ const AboutPage = () => (
     <div style={{ maxWidth: '592px', margin: '0 auto' }}>
       <h1>About</h1>
       <p>
-        Hello! My name is Mark Luetke and I live in Austin Texas with my wife
-        and two kids. We live with two cats and a big silly shepherd, Joan Marie
-        Butt, Squid Leroy Bun, and Fez. We enjoy beautiful summer days in the
-        park and camping under the stars.
+        Hello! My name is Mark Luetke and I live along the front range in
+        northern Colorado with my family, two cats, and a dog.
       </p>
       <p>
-        Professionally, I’ve worked fast food, cafeteria food, and gas station
-        food. I’ve worked on a pig farm, a cow farm, and a dog farm. I’ve laid
-        brick and cut stone. I’ve replaced auto glass, cleaned carpets, cared
-        for the mentally ill, and studied for the ministry.
+        In my formitive years I explored many possible carreer paths. I tried
+        working fast food, cafeteria food, and gas station food, working on a
+        pig farm, a cow farm, and a doggie daycare, laying brick, cutting stone,
+        replacing auto glass, cleaing carpets, and caring for the mentally ill.
+        Eventually I gave in and followed my muse, studying art, illustration,
+        graphic design, and a dash of engineering.
       </p>
       <p>
         Previously I was the Associate Director of Web Development at VCUarts
         where I made websites with ♥ and at ALT Lab where I facilitated change.
+        Later I moved to Austin to work on the design team for an AI and ML
+        startup where I first learned to be an engineer and made prototypes that
+        refused to die.
       </p>
-      <p>Currently I engineer front ends for people, mostly with javascript.</p>
+
       <p>
-        You can see some of my work on{' '}
-        <OutboundLink href="https://github.com/luetkemj">github</OutboundLink>.
+        Currently I hold the lofty title of "Lead Design Engineer" where I
+        bridge the gap between engineering and design in the world of
+        healthcare.
+      </p>
+
+      <p>
+        You can see some of my work here and on
+        <OutboundLink href="https://github.com/luetkemj"> github</OutboundLink>.
       </p>
     </div>
   </>

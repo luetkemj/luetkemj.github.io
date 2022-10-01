@@ -29,7 +29,7 @@
   }
 
   img {
-    // border: 1px solid $image-border;
+    border: 1px solid $image-border;
     background: $image-background;
     padding: 8px;
 
@@ -74,6 +74,10 @@
   h5 {
     color: $heading;
   }
+
+  hr {
+    background: $border;
+  }
 }
 
 .duthaldumat {
@@ -84,5 +88,4 @@
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
   background-color: $code-background;
-  border: 1px solid $border;
 }
