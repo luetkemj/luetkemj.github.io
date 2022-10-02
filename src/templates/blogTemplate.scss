@@ -4,28 +4,21 @@
   max-width: 592px;
   margin: 0 auto;
 
-  &__post {
-    text-align: right;
+  &__category {
+    margin-bottom: 4px;
   }
 
   &__date {
     font-size: 14px;
     font-family: 'Inconsolata';
     margin-bottom: 8px;
-    text-align: left;
   }
 
   &__title {
     color: $post-title;
-
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 30px;
-    text-align: left;
-  }
-
-  &__content {
-    text-align: left;
   }
 
   img {

@@ -4,6 +4,7 @@ import './blogTemplate.scss'
 import { Link } from 'gatsby'
 import { get, last } from 'lodash'
 import SEO from '../components/seo'
+import Category from '../components/category'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -84,6 +85,9 @@ export default function Template({
               alt=""
             />
           )}
+          <div className="blog-template__category">
+            <Category category={frontmatter.categories} />
+          </div>
           <h2 className="blog-template__date">{frontmatter.date}</h2>
           <h1 className="blog-template__title">{frontmatter.title}</h1>
           <div
