@@ -5,7 +5,14 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import './list-item.component.scss'
 
-export default function ListItem({ className, date, path, title, external }) {
+export default function ListItem({
+  className,
+  category,
+  date,
+  path,
+  title,
+  external,
+}) {
   const classes = date
     ? `list-item list-item--with-date ${className}`
     : `list-item ${className}`
@@ -18,10 +25,23 @@ export default function ListItem({ className, date, path, title, external }) {
       {title}
     </Link>
   )
-
+  const catMap = {
+    code: '💻',
+    life: '🏠',
+    dnd: '🧙',
+    running: '🏃',
+    gamedev: '🕹️',
+    yearend: '📅',
+    creativity: '✨',
+    gaming: '🎮',
+  }
   return (
     <li key={`${date}-${title}`} className={classes}>
-      {date && <span className="list-item__date extrnal">{date}</span>}
+      {date && (
+        <span className="list-item__date extrnal">
+          {`${catMap[category]} ${date}`}
+        </span>
+      )}
       {linkToRender}
     </li>
   )

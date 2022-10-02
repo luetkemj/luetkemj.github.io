@@ -2,7 +2,7 @@
 layout: post
 title: 'TX BMF (Last Human Standing)'
 date: 2021-11-22 16:41:24
-categories: life
+categories: running
 ---
 
 I can run four miles in an hour. That's easy!

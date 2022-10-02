@@ -2,7 +2,7 @@
 layout: post
 title: 'Dev Weekly'
 date: 2021-10-02 05:47:27
-categories: code
+categories: gamedev
 ---
 
 So I started tinkering with game development again over the last month or so. I stumbled on a different ECS library - [bitECS](https://github.com/NateTheGreatt/bitECS) - and for whatever reason it sparked the fires again. I decided to really switch things up and replaced both the ECS engine and the renderer opting this time for [Pixi.js](https://pixijs.com/) insead of my own custom implentation.

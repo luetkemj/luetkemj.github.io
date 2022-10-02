@@ -2,7 +2,7 @@
 layout: post
 title: 'Duthaldumat'
 date: 2021-10-13 08:02:47
-categories: life
+categories: gaming
 ---
 
 Everything was going great until it wasn't. Duthaldumat, "Worthy Roughness" in the common tongue, a once promising dwarven fortress now lay in ruin.

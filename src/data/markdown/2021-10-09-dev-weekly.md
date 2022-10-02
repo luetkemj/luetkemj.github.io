@@ -2,7 +2,7 @@
 layout: post
 title: 'Dev Weekly - Week 2'
 date: 2021-10-07 17:57:16
-categories: code
+categories: gamedev
 ---
 
 Busy week at work. So most of the following was done last weekend.

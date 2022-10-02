@@ -2,7 +2,7 @@
 layout: post
 title: 'The Test Is Over'
 date: 2021-2-08 06:09:03
-categories: code
+categories: gamedev
 ---
 
 This update has been a long time coming. First the updates to the game. Then a brief discussion on why it has all been a big waste of time. (Not really)

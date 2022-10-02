@@ -2,7 +2,7 @@
 layout: post
 title: 'Cerebral Flab'
 date: 2019-07-28 11:40:40
-categories: life
+categories: creativity
 ---
 
 This is a letter of intent.

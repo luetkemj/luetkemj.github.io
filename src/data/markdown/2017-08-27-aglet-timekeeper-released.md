@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Aglet Timekeeper Released"
-date:   2017-08-27 19:21:30
+title: 'Aglet Timekeeper Released'
+date: 2017-08-27 19:21:30
 categories: code
 ---
 
@@ -25,20 +25,20 @@ Post release there has been a lot of great feedback. The most requested feature 
 
 Requested features in no particular order:
 
-* Custom date display for alternative calendars
-* Custom length of day / week / month / year
-* Custom day / month / year names
-* Planar alignment
-* Custom lunar cycles
-* Multiple moons each with unique lunar cycles
-* Multiple suns
-* Holidays and special event tracking
-* Weather
-* Customizable buttons
-* Import / Export data across machines
-* Android release
-* Campaign setting presets
-* Timers
+- Custom date display for alternative calendars
+- Custom length of day / week / month / year
+- Custom day / month / year names
+- Planar alignment
+- Custom lunar cycles
+- Multiple moons each with unique lunar cycles
+- Multiple suns
+- Holidays and special event tracking
+- Weather
+- Customizable buttons
+- Import / Export data across machines
+- Android release
+- Campaign setting presets
+- Timers
 
 This is a big list. Not everything will make it to production. But now with the knowledge of what users actually want features can be prioritized and implemented accordingly.
 

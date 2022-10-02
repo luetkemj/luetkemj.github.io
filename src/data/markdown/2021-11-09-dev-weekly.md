@@ -2,7 +2,7 @@
 layout: post
 title: 'Inventory UI and dropping stuff'
 date: 2021-11-09 09:59:30
-categories: code
+categories: gamedev
 ---
 
 ## Update fonts

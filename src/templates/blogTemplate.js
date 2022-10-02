@@ -123,6 +123,7 @@ export const pageQuery = graphql`
         title
         illustration
         layout
+        categories
       }
     }
     allFile(filter: { sourceInstanceName: { eq: "images" } }) {

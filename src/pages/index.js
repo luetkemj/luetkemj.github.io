@@ -24,21 +24,18 @@ const IndexPage = ({
     <div className="index">
       <SEO title={`${title}`} />
       <section>
-        {postsByCategory.map((category, index) => (
-          <div key={categories[index]}>
-            <h2 className="index__header">{categories[index]}</h2>
-            <ul className="index__post-list">
-              {category.map((post) => (
-                <ListItem
-                  key={post.node.fields.path}
-                  date={post.node.frontmatter.date}
-                  path={post.node.fields.path}
-                  title={post.node.frontmatter.title}
-                />
-              ))}
-            </ul>
-          </div>
-        ))}
+        <h2 className="index__header">Posts</h2>
+        <ul className="index__post-list">
+          {posts.map((post) => (
+            <ListItem
+              key={post.node.fields.path}
+              date={post.node.frontmatter.date}
+              path={post.node.fields.path}
+              title={post.node.frontmatter.title}
+              category={post.node.frontmatter.categories}
+            />
+          ))}
+        </ul>
       </section>
 
       <section>

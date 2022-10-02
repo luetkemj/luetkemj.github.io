@@ -2,7 +2,7 @@
 layout: post
 title: 'Wieldable Goblins and Hierarchical Bodies'
 date: 2021-11-01 17:48:03
-categories: code
+categories: gamedev
 ---
 
 ## Adjusting the game layout again

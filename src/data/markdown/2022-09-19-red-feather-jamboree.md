@@ -2,7 +2,7 @@
 layout: post
 title: 'Red Feather Trail Jamboree'
 date: 2022-09-19 06:36:46
-categories: life
+categories: running
 ---
 
 ![Red Feather Jamboree sticker](../../images/220919/sticker.jpeg)

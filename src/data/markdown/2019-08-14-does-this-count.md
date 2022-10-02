@@ -2,7 +2,7 @@
 layout: post
 title: 'Does This Count?'
 date: 2019-08-14 19:39:30
-categories: life
+categories: creativity
 ---
 
 There's not a lot to show this week. I was in CO on vacation with my brother running (ok, hiking) trails in Ouray CO. It was a great chance to spend some time with family and really experience what real trails feel like. The Texas heat is rough and our rocky terrain is no joke but 800ft per mile for 5 miles straight up is bananas. The views were incredible and I can't wait to do it again.
