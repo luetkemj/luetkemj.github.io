@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"Cuy+":function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),r=a("vrFN");t.default=function(){return l.a.createElement(l.a.Fragment,null,l.a.createElement(r.a,{title:"About"}),l.a.createElement("div",{style:{maxWidth:"592px",margin:"0 auto"}},l.a.createElement("h1",null,"Contact"),l.a.createElement("p",null,"luetkemj@gmail.com"," ",l.a.createElement("span",{role:"img","aria-label":"Writing Hand"},"✍"))))}}}]);
-//# sourceMappingURL=component---src-pages-contact-js-867d05b8ec8c18754e01.js.map
