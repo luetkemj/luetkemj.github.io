@@ -13,6 +13,7 @@ export default function Category({ category }) {
     yearend: '📅',
     creativity: '✨',
     gaming: '🎮',
+    dophs: '👻',
   }
   return <span>{catMap[category]}</span>
 }
