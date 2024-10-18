@@ -11,9 +11,7 @@ const Footer = ({ siteTitle }) => (
         <OutboundLink href="https://github.com/luetkemj">github</OutboundLink>
       </li>
       <li className="footer__list-item">
-        <OutboundLink href="https://twitter.com/markluetke">
-          twitter
-        </OutboundLink>
+        <OutboundLink href="https://dophs.substack.com">substack</OutboundLink>
       </li>
       <li className="footer__list-item">
         <OutboundLink href="https://www.instagram.com/luetkemj/">
