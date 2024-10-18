@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Good Indentions'
+title: 'Good Intentions'
 date: 2023-09-21 06:00:00
 categories: dophs
 ---
