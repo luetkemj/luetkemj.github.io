@@ -29,7 +29,7 @@ export default function Template({
       } else {
         // filter on all imageNodes and find the right one
         const imageNode = allFile.edges.filter(
-          (edge) =>
+          edge =>
             edge.node.relativePath === last(frontmatter.illustration.split('/'))
         )
         return get(imageNode, '[0].node.publicURL')
@@ -94,6 +94,14 @@ export default function Template({
             className="blog-template__content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+        </div>
+        <div className="blog-template__postmatter">
+          Replies to{' '}
+          <span className="blog-template__to">
+            luetkemj&nbsp;
+            <Category category={frontmatter.categories} />
+            &nbsp;gmail
+          </span>
         </div>
       </div>
       {frontmatter.layout === 'post' && (

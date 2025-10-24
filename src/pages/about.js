@@ -14,10 +14,10 @@ const AboutPage = () => (
       <p>
         In my formitive years I explored many possible carreer paths. I tried
         working fast food, cafeteria food, and gas station food, working on a
-        pig farm, a cow farm, and a doggie daycare, laying brick, cutting stone,
-        replacing auto glass, cleaing carpets, and caring for the mentally ill.
-        Eventually I gave in and followed my muse, studying art, illustration,
-        graphic design, and a dash of engineering.
+        pig farm, a cow farm, and at doggie daycare, laying brick, cutting
+        stone, replacing auto glass, cleaning carpets, and caring for the
+        mentally ill. Eventually I gave in and followed my muse, studying art,
+        illustration, graphic design, and a bit of engineering.
       </p>
       <p>
         Previously I was the Associate Director of Web Development at VCUarts
