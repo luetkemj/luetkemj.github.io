@@ -13,9 +13,9 @@
     text-transform: uppercase;
     line-height: 1.4;
     margin-bottom: 0;
-    color: $green1;
+    color: var(--heading);
 
-    border-bottom: 1px solid $gray3;
+    border-bottom: 1px solid var(--border);
   }
 
   &__post-list {

@@ -14,19 +14,18 @@ const IndexPage = ({
     },
   },
 }) => {
-  const posts = edges.filter((post) => post.node.frontmatter.layout === 'post')
-  const categories = _.uniq(_.map(posts, (p) => p.node.frontmatter.categories))
-  const postsByCategory = _.map(categories, (cat) =>
-    _.filter(posts, (post) => post.node.frontmatter.categories === cat)
+  const posts = edges.filter(post => post.node.frontmatter.layout === 'post')
+  const categories = _.uniq(_.map(posts, p => p.node.frontmatter.categories))
+  const postsByCategory = _.map(categories, cat =>
+    _.filter(posts, post => post.node.frontmatter.categories === cat)
   )
-  console.log({ categories, posts, postsByCategory })
   return (
     <div className="index">
       <SEO title={`${title}`} />
       <section>
         <h2 className="index__header">Posts</h2>
         <ul className="index__post-list">
-          {posts.map((post) => (
+          {posts.map(post => (
             <ListItem
               key={post.node.fields.path}
               date={post.node.frontmatter.date}

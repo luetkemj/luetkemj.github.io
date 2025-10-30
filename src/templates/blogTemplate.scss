@@ -15,25 +15,25 @@
   }
 
   &__title {
-    color: $post-title;
+    color: var(--post-title);
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 30px;
   }
 
   &__postmatter {
-    border-top: 1px solid $border;
+    border-top: 1px solid var(--border);
     margin: 8px 0;
     padding-top: 8px;
   }
 
   &__to {
-    color: $post-title;
+    color: var(--post-title);
   }
 
   img {
-    border: 1px solid $image-border;
-    background: $image-background;
+    border: 1px solid var(--image-border);
+    background: var(--image-background);
     padding: 8px;
 
     &.blog-template__banner-image {
@@ -59,15 +59,15 @@
   }
 
   del {
-    color: $del;
+    color: var(--del);
     opacity: 0.25;
   }
 
   blockquote {
     font-style: italic;
     padding: 1em 0;
-    border-top: 1px solid $border;
-    border-bottom: 1px solid $border;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
   }
 
   h1,
@@ -75,11 +75,11 @@
   h3,
   h4,
   h5 {
-    color: $heading;
+    color: var(--heading);
   }
 
   hr {
-    background: $border;
+    background: var(--border);
   }
 }
 
@@ -90,5 +90,5 @@
 // Syntax high-lighting code block background
 :not(pre)>code[class*='language-'],
 pre[class*='language-'] {
-  background-color: $code-background;
+  background-color: var(--code-background);
 }

@@ -8,8 +8,8 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background: $background;
-  color: $text-color;
+  background: var(--background);
+  color: var(--text-color);
 }
 
 body {
@@ -18,12 +18,12 @@ body {
 
 a {
   text-decoration: none;
-  color: $link-color;
+  color: var(--link-color);
 }
 
 .layout {
   &__wrapper {
-    color: $text-color;
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -44,7 +44,7 @@ a {
     h3,
     h4,
     h5 {
-      color: $heading;
+      color: var(--heading);
     }
 
     width: 100%;
@@ -57,7 +57,7 @@ a {
     flex: 1;
 
     > div {
-      background: $background;
+      background: var(--background);
       position: relative;
       z-index: 1;
     }

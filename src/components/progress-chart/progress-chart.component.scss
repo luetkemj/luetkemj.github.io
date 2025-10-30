@@ -3,7 +3,7 @@
 .rows {
   &__row {
     font-family: 'Inconsolata';
-    color: $date-color;
+    color: var(--date-color);
     font-size: 16px;
     line-height: 16px;
     display: flex;

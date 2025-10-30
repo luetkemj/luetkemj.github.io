@@ -10,13 +10,13 @@
 
     a {
       text-decoration: none;
-      color: $link-color;
+      color: var(--link-color);
       transition: color 150ms ease;
     }
 
     &__logo {
       fill {
-        color: $link-color;
+        color: var(--link-color);
       }
 
       width: 74px;
