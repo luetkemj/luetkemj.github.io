@@ -4,7 +4,9 @@
   "description": "Change is good",
   "version": "0.1.0",
   "author": "Mark Luetke <luetkemj@gmail.com>",
-  "engines": { "node": "~20.12.2" },
+  "engines": {
+    "node": "~20.12.2"
+  },
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "4.24",
@@ -36,10 +38,13 @@
     "react-typography": "^0.16.18",
     "typography": "^0.16.18"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "clean": "gatsby clean",
     "deploy": "gatsby build --prefix-paths && gh-pages --dist public --branch master",
     "develop": "gatsby develop",
     "start": "npm run develop",
