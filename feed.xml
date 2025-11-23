@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 21 Nov 2025 15:46:31 GMT</lastBuildDate><item><title><![CDATA[+ | \ - % x ^]]></title><link>https://luetkemj.github.io/251121/doors</link><guid isPermaLink="false">https://luetkemj.github.io/251121/doors</guid><pubDate>Mon, 17 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Forcecrusher has doors. If they are open, then can be closed and if they&apos;re closed they can be opened, assuming the actor is smart enough. They can also be kicked which makes a loud noise, alerting most of the dungeon. Kick a door enough and it will break, open?, &quot;die&quot;. Doors have health like anything else and when that health reaches 0 they die. The sprite is changed to a corpse and they become unblocking. You can pick them up, wield them, wear them, throw them. They become just another corpse on the ground.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 23 Nov 2025 15:28:37 GMT</lastBuildDate><item><title><![CDATA[Fire]]></title><link>https://luetkemj.github.io/251123/fire</link><guid isPermaLink="false">https://luetkemj.github.io/251123/fire</guid><pubDate>Sun, 23 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have made fire!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/795e62d0322c8548a9fb4689ce9f2cce/fire-1.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Squid woke me up at 4:30am yesterday, screaming. No point trying to go back to sleep with that racket. The boy is crazy.&lt;/p&gt;
+&lt;p&gt;I made a cup of coffee and sat down in front of the computer. Having punted on doors I decided to try something different and potentially easier. A simple fire system.&lt;/p&gt;
+&lt;p&gt;My first approach was pretty simple. I don&apos;t expect the final result to be that much more complicated.&lt;/p&gt;
+&lt;p&gt;Two new components:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  flammable?: {
+    ignitionChance: number;
+    fuel: {
+      max: number;
+      current: number;
+    };
+    maxIntensity: number;
+    heatTolerance: number;
+  };
+  onFire?: {
+    intensity: number;
+    age: number;
+  };&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The flammable component determines fire behavior and the onFire component is added when a component is actively burning.&lt;/p&gt;
+&lt;p&gt;The system is pretty simple too:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;const onFireQuery = world.with(&quot;onFire&quot;, &quot;flammable&quot;, &quot;position&quot;);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Get all entities that are on fire.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  if (actor.onFire &amp;amp;&amp;amp; actor.appearance) {
+    actor.appearance.tint = 0xfcc203;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Change color to &lt;span style=&quot;color:#fcc203&quot;&gt;FIRE&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  for (const pos of neighbors) {
+    const eap = getEAP(pos);
+    if (eap) {
+      for (const eid of eap) {
+        const entity = registry.get(eid);
+        if (entity &amp;amp;&amp;amp; entity.flammable &amp;amp;&amp;amp; !entity.onFire) {
+          if (Math.random() &amp;lt; entity.flammable.ignitionChance) {
+            world.addComponent(entity, &quot;onFire&quot;, { intensity: 1, age: 0 });&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For each burning entity, check if any of it&apos;s neighbor tiles are both flammable and not currently on fire and if both are true, roll to ignite based on ingnitionChance.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  if (actor.flammable.fuel.current &gt; 0) {
+    actor.flammable.fuel.current -= actor.onFire.intensity;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reduce fuel as it burns up. Higher intensity fire will burn through the fuel more quickly.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  if (actor.flammable.fuel.current &amp;lt;= 0) {
+    world.removeComponent(actor, &quot;onFire&quot;);
+    world.removeComponent(actor, &quot;flammable&quot;);
+    actor.appearance.tint = 0x111111;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Once the fuel is exhausted, put out the fire by removing relevant components and change it&apos;s color to &lt;span style=&quot;color:#111111&quot;&gt;ASH&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;First pass was pretty naive. The neighbors check to manage spread was about as inefficient as possible. Each burning tile checked each of it&apos;s four neighboring positions against EVERY tile on the map until it found one at that position. It would then run the checks to determin if the fire should spread. This check got into some level of factorial hell and brought my framerate to it&apos;s knees, down to about 2FPS.&lt;/p&gt;
+&lt;p&gt;I&apos;d been pretty good about avoiding premature optimization but it was definitly time to build a cache layer. I added an eapMap for &quot;Entities At Position&quot;. Now instead of checking every entity 4 times for each enity on fire, I can simply look up a position on the eapMap and only check the entities at that position. MUCH faster. So fast in fact that I can burn the ENTIRE map without dropping any frames. Pretty cool!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/27a938db90751dd0f1dfe937e24456b3/fire-2.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Next up is to add a bit of nuance. Flammability should probably be related to material properties. Fire should cause damage. Enemies should run from it. New terrain like grass to contain it in some way. Fire potions, flaming swords, salamanders?! Ok this is really getting the gears turning. Nothing like a brand new system to play with!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[+ | \ - % x ^]]></title><link>https://luetkemj.github.io/251121/doors</link><guid isPermaLink="false">https://luetkemj.github.io/251121/doors</guid><pubDate>Fri, 21 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Forcecrusher has doors. If they are open, then can be closed and if they&apos;re closed they can be opened, assuming the actor is smart enough. They can also be kicked which makes a loud noise, alerting most of the dungeon. Kick a door enough and it will break, open?, &quot;die&quot;. Doors have health like anything else and when that health reaches 0 they die. The sprite is changed to a corpse and they become unblocking. You can pick them up, wield them, wear them, throw them. They become just another corpse on the ground.&lt;/p&gt;
 &lt;p&gt;I spent some time exploring door states like &quot;ajar&quot; where a door isn&apos;t really open or closed. Rats&apos;s that can&apos;t open a closed door are able to squeak through one that&apos;s ajar. So, it&apos;s an easier door to open. Not really a compelling mechanic... An obvious candidate for the cutting room floor. Next I started looking into jammed and locked. Far more interesting from a mechanics perspective but reliant on much larger systems. A locked door is really just a lock that must be dealt with before reaching the door, and a jammed door must be jammed by some mechanism - similar to locks (which should also be jammable) but required a different skill check.&lt;/p&gt;
 &lt;p&gt;Regardless, it quickly became clear that I was deep down a rabbithole of my own making. Rather than attempt to force a simplified version of doors, I bailed entirely. If I&apos;m to have locked doors, I should implement locks instead. If I am to have jammed doors, I need to build some UI for jamming and unjamming a mechanism. Hold on, are doors just a mechanism?&lt;/p&gt;
 &lt;p&gt;Oh, god... how deep is this rabbit hole?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Errands]]></title><link>https://luetkemj.github.io/241017/errands</link><guid isPermaLink="false">https://luetkemj.github.io/241017/errands</guid><pubDate>Thu, 17 Oct 2024 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://substack-post-media.s3.amazonaws.com/public/images/7bbbe453-9dd0-48ca-956b-a7b3bc41e38b_1500x2000.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
