@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Nov 2025 14:15:20 GMT</lastBuildDate><item><title><![CDATA[Fire Walk]]></title><link>https://luetkemj.github.io/251125/fire-walk</link><guid isPermaLink="false">https://luetkemj.github.io/251125/fire-walk</guid><pubDate>Tue, 25 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Wrapping up the fire system is likely more involved than I had originally thought. Isn&apos;t everything?&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Nov 2025 14:27:07 GMT</lastBuildDate><item><title><![CDATA[Fire Walk]]></title><link>https://luetkemj.github.io/251125/fire-walk</link><guid isPermaLink="false">https://luetkemj.github.io/251125/fire-walk</guid><pubDate>Tue, 25 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Wrapping up the fire system is likely more involved than I had originally thought. Isn&apos;t everything?&lt;/p&gt;
 &lt;p&gt;I was thinking this morning about making mobs flammable. A rat should avoid fire. This affects pathfinding. A rat that is hunting the player is blocked by fire - but how much fire? Should they risk the one square of flames? Should they plan a route that goes all the way around the dungeon to avoid the flames? What if they&apos;re actively on fire? Do they still avoid flame? Or suppose they aren&apos;t on fire and aren&apos;t hunting anything. They should still avoid flames, so they need to be constantly away of it and actively move away from it. But what if they become trapped by it?&lt;/p&gt;
 &lt;p&gt;I had originally thought that an intelligent entity on fire should just run randomly. But then I thought they should run randomly to squares not on fire - thus spreading the flames and behaving in a more realistic manner. But is it really?&lt;/p&gt;
 &lt;ul&gt;
@@ -66,21 +66,9 @@
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Got distracted and added graphics. There are bugs that need to be resolved with fire and a lot of loose threads. Why jump in an introduce graphics? Some new shiny I guess.&lt;/p&gt;
 &lt;p&gt;I added sprites from the &lt;a href=&quot;https://kenney.nl/assets/1-bit-pack&quot;&gt;Kenney 1-bit pack&lt;/a&gt;. The idea being, that someday in the far future I&apos;ll have an idea of what I actually want to render and can make my own completely custom set. We&apos;ll see if/when that ever happens.&lt;/p&gt;
-&lt;p&gt;Saves are broken in an unexpected way. This is due to how the render engine is built. It has always used a tileset, several actually, but those tiles rendered ascii graphics.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  _getTexture = (opts: GetTextureOptions): Texture =&gt; {
-    const { tileSet, char } = opts;
-    if (tileSet === &quot;ascii&quot;) return getAsciiTexture(char);
-    if (tileSet === &quot;text&quot;) return getFontTexture(char);
-    if (tileSet === &quot;kenny&quot;) return getKennyTexture(char);
-    return getTileTexture();
-  };&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The tileset and character to render are stored in the appearance component on each entity. The tileset on entities is now stored as &quot;kenny&quot; instead of &quot;ascii&quot; and the char is no longer a single character. Weapons were previously all the &lt;code class=&quot;language-text&quot;&gt;)&lt;/code&gt; symbol. They now each have unique names.&lt;/p&gt;
-&lt;p&gt;appearance: {
-char: chars.wall,
-tint: colors.wall,
-tileSet: &quot;kenny&quot;,
-},&lt;/p&gt;
-&lt;hr&gt;</content:encoded></item><item><title><![CDATA[Fire]]></title><link>https://luetkemj.github.io/251123/fire</link><guid isPermaLink="false">https://luetkemj.github.io/251123/fire</guid><pubDate>Sun, 23 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have made fire!&lt;/p&gt;
+&lt;p&gt;The update isn&apos;t without issues. The appearance component saves the tileset and character info on each entity. So old saves don&apos;t work, and new saves on an old branch also don&apos;t work. The legend in the sidebar is kind of broken too. The char strings for the kenny tileset are words instead of a single character. So the legend ends up rendering something like &quot;door door&quot; or &quot;club club&quot;.&lt;/p&gt;
+&lt;p&gt;I&apos;m now faced with the challenge of either combining text (which currently renders on half width tiles) with my tileset and halving the space for content or somehow managing multiple canvas objects in the UI. Not something I&apos;m looking forward to.&lt;/p&gt;
+&lt;p&gt;Seems like a great time to PUNT! 🏈&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Fire]]></title><link>https://luetkemj.github.io/251123/fire</link><guid isPermaLink="false">https://luetkemj.github.io/251123/fire</guid><pubDate>Sun, 23 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have made fire!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/795e62d0322c8548a9fb4689ce9f2cce/fire-1.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Squid woke me up at 4:30am yesterday, screaming. No point trying to go back to sleep with that racket. The boy is crazy.&lt;/p&gt;
 &lt;p&gt;I made a cup of coffee and sat down in front of the computer. Having punted on doors I decided to try something different and potentially easier. A simple fire system.&lt;/p&gt;
