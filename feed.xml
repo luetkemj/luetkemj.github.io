@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 23 Nov 2025 15:28:37 GMT</lastBuildDate><item><title><![CDATA[Fire]]></title><link>https://luetkemj.github.io/251123/fire</link><guid isPermaLink="false">https://luetkemj.github.io/251123/fire</guid><pubDate>Sun, 23 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have made fire!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Nov 2025 14:15:20 GMT</lastBuildDate><item><title><![CDATA[Fire Walk]]></title><link>https://luetkemj.github.io/251125/fire-walk</link><guid isPermaLink="false">https://luetkemj.github.io/251125/fire-walk</guid><pubDate>Tue, 25 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Wrapping up the fire system is likely more involved than I had originally thought. Isn&apos;t everything?&lt;/p&gt;
+&lt;p&gt;I was thinking this morning about making mobs flammable. A rat should avoid fire. This affects pathfinding. A rat that is hunting the player is blocked by fire - but how much fire? Should they risk the one square of flames? Should they plan a route that goes all the way around the dungeon to avoid the flames? What if they&apos;re actively on fire? Do they still avoid flame? Or suppose they aren&apos;t on fire and aren&apos;t hunting anything. They should still avoid flames, so they need to be constantly away of it and actively move away from it. But what if they become trapped by it?&lt;/p&gt;
+&lt;p&gt;I had originally thought that an intelligent entity on fire should just run randomly. But then I thought they should run randomly to squares not on fire - thus spreading the flames and behaving in a more realistic manner. But is it really?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If not on fire:
+&lt;ul&gt;
+&lt;li&gt;avoid flames&lt;/li&gt;
+&lt;li&gt;paths to a goal should avoid fire
+&lt;ul&gt;
+&lt;li&gt;if no path exists, abandon goal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;if adjacent to flames, move to a tile that is not adjacent to flames
+&lt;ul&gt;
+&lt;li&gt;if no such tile exists, move to tile without flames
+&lt;ul&gt;
+&lt;li&gt;if no such tile exists, stay still&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If on fire
+&lt;ul&gt;
+&lt;li&gt;run randomly to an adjacent tile that is not on fire?&lt;/li&gt;
+&lt;li&gt;drunken walk algorithm?&lt;/li&gt;
+&lt;li&gt;ping pong in straight lines off walls?&lt;/li&gt;
+&lt;li&gt;path directly towards player?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Well, at this point, there not much else to do but start tinkering with AI and pathfinding.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GFX]]></title><link>https://luetkemj.github.io/251124/gfx</link><guid isPermaLink="false">https://luetkemj.github.io/251124/gfx</guid><pubDate>Mon, 24 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;GFX!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1ab8deffc227d3b1eaecd64dac378e41/c4451/gfx.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAABw0lEQVQ4y62UW2/TQBCFnYTYe5n1pb4D9mZt5+K0agDxwP//YwfNOkoLlQiiPBzNeKT5dnxm7SAIAhRFgcvlCw7HGefHR8zn8xLn5Zl1mmc8P1+gtQb3/EEBmqbFNDp8qjTiOEEcx0iSl8hi0OFwQJZl94F102Bne5RZBKU0tFIeoJSCvOZRFGEYBg//iwkb9NYijCSICLEWUJpAmpCb2NciITDs9yjLCuvNBmEYIQzDN7oBrbWQUvhmqQllIlAahdKkiEghlxpf6wbtxxIZKaSGoIlgjPE9HNOYfgdKKK2RJzHmtkBmBIoiRaINUqlw7Ho0TQ1SEobIW0GvoiG9ANu29UAhBCRplNrgmOTQSYyn2eKp66CFhNvv8fCQe6/W6zVWq9UbLUupa/R975dgyCAUEbZSYLsNkRNh7D8jFAKjc5hPJzjnMI6jj8Mw+mWxuOaBbCaP3XWdL7IFbuf8ITtr4ewOh+MJP75/w+QsxmmPaZo8hCP3sDgPXq+cJ6zKAkWeext48qZt/QGcV1fVV1VVdcsXNb8C2YPNZn3vnt2/hy+wD97sdwMX2Mbruql/Fy+EQTzZfwHyx54k6e0H8M7XxU/i3FRK3RzB/AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gfx&quot;
+        title=&quot;gfx&quot;
+        src=&quot;/static/1ab8deffc227d3b1eaecd64dac378e41/fcda8/gfx.png&quot;
+        srcset=&quot;/static/1ab8deffc227d3b1eaecd64dac378e41/12f09/gfx.png 148w,
+/static/1ab8deffc227d3b1eaecd64dac378e41/e4a3f/gfx.png 295w,
+/static/1ab8deffc227d3b1eaecd64dac378e41/fcda8/gfx.png 590w,
+/static/1ab8deffc227d3b1eaecd64dac378e41/efc66/gfx.png 885w,
+/static/1ab8deffc227d3b1eaecd64dac378e41/c83ae/gfx.png 1180w,
+/static/1ab8deffc227d3b1eaecd64dac378e41/c4451/gfx.png 1450w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Got distracted and added graphics. There are bugs that need to be resolved with fire and a lot of loose threads. Why jump in an introduce graphics? Some new shiny I guess.&lt;/p&gt;
+&lt;p&gt;I added sprites from the &lt;a href=&quot;https://kenney.nl/assets/1-bit-pack&quot;&gt;Kenney 1-bit pack&lt;/a&gt;. The idea being, that someday in the far future I&apos;ll have an idea of what I actually want to render and can make my own completely custom set. We&apos;ll see if/when that ever happens.&lt;/p&gt;
+&lt;p&gt;Saves are broken in an unexpected way. This is due to how the render engine is built. It has always used a tileset, several actually, but those tiles rendered ascii graphics.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  _getTexture = (opts: GetTextureOptions): Texture =&gt; {
+    const { tileSet, char } = opts;
+    if (tileSet === &quot;ascii&quot;) return getAsciiTexture(char);
+    if (tileSet === &quot;text&quot;) return getFontTexture(char);
+    if (tileSet === &quot;kenny&quot;) return getKennyTexture(char);
+    return getTileTexture();
+  };&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The tileset and character to render are stored in the appearance component on each entity. The tileset on entities is now stored as &quot;kenny&quot; instead of &quot;ascii&quot; and the char is no longer a single character. Weapons were previously all the &lt;code class=&quot;language-text&quot;&gt;)&lt;/code&gt; symbol. They now each have unique names.&lt;/p&gt;
+&lt;p&gt;appearance: {
+char: chars.wall,
+tint: colors.wall,
+tileSet: &quot;kenny&quot;,
+},&lt;/p&gt;
+&lt;hr&gt;</content:encoded></item><item><title><![CDATA[Fire]]></title><link>https://luetkemj.github.io/251123/fire</link><guid isPermaLink="false">https://luetkemj.github.io/251123/fire</guid><pubDate>Sun, 23 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have made fire!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/795e62d0322c8548a9fb4689ce9f2cce/fire-1.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Squid woke me up at 4:30am yesterday, screaming. No point trying to go back to sleep with that racket. The boy is crazy.&lt;/p&gt;
 &lt;p&gt;I made a cup of coffee and sat down in front of the computer. Having punted on doors I decided to try something different and potentially easier. A simple fire system.&lt;/p&gt;
