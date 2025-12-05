@@ -1,4 +1,113 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Nov 2025 14:29:42 GMT</lastBuildDate><item><title><![CDATA[Fire Walk]]></title><link>https://luetkemj.github.io/251125/fire-walk</link><guid isPermaLink="false">https://luetkemj.github.io/251125/fire-walk</guid><pubDate>Tue, 25 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Wrapping up the fire system is likely more involved than I had originally thought. Isn&apos;t everything?&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 05 Dec 2025 13:42:37 GMT</lastBuildDate><item><title><![CDATA[Material]]></title><link>https://luetkemj.github.io/251205/material</link><guid isPermaLink="false">https://luetkemj.github.io/251205/material</guid><pubDate>Fri, 05 Dec 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;If an entity has material and mass, it has some level of flammability. The flammable component stores entity ignition chance, heat tolerance, and max intensity. It also keep track of fuel, both current and max.&lt;/p&gt;
+&lt;p&gt;There are 10 base materials:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bone&lt;/li&gt;
+&lt;li&gt;Cloth&lt;/li&gt;
+&lt;li&gt;Flesh&lt;/li&gt;
+&lt;li&gt;Glass&lt;/li&gt;
+&lt;li&gt;Leather&lt;/li&gt;
+&lt;li&gt;Metal&lt;/li&gt;
+&lt;li&gt;Oil&lt;/li&gt;
+&lt;li&gt;Paper&lt;/li&gt;
+&lt;li&gt;Plant&lt;/li&gt;
+&lt;li&gt;Stone&lt;/li&gt;
+&lt;li&gt;Wood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rather than real world weights and measures, I use this table to decide the general mass of an object.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Category&lt;/th&gt;
+&lt;th&gt;Mass Range&lt;/th&gt;
+&lt;th&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Tiny&lt;/td&gt;
+&lt;td&gt;0.1–0.5&lt;/td&gt;
+&lt;td&gt;Paper scrap&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Small&lt;/td&gt;
+&lt;td&gt;0.5–2&lt;/td&gt;
+&lt;td&gt;Spoon&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Medium&lt;/td&gt;
+&lt;td&gt;2–6&lt;/td&gt;
+&lt;td&gt;Chair&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Creatures&lt;/td&gt;
+&lt;td&gt;6–20&lt;/td&gt;
+&lt;td&gt;Human&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Large objects&lt;/td&gt;
+&lt;td&gt;10–30&lt;/td&gt;
+&lt;td&gt;Bookshelf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Huge objects&lt;/td&gt;
+&lt;td&gt;30–60&lt;/td&gt;
+&lt;td&gt;Tree&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Special cases&lt;/td&gt;
+&lt;td&gt;60–80&lt;/td&gt;
+&lt;td&gt;Ancient Dragon&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Something like a pair of gloves may end up like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
+    name: &apos;Leather Gloves&apos;,
+    mass: 1.5,
+    material: &apos;leather&apos;,
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And after final calculation to determine flammability you get:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
+    &quot;ignitionChance&quot;: 0.17005660008343879,
+    &quot;fuel&quot;: {
+        &quot;max&quot;: 16,
+        &quot;current&quot;: 16
+    },
+    &quot;maxIntensity&quot;: 2,
+    &quot;heatTolerance&quot;: 1,
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In this way, a fire can break out across a field of grass, burning through it at a terrifying rate while the leather leavings of a dead goblin might remain unsinged. Doors, upon succesful ignition, having far more fuel than grass will burn much longer providing a different sort of hazard.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dbd0442d0c06d3ae1d6a2f904f60a846/f4b77/material-120525.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 120.27027027027026%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEVElEQVQ4y42V244bRRCGexN7Dj1Hn8aH9a6968Pazq7PnrE9Y3s3CUG7AUUoAikI5QIhLlDEBRJPwA2vwgPwfB/qcRwMBCkXpb+revrv6r+ra0QURazjmDiO2Ww2TOdLwtWGaLVlud4ShSG3t3fcdC9olBzGi4Qk2RCv18RJwnq9X7terxmNRohVnNBsNimWAqrlCvHAYdXzSAYuy76P6xepVqvkfI+SJ/lx43BeDyiUy1QqldRKpRK9/oDJbI5YjnoUcjlMU6NW0XnWF2w7gtsrQdwWlL0MjtQxTAtbmjy/PqFr2/iaiS5NpJRouk6zXmHcbyGmDZ+c53JxKXkWa8SDR2x7J9z1Bbuu4OVYELgG0pS4joN4pPPaKLBycmQdC9e2kbZDo+TSqzqIKFpRPc/jFLIUqiZJqLHqnpC0BXFHELYF34wF47MMmmkRL2/YDjJclrOcZBwc20JXGV5cMJ5MEEpURWjn94SnZxqzkUYyesxtV5BcCR6uBU/qWcQjk4eR5IuhIGwJbuoZLMvBNE1arRaz2Qyx3e44bRY/ZGj4Olc9netOhlHrMZueYNMVDM4y1LwszwaCcTPDqJnhupHFlA6GrtFpt1EVI+I4odYs4hY1gnOLfNUgV5O4FUmxavLZ9f6Cnj8R3PZPeHp9gufYZA0HQzo4joPp+rS6vX2GURQSlAJMW0vJ3KJOrmLgBTrFQEuze9oTXJ1myeo2lmVh2xb2e7RMA6s7pxXeMRoOEdvbO8pBBWnr5GsmXulAaJCvGNxGWS7bGoWSibT2hKZtYxoadj7AH+0wF6/oJPcsRgNEdNOlVPSxPC0lUkf3A32PZYNhX8fNm0hbYqsSsSwqro+XD3A7E/ztGy5efs/163fcfPUOMap71M4scjWTQlXil1RmklzZJBdIdN3GsR1c101Nl5JRoUq7PcYN77HWb3j44S0vfv6dya9/IparNdVGHtvX04V7jewPqLQyDIPTep3ReIyuG5jSxDpt4S0e8Hdv8O5/wv/2N3K//IHY7XaUq0FanOmRpEzJFB77alwoFD/ELdvBOeuSS77Gu3tL6/PvGN59iVgulwRBkBanKoF/Z3iMf5M76e3aXg63Pcae3dNZv2D2pKvqMKZcLqeESiO14ED8MVTkqa/kUGbqWI0+7XnCbDpFqN6mCJVO6kP5PqPjIx/jccYHUsOUtDodFouFIkzSIyvC/9PwOG4dbXgYK/3VW57P5+qlRGlzNT5Bw49hmqFhcKG6zXiM2Gy2nNXLWJbxH8JP2eBA2G53CMMQES43vNoFDJoGhnRx3ouuPlSXZB/5H8O0OZgm7c6BMFxyVstjy0xatEoPZZqmpTursULlH+YO8cM4k8nQaDQYjyf7sul0e5yfN1Nh1cTl5WWqicLz8/N/+Id59WM7xFVsOBwyVe1rMpmkqSqLlkum0ylhFKXNMoqWTCbTNK5iylTPU49BlYjyUwxD5vMFg8GAvwBbB3UgF3FNqgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;material 120525&quot;
+        title=&quot;material 120525&quot;
+        src=&quot;/static/dbd0442d0c06d3ae1d6a2f904f60a846/fcda8/material-120525.png&quot;
+        srcset=&quot;/static/dbd0442d0c06d3ae1d6a2f904f60a846/12f09/material-120525.png 148w,
+/static/dbd0442d0c06d3ae1d6a2f904f60a846/e4a3f/material-120525.png 295w,
+/static/dbd0442d0c06d3ae1d6a2f904f60a846/fcda8/material-120525.png 590w,
+/static/dbd0442d0c06d3ae1d6a2f904f60a846/f4b77/material-120525.png 770w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Fire Walk]]></title><link>https://luetkemj.github.io/251125/fire-walk</link><guid isPermaLink="false">https://luetkemj.github.io/251125/fire-walk</guid><pubDate>Tue, 25 Nov 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Wrapping up the fire system is likely more involved than I had originally thought. Isn&apos;t everything?&lt;/p&gt;
 &lt;p&gt;I was thinking this morning about making mobs flammable. A rat should avoid fire. This affects pathfinding. A rat that is hunting the player is blocked by fire - but how much fire? Should they risk the one square of flames? Should they plan a route that goes all the way around the dungeon to avoid the flames? What if they&apos;re actively on fire? Do they still avoid flame? Or suppose they aren&apos;t on fire and aren&apos;t hunting anything. They should still avoid flames, so they need to be constantly away of it and actively move away from it. But what if they become trapped by it?&lt;/p&gt;
 &lt;p&gt;I had originally thought that an intelligent entity on fire should just run randomly. But then I thought they should run randomly to squares not on fire - thus spreading the flames and behaving in a more realistic manner. But is it really?&lt;/p&gt;
 &lt;ul&gt;
