@@ -1,4 +1,162 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 05 Dec 2025 13:42:37 GMT</lastBuildDate><item><title><![CDATA[Material]]></title><link>https://luetkemj.github.io/251205/material</link><guid isPermaLink="false">https://luetkemj.github.io/251205/material</guid><pubDate>Fri, 05 Dec 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;If an entity has material and mass, it has some level of flammability. The flammable component stores entity ignition chance, heat tolerance, and max intensity. It also keep track of fuel, both current and max.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Dec 2025 14:34:07 GMT</lastBuildDate><item><title><![CDATA[Mutable]]></title><link>https://luetkemj.github.io/251205/mutable</link><guid isPermaLink="false">https://luetkemj.github.io/251205/mutable</guid><pubDate>Fri, 12 Dec 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Lots done this week! With the holiday&apos;s approaching work-work has slowed down and my enthusiasm for game dev has lined up nicely with the additional freetime.&lt;/p&gt;
+&lt;p&gt;I rewrote the water system to be a more generic fluid system supporting multiple layered fluids. Currently the game supports lava, water, blood, and oil. Lava is always on fire and will destroy water and blood - steam hasn&apos;t been implemented but that&apos;s the rationale, and oil is explosive. These layers all interact with each other so in the image below I turned off lava as things get a bit too chaotic with so many fluids in the dungeon.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/34725e291a8e672dd9e9d1b7e1414fda/45736/251212-fluids.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACoElEQVQozzWRTW8bVRSGZ8MOVJIqEBRRYitx/THfM55779w7H/aM7ZB64jZxE/LVNG3UVK2QoMAWwYIdEmLHgn/Ahn+AxB97UCy6OKsjPe97nmPVtc9XTz0yEyOLCXK6wMkqRn6fyrcZ6pzHwuNt3GKvvUWaJIwWJ0yaJZkxKJWSpu9HY91eZvz624zTZUK3OuH+0Q88mF/TBF2ePfiQ1PV4Nerwvf8xzdY6ZehxuHjM5bSiUglS6xVMvQfmacWLN6ecHWt24px75RNaezeM6zk37iZHZcSP3ykuFn38eonxIxZb6+x/ep80iki1wRhDnplVY0uGCcUwYFJluJ5LV+WEsyXRdMEo8jBSUpQGU2aorEBnOcJ2CdvbpEphTIbn++wOPLwgwopFQqfXZTgUKx9KSqQUSJ0h8hEyKxG6QAi12oWRT6u9wW7okNwFKMlOmLGWn9AqDrC89me01j6gs9vC83wcx8YJh3iTQ4LmgrC5wJ8tcaIE27axex3ifpvh0yuccg+n20WMT3CvfqZ39i3WKLDJypJE3TWTDGO1kptqTRxLwlAi1N255cqX0mPE/jVec0uU1aRhQJJ/Sf/RC5z9c6x4+gj/+Te45QRvMGAyGbDd+YTtnU2OT22uXoaoScWgaAirA7JihsgbgnxBnGQrTUYrjBKYVGJ9vvsFH9k9bBGjdM4ff864/fohPXeDv/6e8c+/c87PFJ2+j6NrvOVbgjc/sXj3mptXY+q9EqFytNZobbD6vS7+5hrG7jKOhpwvBE0TI/w+lwdDXh4ppiJmOko5mkvM9S3FL7+zfPec+ROHh80xoSoxqVppsu7eXktFHUaMg5Dc83EdHx1E5HaAGQSUXsC0SFge5qjJCKca0e9us35vjQ3HIEyJ/h/4H9ToeACC0+NxAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;251212 fluids&quot;
+        title=&quot;251212 fluids&quot;
+        src=&quot;/static/34725e291a8e672dd9e9d1b7e1414fda/fcda8/251212-fluids.png&quot;
+        srcset=&quot;/static/34725e291a8e672dd9e9d1b7e1414fda/12f09/251212-fluids.png 148w,
+/static/34725e291a8e672dd9e9d1b7e1414fda/e4a3f/251212-fluids.png 295w,
+/static/34725e291a8e672dd9e9d1b7e1414fda/fcda8/251212-fluids.png 590w,
+/static/34725e291a8e672dd9e9d1b7e1414fda/efc66/251212-fluids.png 885w,
+/static/34725e291a8e672dd9e9d1b7e1414fda/c83ae/251212-fluids.png 1180w,
+/static/34725e291a8e672dd9e9d1b7e1414fda/45736/251212-fluids.png 3122w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Fluids are no longer &quot;special&quot;. They are materials like anything else which makes interaction with the other system &quot;just work&quot;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/412a5aaaf9a9c99db129c30db41a3847/41d3b/251212-lava.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 80.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAADgklEQVQ4y02UPY/jVBSGvTNJ7qftJI4zjhPHiZOZ2cnO7jKZSWI7mY8FUVDQIFiggBLxUSBArMSfoFoJCUpaSn4BLVtSI1EgxA+gfpA9w4ri6up+HZ33nOe+znK5pChKtttdPVarNbvdrt7b5FvOLjas8msens5ZP+6wvCgpy5I8zym3O9b5jvV6Q1EUnJ+f41QHh4eHRFHEcDgkGkTE8ZBhMuBmOeD52wN+eC/hpw8Cvn/H4+JhxGgU0z8Y8OB4xM0qot8POTlZkBcFzuXlFaPRiGazidYarSTNluYoFjx7XfLiY8UfXyj++cbw22cun78m6LcFzZai7UrOjxWeaZJOMq6vr3GKsmQ8HqOUwvd9PNcitcf20PLdU49fPvL4/cs2fz3z+fUTj+dPPY5jF2VcfN/DWB+pFFmWUZZbnKpmlVQpJdZajNG4rqUlNfdDzYtPDX9+5fL315afPzQE1tASBikqNdVdFyEEaZqyXq9xqgYkSVIHrA6NNljjol1NeCBZppof37V8+6bllUSzTPdYzJsMJwrdVvUbKSSz2YzLy0ucqlNJMn4Z0HoK62qsL2j3Bc6+5I1Hit1M4TgNnjxwuH60x+lRg3bQxHgKqQTTacZ2u8XJ1xcko2FdwypgPHcZL3wGc4tpt4hSheq6hFawChxuThxePXG4WjYpNxr/wOD6ivlhVqPjnEaKqGORytQ1VMJgfUlnIInnFrfdwg4EC9/yvuqxXThcnTWYjCX37qnbN/4e8/speV7i5BdnDOMYZQXdSNGNNJ1I4vcU3dCjN9S4YYuDrmFufQ4CRZopDkYSP1T4oUS7LbJpxtXVFU5elIxGCdrKOrMoM/g9iTISqVtEmSVMNNK22JeS/YYgiDr0xy7R1OB1dN3lyXTKJs9xKt23Xa7Sd4lnLu2uix9oekOD8Vv0U00wsKgKZmsIw5BBEuB2JZ2ujzb/47DqTHIHtudV2FjalZRA1ZzdZmgIU0M6bfPW9BFx30V5AmsN3YGq1WTZrPYAp/rocRzTaDTqoBU+SgukFLWUXiIIRoIgEXRigW0qwoHGBg3cXpN21KIp9knTCWWFzWq9ZrFYMJlMajgr4ieTaT1X4+RxxoOz+ct5OBxz/HDKyeMp0/mY2dGkLtnp6WntOs6tfRU1lNVYrVZs7+zrdr2hLLasVxuK/PZOvinq9X+WV325/M6+/gXSxbsbdlw5pwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;251212 lava&quot;
+        title=&quot;251212 lava&quot;
+        src=&quot;/static/412a5aaaf9a9c99db129c30db41a3847/fcda8/251212-lava.png&quot;
+        srcset=&quot;/static/412a5aaaf9a9c99db129c30db41a3847/12f09/251212-lava.png 148w,
+/static/412a5aaaf9a9c99db129c30db41a3847/e4a3f/251212-lava.png 295w,
+/static/412a5aaaf9a9c99db129c30db41a3847/fcda8/251212-lava.png 590w,
+/static/412a5aaaf9a9c99db129c30db41a3847/41d3b/251212-lava.png 774w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I experimented with mobs made from fluid, welcome Lava Golems! Their attacks deal fire damage and they will spread fire to anything nearby. The player is immune to fire for now (testing purposes) but it&apos;s fun seeing the golems interact with skeletons who they don&apos;t like and rats who they do but sadly, shouldn&apos;t be allowed to play with :(&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/9de32f1b667a0fd9290777919ac9cc65/251212-sad-golem.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I wanted the grass to grow back after it was burnt and assumed it would be a relatively simple add. Boy was I wrong! The naive first attempt of just updating their appearance component and recalculating flammability didn&apos;t work as I needed it to occur at a randomized cadence so I implemented a &quot;growth&quot; system to move entites through stages. This &quot;one way&quot; system ran into various problems I tried to solve it through another post-process system that in the end felt more like an events system.&lt;/p&gt;
+&lt;p&gt;The events system worked but didn&apos;t feel &quot;right&quot; within an ECS architecture. Thought about it some more and ended up rewriting the entire thing into something more simple that doesn&apos;t &quot;fight the framework&quot;.&lt;/p&gt;
+&lt;p&gt;Introducing the &quot;mutable&quot; system. The mutable component contains mutations which are just a list of components to add and remove with a chance to mutate to another specified mutation. In this way I can attach a &quot;mutateTo&quot; component to mutate to a &quot;burnt&quot; mutation or if grass currently has the &quot;young&quot; mutation it will mutate to &quot;mature&quot; over time. I can easily add flags like &quot;calculateFlammability: true&quot; to trigger another system to calculate the flammability - previously accomplished through my DIY eventing setup.&lt;/p&gt;
+&lt;p&gt;This is the mutable component for grass. Each mutation has a name, optional next mutation in sequence, change to mutate, and components to add and remove. The current mutation is tracked at the top level.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;typescript&quot;&gt;&lt;pre class=&quot;language-typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;mutable&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    current&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;young&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    mutations&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;burnt&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        next&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;young&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        chanceToMutate&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.01&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        addComponents&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          appearance&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            char&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; chars&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;grass&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            tint&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; colors&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ash&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            tileSet&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;kenny&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        removeComponents&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;flammable&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;young&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        next&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;mature&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        chanceToMutate&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.01&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        addComponents&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          appearance&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            char&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; chars&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;grass&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            tint&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; colors&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;plant&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            tileSet&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;kenny&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          calculateFlammability&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        removeComponents&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;mature&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        chanceToMutate&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.01&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        addComponents&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          appearance&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            char&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; chars&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tallGrass&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            tint&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; colors&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;plant&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            tileSet&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;kenny&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          calculateFlammability&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        removeComponents&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And here&apos;s the mutable system. If the current mutation has a next mutation, it will attempt to evolve the entity by applying the mutation. Alternately, there is a &apos;mutateTo&apos; component that is used to directly mutate without relying on RNG.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;typescript&quot;&gt;&lt;pre class=&quot;language-typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;createMutableSystem&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; world &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; IGameWorld&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; mutableQuery &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; world&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;mutable&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; mutateToQuery &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; world&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;mutateTo&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mutableSystem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; entity &lt;span class=&quot;token keyword&quot;&gt;of&lt;/span&gt; mutableQuery&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; currentMutation &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; entity&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mutable&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mutations&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        x &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; entity&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mutable&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;current
+      &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;currentMutation &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; currentMutation&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;next&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Math&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; currentMutation&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;chanceToMutate&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; nextMutation &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; entity&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mutable&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mutations&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+            x &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; currentMutation&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;next
+          &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+          &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextMutation&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token function&quot;&gt;evolveEntity&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;world&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; entity&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nextMutation&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            entity&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mutable&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;current &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nextMutation&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; entity &lt;span class=&quot;token keyword&quot;&gt;of&lt;/span&gt; mutateToQuery&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;entity&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mutable&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; mutation &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; entity&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mutable&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mutations&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+          x &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; entity&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mutateTo&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name
+        &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mutation&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;token function&quot;&gt;evolveEntity&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;world&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; entity&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; mutation&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+          entity&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;mutable&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;current &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; mutation&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      world&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;removeComponent&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;entity&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;mutateTo&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here, a fire golem is lighting and relighting grass on fire. The grass is making heavy use of the mutation system as it burns and regrows.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/da5881f2916b4a28808691c431c210ef/251212-lava-golem.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Material]]></title><link>https://luetkemj.github.io/251205/material</link><guid isPermaLink="false">https://luetkemj.github.io/251205/material</guid><pubDate>Fri, 05 Dec 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;If an entity has material and mass, it has some level of flammability. The flammable component stores entity ignition chance, heat tolerance, and max intensity. It also keep track of fuel, both current and max.&lt;/p&gt;
 &lt;p&gt;There are 10 base materials:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Bone&lt;/li&gt;
