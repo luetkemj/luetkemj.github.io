@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Dec 2025 14:34:07 GMT</lastBuildDate><item><title><![CDATA[Mutable]]></title><link>https://luetkemj.github.io/251205/mutable</link><guid isPermaLink="false">https://luetkemj.github.io/251205/mutable</guid><pubDate>Fri, 12 Dec 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Lots done this week! With the holiday&apos;s approaching work-work has slowed down and my enthusiasm for game dev has lined up nicely with the additional freetime.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Dec 2025 15:19:24 GMT</lastBuildDate><item><title><![CDATA[Mutable]]></title><link>https://luetkemj.github.io/251205/mutable</link><guid isPermaLink="false">https://luetkemj.github.io/251205/mutable</guid><pubDate>Fri, 12 Dec 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Lots done this week! With the holiday&apos;s approaching work-work has slowed down and my enthusiasm for game dev has lined up nicely with the additional freetime.&lt;/p&gt;
 &lt;p&gt;I rewrote the water system to be a more generic fluid system supporting multiple layered fluids. Currently the game supports lava, water, blood, and oil. Lava is always on fire and will destroy water and blood - steam hasn&apos;t been implemented but that&apos;s the rationale, and oil is explosive. These layers all interact with each other so in the image below I turned off lava as things get a bit too chaotic with so many fluids in the dungeon.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -33,7 +33,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Fluids are no longer &quot;special&quot;. They are materials like anything else which makes interaction with the other system &quot;just work&quot;.&lt;/p&gt;
+&lt;p&gt;Fluids are no longer &quot;special&quot;. They are materials like anything else which makes interaction with the other systems &quot;just work&quot;.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin-left: 0!important; margin-right: 0!important;&quot;
