@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Dec 2025 15:45:20 GMT</lastBuildDate><item><title><![CDATA[Mutable]]></title><link>https://luetkemj.github.io/251205/mutable</link><guid isPermaLink="false">https://luetkemj.github.io/251205/mutable</guid><pubDate>Fri, 12 Dec 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Lots done this week! With the holiday&apos;s approaching work-work has slowed down and my enthusiasm for game dev has lined up nicely with the additional freetime.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[luetkemj]]></title><description><![CDATA[Change Is Good]]></description><link>https://luetkemj.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 26 Dec 2025 17:43:44 GMT</lastBuildDate><item><title><![CDATA[Mixed Width]]></title><link>https://luetkemj.github.io/251226/mixed-width</link><guid isPermaLink="false">https://luetkemj.github.io/251226/mixed-width</guid><pubDate>Fri, 26 Dec 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Got sick of managing this project from a loose markdown file and &lt;strong&gt;set up a GitHub project&lt;/strong&gt;. Feels much more… official.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/67bfb5ff8258dd5d59897a9a3cf26602/6660b/251226-1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABlElEQVQoz22S25KbMAyGeYh2p03SCWd8AB8w2EAC2Wy77/9If0eGzfSiFxrJkvXNL9mJDQ907o4fV4bv5wJvlxLfTnmMySj+n1EtbTTSWuFaKcj+BqYmJARLmUHGDHJu0SiPSjow5VFwi3MucCkkfhUy+gudj9wpYzhnHKeM42e6xwmzAcLOKET/AnIzoe5GVO0QPdMh1smTcTPHPNe7J3XUU0qHpB8CCjnEZgLWrYceN2i/QfYLmPaQbkEjv6AT1LCi6QI6/UQpXBRBNZoyMWNA2phIp2TTBrj5N/r5ic7dUCkPuXxCqlvcGSlU4xrvKf0nAqt2jLUI5G6NOyuE20duJ/TTR1RI45RtD7OsaA9gowK64Y66JYUfqOQAYRak7AD2/hPMhAiMCrsd6JYnlH+Aa4fbXaPW4z8Kt5dC6iFodjxsovsFGbevR6k7DxPeYad3KL9BdAOWsEG4DWmjomph5jimtFsUQvELaO2C/NgfWakcVFhh/AOtu0OoEU6PKPmAjNPXMrjWCrm0qIZdxBeMgH8BwNMRF4NSzNkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;251226 1&quot;
+        title=&quot;251226 1&quot;
+        src=&quot;/static/67bfb5ff8258dd5d59897a9a3cf26602/fcda8/251226-1.png&quot;
+        srcset=&quot;/static/67bfb5ff8258dd5d59897a9a3cf26602/12f09/251226-1.png 148w,
+/static/67bfb5ff8258dd5d59897a9a3cf26602/e4a3f/251226-1.png 295w,
+/static/67bfb5ff8258dd5d59897a9a3cf26602/fcda8/251226-1.png 590w,
+/static/67bfb5ff8258dd5d59897a9a3cf26602/efc66/251226-1.png 885w,
+/static/67bfb5ff8258dd5d59897a9a3cf26602/c83ae/251226-1.png 1180w,
+/static/67bfb5ff8258dd5d59897a9a3cf26602/6660b/251226-1.png 2278w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Wrapped up interactive fluid layers for now. There’s still some work to do, but most of the worst bugs are fixed. The biggest issue was a case where killing multiple rats in the same vicinity caused spilled blood to multiply exponentially and flood the entire dungeon. It turns out having multiple bi-directional fluid containers at the same position is bad. Fluid containers are now directional, and only “floor” fluid containers are bi-directional. A dead rat can bleed, but it won’t try to absorb anything anymore.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3ad8b9456d9dd08fb6cdee9640dca969/f6f78/251226-3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 78.37837837837837%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAADIklEQVQ4y1VUy27bRhTlqhbnQYoS36Yky5IsJZIsiu+R7LRuHkURL4qgm+zSBwoEcd0A7aIIGtewm6TtT59ihqKALi7uwczw3HPvJY6WJAmyLENVCRRFgTTNVK6qSuEsyyGEwOLQxHrxAJXY7N9leY5cCJyulliEHGWeQkuSFFHUQxAEKjzPUzkMQ4V931fYbjO4jo0gDDEMQ8w9D48OI7wcTvGid4y8zbEtcmhFUcKyLOi6DkLIPhNKFZZBKQWhDEQnaBGCQ0pxYbTxTdvGU9PCV5aNMWU4E0ISFuh2bVDGwBkDJURlzrk6YzssM6MUjHO4lCCmHF87Ib60ulgxBpNSiO2ZbDlBp9MBpQTMMMEsG7zjgHFDkVO6I6e0VkoIoiBQbZ8Qiks3xJEsSiniByNoaZahYzs1kd8H789gDGbgXg+03VUke4WModVqYTabYTmfwzk4wBHnajzy3aJvQ5NbcwYTGMMFzMkafLSCOV7V+GheF5Jqdx8ptYSipeuqfW4YqpC8254/gpZkOeyTWBEZY5ljlRusSE0LhlGTNkqbAg2Wo8jTBFqSZrCna3BF0uQY5iRWmA+XML0Iw8kEZrv9PxLOGUzT2BfpdSk0sdnCmSU1yXitSGXQ451SOYLBDJbtqHabYJSh3+8iSyM4tgldJ8iSBFqWF7XCUazm1hquMUlPMa+W0IcxjOMljOAIhHHVliQzTY6qiHD1OsYvVwl++uEU376Y4vHjc2hr1XKyW0aslAXzFabpslZ5fApu2fu2CGEosgi/vk3x6X6LuxuBvz9scfOuxLNnW2hFWcEZzevWTpLdMtago1SdcX8ALv/P3dzGYxffv1rinw9b3L6v8OcfAve3Au/fFXj+/AtJWKLjBiBOBBZNQAcPwWVEYxDnUM2m2eJnBy1cfD7A779l+HQv8PFO4K9bgX8/bnB3U+Ly8qIxhwi+NIfeAP5ohnD8EEGvD9d14Xm1Ofi+B8dxcX42xY/f5bh+U+H6jcD11QZvfxa4el3i6ZOzmlBaVCUa+0pr+xJC2ZqMzWajrEpaVllVyPMSzXdlJRSWd0Js8B/M5MLo2CJQlQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;251226 3&quot;
+        title=&quot;251226 3&quot;
+        src=&quot;/static/3ad8b9456d9dd08fb6cdee9640dca969/fcda8/251226-3.png&quot;
+        srcset=&quot;/static/3ad8b9456d9dd08fb6cdee9640dca969/12f09/251226-3.png 148w,
+/static/3ad8b9456d9dd08fb6cdee9640dca969/e4a3f/251226-3.png 295w,
+/static/3ad8b9456d9dd08fb6cdee9640dca969/fcda8/251226-3.png 590w,
+/static/3ad8b9456d9dd08fb6cdee9640dca969/efc66/251226-3.png 885w,
+/static/3ad8b9456d9dd08fb6cdee9640dca969/f6f78/251226-3.png 932w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Living sponges are now a thing. They randomly select a fluid to absorb on spawn and will only absorb that fluid. Their color reflects their contents. It would be good to spawn them with a bit of fluid inside so it’s more obvious what they absorb. It might also be a good idea to limit possible fluids to those available in the dungeon. Right now it’s possible to spawn a water sponge on a level with no water, which just results in a useless mob.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/40c4b35ea33e44b8b341f857e73365e3/251226-5.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The bottle UI has been improved. Bottles now render with the color of their contents. They can contain multiple fluid types, so the color is a weighted mix of those fluids. The sprite changes between empty, half-full, and full based on volume. The actual fluid mix (as seen when inspecting a puddle) isn’t yet displayed in the inventory, but it should be. Bottles are also corked, so they can be placed without spilling everything. They don’t yet break when thrown, though, so for now bottles are mostly useful for removing fluid hazards like lava or oil.&lt;/p&gt;
+&lt;p&gt;The addition of graphics a while ago broke the legend and inventory UIs — that’s now fixed. I had to refactor &lt;code class=&quot;language-text&quot;&gt;canvas.ts&lt;/code&gt; to add support for mixed-width rendering. This is the kind of work where AI has really shined for me. I wrote the &lt;code class=&quot;language-text&quot;&gt;canvas.ts&lt;/code&gt; rendering logic years ago and have ported it to ever game since. I dropped the file into ChatGPT with an explanation of what I needed to change, and it acted as a thought partner, walking through how and why to refactor it.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f81c5f3d37be9fe31ee6e185aa62c47d/97a96/251226-4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABEklEQVQoz31Sy46DMBDLFcojgbaUQoESSEtgW23//9+88miD9rQHa2xNZDsENbsZwzDAGIMsyxBFEeI43nE4HJAkyb9I03SHcvOEz+cby7Jg2zZ0XYemaVDXtczz+Yw8z6G13hF0mAwNUG1d4/V6wTmH9/sN7z3mecY0TRjHUdoHc6JtW1wul1/dyp6hp9MJZVlCNZXB17bB+1WMaEhz8sfjIXg+n6KttbKnJm63m2CyVsIZrJwdsK6rmDC173tJ5UHy+/0ump/ier0KD2DbcIbn2VSNdpJ0LliZ1+GC/Hg8CueDFUUhqKpq1+QM6btO2hmtobyzWLzfKzOJppxswNbkfx8qaP4FWucojYHOcpiiwA/FRba9iVvFIgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;251226 4&quot;
+        title=&quot;251226 4&quot;
+        src=&quot;/static/f81c5f3d37be9fe31ee6e185aa62c47d/fcda8/251226-4.png&quot;
+        srcset=&quot;/static/f81c5f3d37be9fe31ee6e185aa62c47d/12f09/251226-4.png 148w,
+/static/f81c5f3d37be9fe31ee6e185aa62c47d/e4a3f/251226-4.png 295w,
+/static/f81c5f3d37be9fe31ee6e185aa62c47d/fcda8/251226-4.png 590w,
+/static/f81c5f3d37be9fe31ee6e185aa62c47d/efc66/251226-4.png 885w,
+/static/f81c5f3d37be9fe31ee6e185aa62c47d/c83ae/251226-4.png 1180w,
+/static/f81c5f3d37be9fe31ee6e185aa62c47d/97a96/251226-4.png 2400w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Previously, I was setting tile width on the canvas itself and using array indexing to find and update tiles, which only works if tiles have a consistent width and height. ChatGPT suggested implementing a cursor-based positioning system. Instead of storing width on the canvas, it’s stored on the token. Tokens can be glyphs (graphics) or text. A couple of helper functions understand the token types and handle rendering and cursor progression.&lt;/p&gt;
+&lt;p&gt;I’m not a fan of vibe coding, but I &lt;em&gt;have&lt;/em&gt; found AI as a thought partner to be extremely valuable. I started partnering with it over the past year and have learned a ton. Many refactors and complex systems would have taken much longer without what amounts to an extremely detailed, on-demand manual for roguelike development. AI is a much larger discussion, but the more I use it, the more I understand its value of it as a &lt;strong&gt;tool&lt;/strong&gt; — and the less I worry about the impending robot apocalypse or the false promises of tech entrepreneurs just trying to sell me something.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mutable]]></title><link>https://luetkemj.github.io/251212/mutable</link><guid isPermaLink="false">https://luetkemj.github.io/251212/mutable</guid><pubDate>Fri, 12 Dec 2025 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Lots done this week! With the holiday&apos;s approaching work-work has slowed down and my enthusiasm for game dev has lined up nicely with the additional freetime.&lt;/p&gt;
 &lt;p&gt;I rewrote the water system to be a more generic fluid system supporting multiple layered fluids. Currently the game supports lava, water, blood, and oil. Lava is always on fire and will destroy water and blood - steam hasn&apos;t been implemented but that&apos;s the rationale, and oil is explosive. These layers all interact with each other so in the image below I turned off lava as things get a bit too chaotic with so many fluids in the dungeon.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
